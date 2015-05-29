@@ -16,5 +16,5 @@ deploy:
   steps:
     - lukevivier/gh-pages:
         token: $GIT_TOKEN
-        domain: ffrizzo.github.io
+        domain: blog.ffrizzo.com
         basedir: public
