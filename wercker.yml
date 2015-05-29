@@ -4,13 +4,11 @@ build:
   steps:
     - setup-go-workspace
 
-    - script:
-      name: hugo setup
-      code: go get github.com/spf13/hugo
-
-    - script:
-      name: hugo build
-      code: hugo
+    - arjen/hugo-build:
+      version: 0.14
+      theme: material-design
+      config: config.toml
+      flags: --buildDrafts=true
 
 deploy:
   steps:
