@@ -4,9 +4,9 @@ build:
     # golint step!
     - wercker/golint
 
-    - script:
+    - arjen/hugo-build:
         name: build
-        code: hugo
+        flags: --buildDrafts=true
 
 deploy:
   steps:
