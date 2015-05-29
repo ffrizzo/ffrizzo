@@ -1,4 +1,4 @@
-box: debian
+box: google/golang
 
 build:
   steps:
