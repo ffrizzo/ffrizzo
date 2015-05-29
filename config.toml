@@ -4,7 +4,7 @@ languageCode = "en-us"
 title = "Fabiano Frizzo"
 MetaDataFormat = "toml"
 paginate = 9 # To specify a multiple of 3
-# copyright = "© 2015 Copyright"
+copyright = "© 2015 Copyright"
 
 canonifyurls = true
 
