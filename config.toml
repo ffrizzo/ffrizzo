@@ -1,0 +1,19 @@
+theme="material-design"
+BaseURL = "ffrizzo.github.io"
+languageCode = "en-us"
+title = "Fabiano Frizzo"
+MetaDataFormat = "toml"
+paginate = 9 # To specify a multiple of 3
+# copyright = "© 2015 Copyright"
+
+canonifyurls = true
+
+[params]
+  # description = "Your Site Description"
+  twitter = "ffrizzo" # optional
+  github = "ffrizzo" # optional
+  facebook = "fabianofrizzo" # optional
+  gplus = "fabianofrizzo" # optional
+  # headerCover = "images/headerCover.png" # optional
+  # footerCover = "images/footerCover.png" # optional
+  # googleAnalyticsUserID = "" # optional
