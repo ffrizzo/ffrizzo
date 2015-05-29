@@ -5,10 +5,10 @@ build:
     - setup-go-workspace
 
     - arjen/hugo-build:
-      version: 0.14
-      theme: material-design
-      config: config.toml
-      flags: --buildDrafts=true
+        version: 0.14
+        theme: material-design
+        config: config.toml
+        flags: --buildDrafts=true
 
 deploy:
   steps:
