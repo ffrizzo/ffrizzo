@@ -1,4 +1,4 @@
-box: golang
+box: wercker/default
 build:
   steps:
     # golint step!
