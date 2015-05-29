@@ -1,16 +1,15 @@
-box: default
+box: wercker/default
+
 build:
   steps:
-    # golint step!
-    - wercker/golint
-
     - arjen/hugo-build:
-        name: build
-        flags: --buildDrafts=true
+        version: 0.14
+        theme: material-design
+        config: config.toml
 
-deploy:
-  steps:
-    - ffrizzo/gh-pages:
-        token: $GIT_TOKEN
-        domain: ffrizzo.github.io
-        basedir: public
+# deploy:
+#   steps:
+#     - ffrizzo/gh-pages:
+#         token: $GIT_TOKEN
+#         domain: ffrizzo.github.io
+#         basedir: public
