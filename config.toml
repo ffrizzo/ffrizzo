@@ -16,4 +16,4 @@ canonifyurls = true
   gplus = "fabianofrizzo" # optional
   # headerCover = "images/headerCover.png" # optional
   # footerCover = "images/footerCover.png" # optional
-  # googleAnalyticsUserID = "" # optional
+  googleAnalyticsUserID = "UA-63537429-1" # optional
