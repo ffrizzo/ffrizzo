@@ -8,7 +8,7 @@ build:
     - script:
         name: build app
         code: |
-              cd $WERCKER_SOURCE_DIR
+              cd /pipeline/source
               hugo
 deploy:
   steps:
