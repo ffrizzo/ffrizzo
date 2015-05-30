@@ -7,7 +7,7 @@ build:
         code: go get github.com/spf13/hugo
     - script:
         name: build app
-        code: hugo --source "${WERCKER_SOURCE_DIR}"
+        code: hugo --source="${WERCKER_SOURCE_DIR}"
 deploy:
   steps:
     - lukevivier/gh-pages:
