@@ -1,18 +1,22 @@
-box: wercker/default
+box: google/golang
 
 build:
   steps:
-    # - setup-go-workspace
+    - setup-go-workspace
 
-    - arjen/hugo-build:
-        version: 0.14
-        theme: material-design
-        config: config.toml
-        flags: --buildDrafts=true
+    - script:
+      name: setup hugo
+      code: go get github.com/spf13/hugo
+
+    - script:
+      name: build app
+      code: |
+        cd /pipeline/source
+        hugo
 
 deploy:
   steps:
     - lukevivier/gh-pages:
         token: $GIT_TOKEN
         domain: blog.ffrizzo.com
-        basedir: public
+        basedir: source/public
