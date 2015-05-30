@@ -1,5 +1,5 @@
-theme="hugo-redlounge"
-baseurl = ""
+theme="material-design"
+baseurl = "http://blog.ffrizzo.com"
 languageCode = "en-us"
 title = "Fabiano Frizzo"
 MetaDataFormat = "toml"
@@ -9,12 +9,11 @@ copyright = "© 2015 Copyright"
 canonifyurls = true
 
 [params]
-    sidebartitle = "Fabiano.io"
-
-[[menu.main]]
-    name = "Blog"
-    url = "/posts"
-
-[[menu.main]]
-    name = "Sobre"
-    url = "/about"
+  # description = "Your Site Description"
+  twitter = "ffrizzo" # optional
+  github = "ffrizzo" # optional
+  facebook = "fabianofrizzo" # optional
+  gplus = "fabianofrizzo" # optional
+  # headerCover = "images/headerCover.png" # optional
+  # footerCover = "images/footerCover.png" # optional
+  googleAnalyticsUserID = "UA-63537429-1" # optional
