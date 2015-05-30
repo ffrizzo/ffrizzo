@@ -1,5 +1,5 @@
 theme="material-design"
-baseurl = "ffrizzo.github.io"
+baseurl = ""
 languageCode = "en-us"
 title = "Fabiano Frizzo"
 MetaDataFormat = "toml"
