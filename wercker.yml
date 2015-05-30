@@ -1,22 +1,18 @@
 box: google/golang
-
 build:
   steps:
     - setup-go-workspace
-
     - script:
-      name: setup hugo
-      code: go get github.com/spf13/hugo
-
+        name: setup hugo
+        code: go get github.com/spf13/hugo
     - script:
-      name: build app
-      code: |
-        cd /pipeline/source
-        hugo
-
+        name: build app
+        code: |
+              cd /pipeline/source
+              hugo
 deploy:
   steps:
-    - gh-pages:
+    - lukevivier/gh-pages:
         token: $GIT_TOKEN
         domain: blog.ffrizzo.com
-        basedir: public
+        basedir: ./public
