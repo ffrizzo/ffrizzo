@@ -1,12 +1,19 @@
 theme="material-design"
+# theme="hugo-redlounge"
 baseurl = "http://blog.ffrizzo.com"
 languageCode = "en-us"
 title = "Fabiano Frizzo"
 MetaDataFormat = "toml"
-paginate = 9 # To specify a multiple of 3
+paginate = 3 # To specify a multiple of 3
 copyright = "© 2015 Copyright"
 
 canonifyurls = true
+
+[blackfriday]
+  angledQuotes = true
+  fractions = false
+  plainIdAnchors = true
+  extensions = ["hardLineBreak"]
 
 [params]
   # description = "Your Site Description"
@@ -17,3 +24,4 @@ canonifyurls = true
   # headerCover = "images/headerCover.png" # optional
   # footerCover = "images/footerCover.png" # optional
   googleAnalyticsUserID = "UA-63537429-1" # optional
+  # Copyright = "Fabiano Frizzo"
