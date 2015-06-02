@@ -1,5 +1,5 @@
-theme="material-design"
-# theme="hugo-redlounge"
+# theme="material-design"
+theme="hugo-redlounge"
 baseurl = "http://blog.ffrizzo.com"
 languageCode = "en-us"
 title = "Fabiano Frizzo"
@@ -16,12 +16,49 @@ canonifyurls = true
   extensions = ["hardLineBreak"]
 
 [params]
-  # description = "Your Site Description"
-  twitter = "ffrizzo" # optional
-  github = "ffrizzo" # optional
-  facebook = "fabianofrizzo" # optional
-  gplus = "fabianofrizzo" # optional
-  # headerCover = "images/headerCover.png" # optional
-  # footerCover = "images/footerCover.png" # optional
-  googleAnalyticsUserID = "UA-63537429-1" # optional
-  # Copyright = "Fabiano Frizzo"
+  sidebartitle = "Fabiano Frizzo"
+  sidebartagline = ""
+  gaid = "UA-63537429-1"
+  socialsharing = true
+  highlightStyle = "tomorrow-night"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/posts"
+
+# [[menu.main]]
+#   name = "Sobre"
+#   url = "/about"
+
+[[menu.footer]]
+  name = "Blog"
+  url = "/posts"
+
+# [[menu.footer]]
+#   name = "Sobre"
+#   url = "/about"
+
+[[menu.social]]
+  pre = "<i class='fa fa-github'></i>"
+  url = "http://github.com/ffrizzo"
+  identifier = "github"
+
+[[menu.social]]
+  pre = "<i class='fa fa-linkedin'></i>"
+  url = "http://linkedin.com/in/ffrizzo"
+  identifier = "linkedin"
+
+[[menu.social]]
+  pre = "<i class='fa fa-google-plus'></i>"
+  url = "https://plus.google.com/u/0/+FabianoFrizzo/"
+  identifier = "gplus"
+
+[[menu.social]]
+  pre = "<i class='fa fa-twitter'></i>"
+  url = "http://www.twitter.com/ffrizzo"
+  identifier = "twitter"
+
+[[menu.social]]
+  pre = "<i class='fa fa-facebook'></i>"
+  url = "http://facebook.com/fabiano.frizzo"
+  identifier = "facebook"
