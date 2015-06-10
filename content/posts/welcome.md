@@ -1,9 +1,11 @@
 +++
-Categories = []
 Tags = []
+Categories = []
 date = "2015-06-01T08:00:03-03:00"
 title = "Bem Vindo"
 slug = "welcome"
+author = "Fabiano Frizzo"
+socialsharing = true
 +++
 
 Após mais de 8 anos trabalhando na area de TI eu resolvi criar um blog, algo que eu deveria ter feito a muito tempo atrás. Na verdade eu ja tinha tentado iniciar um blog, mas na época acabei sentido que não estava preparado e resolvi abandonar a idéia, este foi um grande erro, eu deveria ter continuado mesmo correndo o risco de escrever grandes besteiras, hoje com certeza o blog teria muito conteúdo é claro que teria algumas besteiras também mas eu poderia corrigir elas.

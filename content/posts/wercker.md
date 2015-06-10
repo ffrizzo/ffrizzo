@@ -1,10 +1,12 @@
 +++
-Categories = ["Deployment", "GoLang", "Docker", "Wercker"]
-Description = ""
 Tags = ["deployment", "golang", "docker", "wercker"]
+Categories = ["Deployment", "GoLang", "Docker", "Wercker"]
 date = "2015-06-10T19:02:53-03:00"
 title = "Wercker"
+Description = ""
 slug = "wecker"
+author = "Fabiano Frizzo"
+socialsharing = true
 +++
 
 O que é o [Wercker](http://wercker.com)?

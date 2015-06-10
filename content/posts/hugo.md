@@ -3,7 +3,10 @@ Tags = ["desenvolvimento", "golang"]
 Categories = ["Desenvolvimento", "GoLang"]
 date = "2015-06-02T00:03:58-03:00"
 title = "Hugo"
+Description = ""
 slug = "hugo"
+author = "Fabiano Frizzo"
+socialsharing = true
 +++
 
 Vamos falar um pouco sobre o [HUGO](http://hugo.spf13.com) uma das ferramentas que utilizei para a criação do blog.

@@ -3,17 +3,12 @@ MetaDataFormat = "toml"
 theme="hugo-redlounge"
 languageCode = "en-us"
 title = "Fabiano Frizzo"
-
-
-author = "Fabiano Frizzo ffrizzo@gmail.com"
-Keywords = "desenvolvimento"
 disqusShortname = "ffrizzo"
 
 [params]
   sidebartitle = "Fabiano Frizzo"
   sidebartagline = ""
   gaid = "UA-63537429-1"
-  socialsharing = true
   highlightStyle = "tomorrow-night"
 
 [blackfriday]
