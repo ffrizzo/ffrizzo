@@ -1,19 +1,12 @@
-# theme="material-design"
-theme="hugo-redlounge"
 baseurl = "http://blog.ffrizzo.com"
+MetaDataFormat = "toml"
+theme="hugo-redlounge"
 languageCode = "en-us"
 title = "Fabiano Frizzo"
-MetaDataFormat = "toml"
-paginate = 3 # To specify a multiple of 3
-copyright = "© 2015 Copyright"
 
-canonifyurls = true
 
-[blackfriday]
-  angledQuotes = true
-  fractions = false
-  plainIdAnchors = true
-  extensions = ["hardLineBreak"]
+author = "Fabiano Frizzo ffrizzo@gmail.com"
+Keywords = "desenvolvimento"
 
 [params]
   sidebartitle = "Fabiano Frizzo"
@@ -21,6 +14,12 @@ canonifyurls = true
   gaid = "UA-63537429-1"
   socialsharing = true
   highlightStyle = "tomorrow-night"
+
+[blackfriday]
+  angledQuotes = true
+  fractions = false
+  plainIdAnchors = true
+  extensions = ["hardLineBreak"]
 
 [[menu.main]]
   name = "Blog"

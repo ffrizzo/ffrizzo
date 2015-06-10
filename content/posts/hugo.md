@@ -1,6 +1,6 @@
 +++
 Tags = ["desenvolvimento", "golang"]
-Categories = ["Desenvolvimento", "Go Lang"]
+Categories = ["Desenvolvimento", "GoLang"]
 date = "2015-06-02T00:03:58-03:00"
 title = "Hugo"
 slug = "hugo"
