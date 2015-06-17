@@ -2,7 +2,7 @@
 Tags = ["desenvolvimento", "golang"]
 Categories = ["Desenvolvimento", "GoLang"]
 date = "2015-06-02T00:03:58-03:00"
-title = "Hugo"
+title = "Hugo - Gerando um site com conteúdo estático."
 Description = ""
 slug = "hugo"
 author = "Fabiano Frizzo"

@@ -2,7 +2,7 @@
 Tags = ["deployment", "golang", "docker", "wercker"]
 Categories = ["Deployment", "GoLang", "Docker", "Wercker"]
 date = "2015-06-10T19:02:53-03:00"
-title = "Wercker"
+title = "Wercker - Build e Deploy de maneira facil."
 Description = ""
 slug = "wecker"
 author = "Fabiano Frizzo"

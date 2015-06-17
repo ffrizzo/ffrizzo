@@ -30,8 +30,8 @@ disqusShortname = "ffrizzo"
   url = "/posts"
 
 # [[menu.footer]]
-#   name = "Sobre"
-#   url = "/about"
+#  name = "Sobre"
+#  url = "/about"
 
 [[menu.social]]
   pre = "<i class='fa fa-github'></i>"
