@@ -5,7 +5,7 @@ Tags = ["jboss", "java", "sql", "p6spy"]
 author = "Fabiano Frizzo"
 date = "2015-06-27T17:08:46-03:00"
 socialsharing = true
-title = "JBoss/Wildfly - Configurando log das query para o datasource"
+title = "JBoss/Wildfly - Configurando log de queries para o datasource"
 +++
 
 Muitas vezes quando estamos desenvolvendo precisamos verificar quais e como estão sendo geradas as queries pelo [Hibernate](http://hibernate.org), e para isso utilizamos as opções do próprio hibernate a **show_sql** e a **format_sql** porém estas opções nos mostram as queries com varias **?** no lugar dos parametros que estão sendo passados para a query assim dificultando um pouco saber se os parametros estão corretos ou não.
