@@ -2,7 +2,9 @@ box: golang
 build:
   steps:
     - wercker/setup-go-workspace
-    - arjen/hugo-build
+    - script:
+        name: setup hugo
+        code: go get github.com/spf13/hugo
     - script:
         name: build app
         code: |
