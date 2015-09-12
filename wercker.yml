@@ -1,15 +1,11 @@
-box: google/golang
+box: golang
 build:
   steps:
-    - setup-go-workspace
-    - script:
-        name: setup hugo
-        code: go get github.com/spf13/hugo
-    - script:
-        name: build app
-        code: |
-              cd /pipeline/source
-              hugo
+    - wercker/setup-go-workspace@1.2.1
+    - arjen/hugo-build@1.6.1
+        theme: material-design
+        config: config.toml
+        prod_branches: master
 deploy:
   steps:
     - lukevivier/gh-pages:
