@@ -3,9 +3,6 @@ build:
   steps:
     - wercker/setup-go-workspace
     - arjen/hugo-build
-        theme: material-design
-        config: config.toml
-        prod_branches: master
 deploy:
   steps:
     - lukevivier/gh-pages:
