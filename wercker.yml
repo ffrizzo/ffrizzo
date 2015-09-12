@@ -3,6 +3,12 @@ build:
   steps:
     - wercker/setup-go-workspace
     - arjen/hugo-build
+    - script:
+        name: build app
+        code: |
+              cd /pipeline/source
+              hugo
+
 deploy:
   steps:
     - lukevivier/gh-pages:
