@@ -1,8 +1,8 @@
 box: golang
 build:
   steps:
-    - wercker/setup-go-workspace@1.2.1
-    - arjen/hugo-build@1.6.1
+    - wercker/setup-go-workspace
+    - arjen/hugo-build
         theme: material-design
         config: config.toml
         prod_branches: master
