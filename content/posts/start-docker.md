@@ -3,7 +3,7 @@ Categories = ["SO", "Docker", "DevOps"]
 Description = ""
 Tags = ["docker", "devops"]
 author = "Fabiano Frizzo"
-date = "2015-12-14T22:35:08-02:00"
+date = "2016-01-02T14:35:08-02:00"
 socialsharing = true
 title = "Inciando com Docker"
 +++
