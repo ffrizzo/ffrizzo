@@ -8,11 +8,11 @@ socialsharing = true
 title = "Inciando com Docker"
 +++
 
-Após um longo periodo sem atualizações estou de volta para falar sobre algo muito interessante(na verdade ja deveria ter escrito aqui sobre isso a muito tempo). Como este é o primeiro post aqui sobre [Docker](http://docker.com) vou começar com a instalação e uso de Docker local e em posts futuros vamos falar sobre algumas ferramentas e o uso do Docker em ambiente de produção.
+Após um longo periodo sem atualizações estou de volta para falar sobre algo muito interessante que na verdade ja deveria ter escrito aqui sobre isso a muito tempo. Como este é o primeiro post  sobre [Docker](http://docker.com) vou começar com a instalação e uso do Docker no ambiente de desenvolvimento e em posts futuros vamos falar sobre algumas ferramentas e o uso do Docker em ambiente de produção.
 
-Vou demonstrar a instalação do Docker em uma maquina com OsX. A instalação é diferente do que em uma maquina com Linux mas após isso é tudo muito parecido. Eu sempre instalo tudo na minha maquina utilizando o [Homebrew](http://brew.sh) então com o Docker não poderia ser diferente.
+Vou demonstrar a instalação do Docker em uma maquina com OsX. A instalação é diferente de uma maquina com Linux mas o a execução e uso é parecido. Eu sempre instalo tudo utilizando o [Homebrew](http://brew.sh) então com o Docker não poderia ser diferente.
 
-Vamos precisar instalar o Docker e o [Docker Machine](https://docs.docker.com/machine/) para quem utiliza OsX ou Windows o Docker Machine é obrigatório pois precisamos criar uma maquina aonde possamos rodar os comandos Docker. Apesar de não ser obrigatório o uso do Docker Machine no Linux eu acho melhor do que no rodar direto no host. O Docker Machine não só nos permite criar hosts locais para o Docker como também na Amazon na Digital Ocean entre outros.
+Vamos precisar instalar o Docker e o [Docker Machine](https://docs.docker.com/machine/) para quem utiliza OsX ou Windows o Docker Machine é obrigatório pois precisamos criar uma maquina aonde possamos rodar os comandos Docker. Apesar de não ser obrigatório o uso do Docker Machine no Linux você também pode usar ele. O Docker Machine não só nos permite criar hosts locais para o Docker como também na Amazon na Digital Ocean entre outros.
 
 Instalando o docker e o docker-machine no OsX
 ```
@@ -20,12 +20,12 @@ brew install docker
 brew install docker-machine
 ```
 
-Agora criaremos uma maquina docker utilizando o docker-machine para que possamos executar o docker, criar nossos containers, imagens etc.
+Agora criaremos um host utilizando o docker-machine para que possamos executar os comandos docker, criar nossos containers, imagens etc.
 ```
 docker-machine create -d virtualbox -name mydockermachine
 ```
 
-Este comando adiciona algumas informações ao profile. Estas informações no profile informam ao Docker em que máquina ele vai executar os comandos.
+Este comando adiciona algumas informações ao profile. Estas informações informam ao docker em que host os comandos deverão ser executados
 ```
 eval "$(docker-machine env dev)"
 ```
@@ -43,16 +43,16 @@ Se executarmos o comando abaixo teremos a lista de maquinas criadas e também qu
 docker-machine ls
 ```
 
-Fazendo pull das imagens para criar os containers. Podemos simplesmente fazer o pull da ultima versão(***latest***) como também podemos informar qual versão gostariamos de  fazer pull para isto bastaria adicionar *@{versão}* logo após o nome da image que esta fazendo o pull.
+Fazendo pull das imagens para criar os containers. Podemos simplesmente fazer o pull da ultima versão(***latest***) como também podemos informar qual versão gostariamos de  fazer pull, para isto bastaria adicionar *:{versão}* logo após o nome da imagem que esta sendo feito o pull.
 ```
 docker pull postgres
 ```
 
-Criaremos o container docker apartir da imagem que baixamos no passo anterior e em seguida irei explicar os parametros utilizados.
-
+Criaremos o container docker apartir da imagem que baixamos no passo anterior.
 ```
 docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD={seu password} -d postgres
 ```
+Um pouco sobre os parametros utilizados
 
 * O parametro ***-p 5432:5432*** é para redirecionar a porta do container para a maquina host
 * O ***-d*** é para rodar o container em background
@@ -60,10 +60,11 @@ docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD={seu password} -d p
 * E o ***-e POSTGRES_PASSWORD={seu password}*** define a senha do usuário principal do postgres
 
 Se tudo occoreu como o esperado quando for executado o comando **docker ps** deverá aparecer na lista um container com o nome postgres, para visualizar todos os containers mesmo os que não estão sendo executados use o comando **docker ps -a**.
-Se por algum motivo for preciso acessar o container via "ssh" é possivel utilizar o comando **exec** o comando abaixo vai abrir o bash do seu container. Com o comando **exec** é possível executar todos os comandos de um terminal linux você pode rodar ***ls***, ***rm***.
+Se vocÊ precisar acessar o bash do seu container é possivel utilizando o comando **exec**. Com o comando **exec** é possível executar todos os comandos de um terminal linux você pode rodar ***ls***, ***rm***, etc.
 ```
 docker exec -it postgres bash
 ```
+O comando acima nos da acesso ao terminal do container postgres que criamos.
 
 É possível parar e startar novamente o mesmo container com os comandos ***start*** e ***stop***
 
@@ -77,11 +78,11 @@ Excluir um container
 docker rm postgres
 ```
 
-Excluir uma imagem. Lembre-se container é diferente de imagem.
+Excluir uma imagem.
 ```
 docker rmi postgres
 ```
 
 Para ver todos os comandos disponíveis no docker execute **docker help** e para mais detalhes sobre cada comando **docker help {comando}**
 
-Este é um post básico sobre o uso do docker. Em posts futuros irei abortar outros comandos do docker e outras ferramentas como **docker compose** e o **docker swarm** e claro ainda temos várias ferramentas de terceiros para utilizar em conjunto com o docker.
+Este é um post básico sobre o uso do docker, em posts futuros irei abortar outros comandos do docker e outras ferramentas como **docker compose** e o **docker swarm**, claro que ainda temos várias outras ferramentas de terceiros para utilizar em conjunto com o docker e tornar o uso muito dele mais prático.
