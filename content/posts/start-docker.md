@@ -22,7 +22,7 @@ brew install docker-machine
 
 Agora criaremos um host utilizando o docker-machine para que possamos executar os comandos docker, criar nossos containers, imagens etc.
 ```
-docker-machine create -d virtualbox -name mydockermachine
+docker-machine create -d virtualbox mydockermachine
 ```
 
 Este comando adiciona algumas informações ao profile. Estas informações informam ao docker em que host os comandos deverão ser executados
