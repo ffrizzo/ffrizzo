@@ -5,7 +5,7 @@ Tags = ["docker", "devops"]
 author = "Fabiano Frizzo"
 date = "2016-01-02T14:35:08-02:00"
 socialsharing = true
-title = "Inciando com Docker"
+title = "Iniciando com Docker"
 +++
 
 Após um longo periodo sem atualizações estou de volta para falar sobre algo muito interessante que na verdade ja deveria ter escrito aqui sobre isso a muito tempo. Como este é o primeiro post  sobre [Docker](http://docker.com) vou começar com a instalação e uso do Docker no ambiente de desenvolvimento e em posts futuros vamos falar sobre algumas ferramentas e o uso do Docker em ambiente de produção.
