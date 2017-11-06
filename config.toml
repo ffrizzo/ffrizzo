@@ -39,8 +39,8 @@ disableKinds = ["404", "RSS", "Sitemap"]
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//blog.ffrizzo.com"
-        title = "blog.ffrizzo.com"
+        url = "//ffrizzo.com/blog"
+        title = "ffrizzo.com/blog"
 
         [[params.contact.list]]
         class = "stack-overflow"
