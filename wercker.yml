@@ -13,7 +13,7 @@ deploy:
   steps:
     - lukevivier/gh-pages:
         token: $GIT_TOKEN
-        domain: blog.ffrizzo.com
+        domain: ffrizzo.com
         basedir: ./public
 dev:
   steps:
