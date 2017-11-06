@@ -3,7 +3,7 @@ build:
   steps:
     - script:
         name: setup hugo
-        code: go get github.com/spf13/hugo
+        code: go get github.com/gohugoio/hugo
     - script:
         name: build app
         code: |
@@ -19,7 +19,7 @@ dev:
   steps:
     - script:
         name: setup hugo
-        code: go get github.com/spf13/hugo
+        code: go get github.com/gohugoio/hugo
     - script:
         name: build app
         code: |
