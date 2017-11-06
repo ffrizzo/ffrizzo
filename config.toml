@@ -17,7 +17,7 @@ disableKinds = ["404", "RSS", "Sitemap"]
     # Profile section
     [params.profile]
         name = "Fabiano Frizzo"
-        tagline = "DevOps Manager, Senior Software Engineering"
+        tagline = "DevOps Manager, Senior Software Engineer"
         # avatar = "profile.png"
 
     # Contact section
@@ -123,13 +123,13 @@ disableKinds = ["404", "RSS", "Sitemap"]
         position = "Senior Software Engineer"
         dates = "11/2016 - 03/2017"
         company = "FoodLogiQ"
-        details = "As a senior software engineering worked on the high priority tickets to improve and fixes issues that affect customers directly and need quickly resolution using Golang"
+        details = "As a senior software engineer worked on the high priority tickets to improve and fixes issues that affect customers directly and need quickly resolution using Golang"
 
         [[params.jobs.list]]
-        position = "Software Engineering"
+        position = "Software Engineer"
         dates = "03/2016 - 10/2016"
         company = "Enlight Research"
-        details = "As a software engineering I've worked to add new functionalities and improve system. Mainly worked with GoLang and AngularJS also I have configured travis to build and test"
+        details = "As a software engineer I've worked to add new functionalities and improve system. Mainly worked with GoLang and AngularJS also I have configured travis to build and test"
 
         [[params.jobs.list]]
         position = "Senior Full Stack Developer"
