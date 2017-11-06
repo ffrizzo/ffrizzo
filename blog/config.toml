@@ -2,38 +2,58 @@ baseurl = "http://ffrizzo.com/blog"
 languageCode = "en-us"
 title = "Fabiano Frizzo blog"
 author = "Fabiano Frizzo"
-theme = "blackburn"
+theme = "minimal"
 
-disqusShortname = "ffrizzo"
-canonifyurls = true
-pagiante = 10
+disqusShortname = "ffrizzo" # delete this to disable disqus comments
+googleAnalytics = "UA-63537429-1"
 
 [params]
-  brand = ""
-  googleAnalytics = "UA-63537429-1"
-  disqus = "ffrizzo"
-  highlightjs = "androidstudio"
-  dateFormat = "02 Jan 2006, 15:04"
+    author = "Fabiano Frizzo"
+    githubUsername = "ffrizzo"
+    accent = "#4CAC9D"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "java"]
 
-[menu]
-  # Shown in the side menu.
-  [[menu.main]]
-    name = "Home"
-    pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 1
-    identifier = "home"
-    url = "/"
-  [[menu.main]]
-    name = "Posts"
-    pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 2
-    identifier = "post"
+[[menu.main]]
     url = "/post/"
+    name = "Home"
+    weight = 1
 
-[social]
-  twitter = "ffrizzo"
-  facebook = "fabiano.frizzo"
-  linkedin = "ffrizzo"
-  github = "ffrizzo"
-  stackoverflow = "1550221/fabiano-frizzo"
-  keybase = "ffrizzo"
+# [[menu.main]]
+#     url = "/post/"
+#     name = "Posts"
+#     weight = 2
+
+[[menu.icon]]
+    url = "mailto:ffrizzo@gmail.com"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/ffrizzo/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/ffrizzo/"
+    name = "twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/ffrizzo/"
+    name = "linkedin"
+    weight = 4
+
+[[menu.icon]]
+    url = "https://www.stackoverflow.com/users/1550221/fabiano-frizzo/"
+    name = "stack-overflow"
+    weight = 5
+
+[[menu.icon]]
+    url = "https://www.stackoverflow.com/users/1550221/fabiano-frizzo/"
+    name = "keybase"
+    weight = 6
