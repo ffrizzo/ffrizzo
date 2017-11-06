@@ -1,59 +1,233 @@
-baseurl = "http://blog.ffrizzo.com"
-MetaDataFormat = "toml"
-theme="hugo-redlounge"
+# Page settings
+
+baseurl = "http://ffrizzo.com/"
 languageCode = "en-us"
 title = "Fabiano Frizzo"
-disqusShortname = "ffrizzo"
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-63537429-1"
+
+disableKinds = ["404", "RSS", "Sitemap"]
 
 [params]
-  sidebartitle = "Fabiano Frizzo"
-  sidebartagline = ""
-  gaid = "UA-63537429-1"
-  highlightStyle = "tomorrow-night"
+# Meta
+    description = "Hugo Responsive Resume/CV Theme for Developers"
+    author = "Pavel Kanyshev"
+    styles = "styles-2.css"
 
-[blackfriday]
-  angledQuotes = true
-  fractions = false
-  plainIdAnchors = true
-  extensions = ["hardLineBreak"]
+    # Profile section
+    [params.profile]
+        name = "Fabiano Frizzo"
+        tagline = "DevOps Manager, Senior Software Engineering"
+        # avatar = "profile.png"
 
-[[menu.main]]
-  name = "Blog"
-  url = "/posts"
+    # Contact section
+    [params.contact]
+        enable = true
 
-# [[menu.main]]
-#   name = "Sobre"
-#   url = "/about"
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: ffrizzo@gmail.com"
+        title = "ffrizzo@gmail.com"
 
-[[menu.footer]]
-  name = "Blog"
-  url = "/posts"
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+5545999697850"
+        title = "+5545999697850"
 
-# [[menu.footer]]
-#  name = "Sobre"
-#  url = "/about"
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//blog.ffrizzo.com"
+        title = "blog.ffrizzo.com"
 
-[[menu.social]]
-  pre = "<i class='fa fa-github'></i>"
-  url = "http://github.com/ffrizzo"
-  identifier = "github"
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/ffrizzo"
+        title = "linkedin.com/in/ffrizzo"
 
-[[menu.social]]
-  pre = "<i class='fa fa-linkedin'></i>"
-  url = "http://linkedin.com/in/ffrizzo"
-  identifier = "linkedin"
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/ffrizzo"
+        title = "github.com/ffrizzo"
 
-[[menu.social]]
-  pre = "<i class='fa fa-google-plus'></i>"
-  url = "https://plus.google.com/u/0/+FabianoFrizzo/"
-  identifier = "gplus"
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/ffrizzo"
+        title = "@ffrizzo"
 
-[[menu.social]]
-  pre = "<i class='fa fa-twitter'></i>"
-  url = "http://www.twitter.com/ffrizzo"
-  identifier = "twitter"
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
 
-[[menu.social]]
-  pre = "<i class='fa fa-facebook'></i>"
-  url = "http://facebook.com/fabiano.frizzo"
-  identifier = "facebook"
+        [[params.education.list]]
+        degree = "Bachelor’s Degree"
+        college = "Univel University - Cascavel, Brazil"
+        dates = "2005 - 2008"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "Portuguese"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Professional"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Bike"
+
+        [[params.interests.list]]
+        interest = "Music"
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "Have more than 10 years of experience on software development. Had the opportunity to work with various technologies such as Java, Python, GoLang, NodeJS, AngularJS, ReactJS and EmberJS, also have more than 5 years of experience with infrastructure on AWS, more than 3 years working with DevOps culture using Terraform, Ansible, Packer, Docker and other tools on AWS and Google Cloud Engine"
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "DevOps Manager"
+        dates = "03/2017 - Present"
+        company = "FoodLogiQ"
+        details = ""
+
+        [[params.jobs.list]]
+        position = "Senior Software Engineer"
+        dates = "11/2016 - 03/2017"
+        company = "FoodLogiQ"
+        details = "As a senior software engineering worked on the high priority tickets to improve and fixes issues that affect customers directly and need quickly resolution using Golang"
+
+        [[params.jobs.list]]
+        position = "Software Engineering"
+        dates = "03/2016 - 10/2016"
+        company = "Enlight Research"
+        details = "As a software engineering I've worked to add new functionalities and improve system. Mainly worked with GoLang and AngularJS also I have configured travis to build and test"
+
+        [[params.jobs.list]]
+        position = "Senior Full Stack Developer"
+        dates = "02/2010 - 03/2016"
+        company = "Integritas Solitions, Inc"
+        details = "As senior full-stack developer, added and maintained features on the applications for our customers. Developed multiple features on the back-end with Java and on front-end with Adobe Flex/JS(AngularJS, EmberJS), NodeJS in different's projects. As DevOps configuring servers with Jenkins, Tomcat, Apache, Nginx using Vagrant, Docker. Worked remotely"
+
+        [[params.jobs.list]]
+        position = "Senior Full Stack Developer"
+        dates = "07/2009 - 05/2015"
+        company = "Escritório Contábil Iguaçu"
+        details = "As a senior full-stack developer, added and maintained features on the our application. Developed multiple features on the back-end and front-end with Java and Adobe Flex. As DevOps configuring servers with JBoss As 7, Apache, PostgreSQL"
+
+        [[params.jobs.list]]
+        position = "Software Developer"
+        dates = "02/2011 - 09/2011"
+        company = "SetPoint"
+        details = "As a senior developer added and maintained features on a open source project Freedom ERP. Developed multiple features on the project using Java and Swing. Worked remotely"
+
+        [[params.jobs.list]]
+        position = "Software Developer"
+        dates = "01/2010 - 11/2010"
+        company = "NetSar"
+        details = "Worked on maintenance of rich internet application with Java, Adobe Flex and GraniteDS. Integration with third-party apps with company’s applications"
+
+        [[params.jobs.list]]
+        position = "Software Developer"
+        dates = "08/2006 - 05/2007"
+        company = "Sicoob Cascavel"
+        details = "As a trainee back-end developer, develop internal applications with Delphi and Firebird to help users to calculate a risk of our customers and showing metrics and parameters to help our customers of the best option to invest your money"
+
+    # Projects section
+    # [params.projects]
+    #     enable = true
+    #     icon = "fa-archive"
+    #     title = "Projects"
+    #     intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+    #
+    #     [[params.projects.list]]
+    #     title = "Hugrid"
+    #     url = "https://github.com/aerohub/hugrid"
+    #     tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+    #
+    #     [[params.projects.list]]
+    #     title = "Simple FAQ Theme for Hugo"
+    #     url = "https://github.com/aerohub/hugo-faq-theme"
+    #     tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+    #
+    #     [[params.projects.list]]
+    #     title = "Hugo Identity"
+    #     url = "https://github.com/aerohub/hugo-identity-theme"
+    #     tagline = "Little profile/card-style template for Hugo."
+    #
+    #     [[params.projects.list]]
+    #     title = "Orbit"
+    #     url = "https://github.com/aerohub/hugo-orbit-theme"
+    #     tagline = "Hugo Resume/CV Theme for Developers."
+    #
+    #     [[params.projects.list]]
+    #     title = "Me"
+    #     url = "https://github.com/aerohub/hugo-me-theme"
+    #     tagline = "A simple responsive Hugo theme for personal site."
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Java"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "GoLang"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Python"
+        level = "85%"
+
+        [[params.skills.list]]
+        skill = "Ansible"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Terraform"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Docker"
+        level = "85%"
+
+        [[params.skills.list]]
+        skill = "Kubernetes"
+        level = "60%"
+
+        [[params.skills.list]]
+        skill = "AWS"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Google Cloud"
+        level = "80%"
+
+    [params.footer]
+        copyright = "Fabiano Frizzo"
