@@ -21,7 +21,7 @@ googleAnalytics = "UA-63537429-1"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "java"]
 
 [[menu.main]]
-    url = "/post/"
+    url = "/"
     name = "Home"
     weight = 1
 
