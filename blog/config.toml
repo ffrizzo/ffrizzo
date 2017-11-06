@@ -4,6 +4,8 @@ title = "Fabiano Frizzo blog"
 author = "Fabiano Frizzo"
 theme = "minimal"
 
+disableKinds = ["404", "RSS", "Sitemap"]
+
 disqusShortname = "ffrizzo" # delete this to disable disqus comments
 googleAnalytics = "UA-63537429-1"
 
@@ -52,8 +54,3 @@ googleAnalytics = "UA-63537429-1"
     url = "https://www.stackoverflow.com/users/1550221/fabiano-frizzo/"
     name = "stack-overflow"
     weight = 5
-
-[[menu.icon]]
-    url = "https://www.stackoverflow.com/users/1550221/fabiano-frizzo/"
-    name = "keybase"
-    weight = 6
