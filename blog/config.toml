@@ -21,14 +21,14 @@ googleAnalytics = "UA-63537429-1"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "java"]
 
 [[menu.main]]
-    url = "/"
+    url = "/post/"
     name = "Home"
     weight = 1
 
-[[menu.main]]
-    url = "/post/"
-    name = "Posts"
-    weight = 2
+# [[menu.main]]
+#     url = "/post/"
+#     name = "Posts"
+#     weight = 2
 
 [[menu.icon]]
     url = "mailto:ffrizzo@gmail.com"
