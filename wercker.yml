@@ -5,10 +5,15 @@ build:
         name: setup hugo
         code: go get github.com/gohugoio/hugo
     - script:
-        name: build app
+        name: build main
         code: |
               cd /pipeline/source
               hugo
+    - script:
+        name: build blog
+        code: |
+              cd /pipeline/source
+              hugo -s blog/ -d ./public/blog    
 deploy:
   steps:
     - lukevivier/gh-pages:
