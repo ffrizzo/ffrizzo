@@ -13,7 +13,7 @@ build:
         name: build blog
         code: |
               cd /pipeline/source
-              hugo -s blog/ -d $(pwd)/public/blog    
+              hugo -s blog/ -d $(pwd)/public/blog
 deploy:
   steps:
     - lukevivier/gh-pages:
@@ -30,3 +30,8 @@ dev:
         code: |
               cd /pipeline/source
               hugo
+    - script:
+        name: build blog
+        code: |
+              cd /pipeline/source
+              hugo -s blog/ -d $(pwd)/public/blog
