@@ -43,6 +43,12 @@ disableKinds = ["404", "RSS", "Sitemap"]
         title = "blog.ffrizzo.com"
 
         [[params.contact.list]]
+        class = "stack-overflow"
+        icon = "fa-stack-overflow"
+        url = "//stackoverflow.com/users/1550221/fabiano-frizzo"
+        title = "fabiano-ffrizzo"
+
+        [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
         url = "//linkedin.com/in/ffrizzo"

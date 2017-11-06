@@ -13,7 +13,7 @@ build:
         name: build blog
         code: |
               cd /pipeline/source
-              hugo -s blog/ -d ./public/blog    
+              hugo -s blog/ -d ../public/blog    
 deploy:
   steps:
     - lukevivier/gh-pages:
