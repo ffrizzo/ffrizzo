@@ -4,7 +4,7 @@ title = "Fabiano Frizzo blog"
 author = "Fabiano Frizzo"
 theme = "minimal"
 
-disableKinds = ["404", "RSS", "Sitemap"]
+disableKinds = ["RSS"]
 
 disqusShortname = "ffrizzo" # delete this to disable disqus comments
 googleAnalytics = "UA-63537429-1"
@@ -21,14 +21,14 @@ googleAnalytics = "UA-63537429-1"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "java"]
 
 [[menu.main]]
-    url = "/post/"
+    url = "/"
     name = "Home"
     weight = 1
 
-# [[menu.main]]
-#     url = "/post/"
-#     name = "Posts"
-#     weight = 2
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 2
 
 [[menu.icon]]
     url = "mailto:ffrizzo@gmail.com"
