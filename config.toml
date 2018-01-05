@@ -114,7 +114,7 @@ disableKinds = ["404", "RSS", "Sitemap"]
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "DevOps Manager"
+        position = "Senior DevOps Engineer"
         dates = "03/2017 - Present"
         company = "FoodLogiQ"
         details = ""
