@@ -105,7 +105,7 @@ disableKinds = ["404", "RSS", "Sitemap"]
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "Have more than 10 years of experience on software development. Had the opportunity to work with various technologies such as Java, Python, GoLang, NodeJS, AngularJS, ReactJS and EmberJS, also have more than 5 years of experience with infrastructure on AWS, more than 3 years working with DevOps culture using Terraform, Ansible, Packer, Docker and other tools on AWS and Google Cloud Engine"
+        summary = "Have more than 10 years of experience on software development. Had the opportunity to work with various technologies such as Go, Java, Python, NodeJS, AngularJS, ReactJS and EmberJS, also have more than 5 years of experience with infrastructure on AWS, more than 3 years working with DevOps culture using Terraform, Ansible, Packer, Docker and other tools on AWS and Google Cloud Engine"
 
     # Experiences section
     [params.experiences]
@@ -117,19 +117,19 @@ disableKinds = ["404", "RSS", "Sitemap"]
         position = "Senior DevOps Engineer"
         dates = "03/2017 - Present"
         company = "FoodLogiQ"
-        details = ""
+        details = "As a DevOps engineer improved the infrastructure reliability and security, Introduce tools(terraform, ansible) to configure and manage the infrastructure. Built new tools to help dev teams on daily basis tasks"
 
         [[params.jobs.list]]
         position = "Senior Software Engineer"
         dates = "11/2016 - 03/2017"
         company = "FoodLogiQ"
-        details = "As a senior software engineer worked on the high priority tickets to improve and fixes issues that affect customers directly and need quickly resolution using Golang"
+        details = "As a senior software engineer worked on the high priority tickets to improve and fixes issues that affect customers directly and need quickly resolution using Go"
 
         [[params.jobs.list]]
         position = "Software Engineer"
         dates = "03/2016 - 10/2016"
         company = "Enlight Research"
-        details = "As a software engineer I've worked to add new functionalities and improve system. Mainly worked with GoLang and AngularJS also I have configured travis to build and test"
+        details = "As a software engineer I've worked to add new functionalities and improve system. Mainly worked with Go and AngularJS also I have configured travis to build and test"
 
         [[params.jobs.list]]
         position = "Senior Full Stack Developer"
@@ -204,7 +204,7 @@ disableKinds = ["404", "RSS", "Sitemap"]
         level = "98%"
 
         [[params.skills.list]]
-        skill = "GoLang"
+        skill = "Go"
         level = "90%"
 
         [[params.skills.list]]
