@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://ffrizzo.com/"
+baseurl = "https://ffrizzo.com/"
 languageCode = "en-us"
 title = "Fabiano Frizzo"
 theme = "hugo-orbit-theme"
