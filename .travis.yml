@@ -20,7 +20,6 @@ install:
 script:
   - hugo
   - hugo -s blog/ -d $(pwd)/public/blog
-  - hugo -s bazar/ -d $(pwd)/public/bazar
 
 # Deploy to GitHub pages
 deploy:
@@ -31,7 +30,7 @@ deploy:
   fqdn: $GTIHUB_DOMAIN
   skip_cleanup: true
   verbose: true
-  keep-history: true
+  keep-history: false
   local_dir: public
   target_branch: gh-pages
   on:
