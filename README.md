@@ -1,1 +1,1 @@
-[![wercker status](https://app.wercker.com/status/b84bccb65166b2b8ae2d161854ec423c/m/master "wercker status")](https://app.wercker.com/project/bykey/b84bccb65166b2b8ae2d161854ec423c)
+[![Build Status](https://travis-ci.org/ffrizzo/ffrizzo.svg?branch=master)](https://travis-ci.org/ffrizzo/ffrizzo)
