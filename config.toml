@@ -17,7 +17,7 @@ disableKinds = ["404", "RSS", "Sitemap"]
     # Profile section
     [params.profile]
         name = "Fabiano Frizzo"
-        tagline = "DevOps Manager, Senior Software Engineer"
+        tagline = "Cloud Engineer, DevOps Engineer, Senior Software Engineer"
         # avatar = "profile.png"
 
     # Contact section
@@ -33,8 +33,8 @@ disableKinds = ["404", "RSS", "Sitemap"]
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel:+5545999697850"
-        title = "+5545999697850"
+        url = "tel:+351910630784"
+        title = "+351 910530784"
 
         [[params.contact.list]]
         class = "website"
@@ -105,7 +105,7 @@ disableKinds = ["404", "RSS", "Sitemap"]
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "Have more than 10 years of experience on software development. Had the opportunity to work with various technologies such as Go, Java, Python, NodeJS, AngularJS, ReactJS and EmberJS, also have more than 5 years of experience with infrastructure on AWS, more than 3 years working with DevOps culture using Terraform, Ansible, Packer, Docker and other tools on AWS and Google Cloud Engine"
+        summary = "Have more than 10 years of experience on software development. Had the opportunity to work with various technologies such as Go, Java, Python, NodeJS, AngularJS, ReactJS and EmberJS, also have more than 5 years of experience with infrastructure on AWS, more than 3 years working with DevOps culture using Terraform, Ansible, Packer, Docker, Spinnaker, K8s and other tools with focus on AWS and with experience on GCP"
 
     # Experiences section
     [params.experiences]
@@ -114,8 +114,14 @@ disableKinds = ["404", "RSS", "Sitemap"]
         title = "Experiences"
 
         [[params.jobs.list]]
+        position = "Cloud Engineer"
+        dates = "01/2019 - Present"
+        company = "Augmen Group"
+        details = "Cloud consultant with focus on AWS tools. Currently working as a member of CI/CD Team to provide tools to improve how internal teams delivery they products"
+
+        [[params.jobs.list]]
         position = "Senior DevOps Engineer"
-        dates = "03/2017 - Present"
+        dates = "03/2017 - 12/2018"
         company = "FoodLogiQ"
         details = "As a DevOps engineer improved the infrastructure reliability and security, Introduce tools(terraform, ansible) to configure and manage the infrastructure. Built new tools to help dev teams on daily basis tasks"
 
@@ -195,45 +201,9 @@ disableKinds = ["404", "RSS", "Sitemap"]
 
     # Skills section
     [params.skills]
-        enable = true
+        enable = false
         icon = "fa-rocket"
         title = "Skills & Proficiency"
-
-        [[params.skills.list]]
-        skill = "Java"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Go"
-        level = "90%"
-
-        [[params.skills.list]]
-        skill = "Python"
-        level = "85%"
-
-        [[params.skills.list]]
-        skill = "Ansible"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "Terraform"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "Docker"
-        level = "85%"
-
-        [[params.skills.list]]
-        skill = "Kubernetes"
-        level = "60%"
-
-        [[params.skills.list]]
-        skill = "AWS"
-        level = "90%"
-
-        [[params.skills.list]]
-        skill = "Google Cloud"
-        level = "80%"
 
     [params.footer]
         copyright = "Fabiano Frizzo"
