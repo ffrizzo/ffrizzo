@@ -23,7 +23,7 @@ disableKinds = ["404", "RSS", "Sitemap"]
     # Contact section
     [params.contact]
         enable = true
-        location = "Lisbon"
+        location = "Cascavel, PR, Brazil"
 
         [[params.contact.list]]
         class = "email"
@@ -34,8 +34,8 @@ disableKinds = ["404", "RSS", "Sitemap"]
         [[params.contact.list]]
         class = "phone"
         icon = "fas fa-phone"
-        url = "tel:+351910630784"
-        text = "+351 910530784"
+        url = "tel:+5545999697850"
+        text = "+55 45 999697850"
 
         [[params.contact.list]]
         class = "website"
