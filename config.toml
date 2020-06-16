@@ -41,25 +41,21 @@ disableKinds = ["404", "RSS", "Sitemap"]
         class = "linkedin"
         icon = "fab fa-linkedin"
         url = "https://linkedin.com/in/ffrizzo"
-        text = "linkedin.com/in/ffrizzo"
 
         [[params.social.list]]
         class = "stack-overflow"
         icon = "fab fa-stack-overflow"
         url = "https://stackoverflow.com/users/1550221/fabiano-frizzo"
-        text = "fabiano-ffrizzo"
         
         [[params.social.list]]
         class = "github"
         icon = "fab fa-github"
         url = "https://github.com/ffrizzo"
-        text = "github.com/ffrizzo"        
 
         [[params.social.list]]
         class = "twitter"
         icon = "fab fa-twitter"
         url = "https://twitter.com/ffrizzo"
-        text = "@ffrizzo"
 
     # Education section
     [params.education]
@@ -116,43 +112,43 @@ disableKinds = ["404", "RSS", "Sitemap"]
         [[params.experience.list]]
         title = "Cloud Engineer"
         dates = "01/2019 - Present"
-        company = "Augmen Group"
+        company = "Augmen Group(remote)"
         details = "As member of CI/CD Team that manage tools like GitlabCI, Github, Artifactory. Built a tool to integrate with Spinnaker to improve how teams delivery applications to AWS and to help on migration to Kubernetes"
 
         [[params.experience.list]]
         title = "Senior Software/DevOps Engineer"
         dates = "11/2016 - 12/2018"
-        company = "FoodLogiQ"
+        company = "FoodLogiQ(remote)"
         details = "Worked with high priority tickets to fix issues that affected customers and required quick fixes. I moved to work more focused on DevOps to help improving infrastructure reliability and security, also reducing costs with the cloud provider. Have introduced new tools(Terraform, Ansible, Packer) to manage the cloud, improved how containers are build and deployed, built tools to facilitate the integration of other teams with cloud, and improved repetitive daily tasks. Applications were built with Go and AngularJS"
 
         [[params.experience.list]]
         title = "Software Engineer"
         dates = "03/2016 - 10/2016"
-        company = "Enlight Research"
+        company = "Enlight Research(remote)"
         details = "Built new features and made improvements on differents areas of application, built integrations with external APIs. All applications was built with Go and AngularJS"
 
         [[params.experience.list]]
         title = "Senior Software Developer"
         dates = "02/2010 - 03/2016"
-        company = "Integritas Solutions, Inc"
+        company = "Integritas Solutions, Inc(remote)"
         details = "Worked on multiple applications for different customers. Built new applications and work on maintenance using different technologies such as Java, NodeJs, Adobe Flex, AngularJS, EmberJS. As DevOps configured applications tools to run CI/CD(Jenkins, Apache, Nginx) and help other devs on setup the environment using Vagrant and Docker"
 
         [[params.experience.list]]
         title = "Senior Software Engineer"
         dates = "07/2009 - 05/2015"
-        company = "Escritório Contábil Iguaçu"
+        company = "Escritório Contábil Iguaçu(remote)"
         details = "Built a new ERP on a small team using Java, Adobe Flex, PostgreSQL, built integrations with government applications. As SysAdmin configured the on-premise servers to run Apache, JBoss, PostgreSQL"
         
         [[params.experience.list]]
         title = "Software Developer"
         dates = "02/2011 - 09/2011"
-        company = "SetPoint"
+        company = "SetPoint(remote)"
         details = "Worked to adding new features and on bugs fixes on FreedomERP an OpenSource ERP Project. FreedomERP is a project built with Java Swing application."
 
         [[params.experience.list]]
         title = "Software Developer"
         dates = "01/2010 - 11/2010"
-        company = "NetSar"
+        company = "NetSar(remote)"
         details = "As a member of a team that works mainly with the ERP Application. The ERP was built using Java and Adobe Flex, implemented few integrations with third-party applications and APIs"
 
         [[params.experience.list]]
