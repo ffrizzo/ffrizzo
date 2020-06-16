@@ -1,30 +1,22 @@
 # Page settings
-
 baseurl = "https://ffrizzo.com/"
 languageCode = "en-us"
 title = "Fabiano Frizzo"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-63537429-1"
-
 disableKinds = ["404", "RSS", "Sitemap"]
 
 [params]
-# Meta
-    description = "Hugo Responsive Resume/CV Theme for Developers"
-    author = "Pavel Kanyshev"
-    styles = "styles-2.css"
-
     # Profile section
     [params.profile]
         enable = true
         name = "Fabiano Frizzo"
-        tagline = "Cloud Engineer, DevOps Engineer, Senior Software Engineer"
+        tagline = "Cloud Engineer/DevOps Engineer"
 
     # Contact section
     [params.contact]
         enable = true
         location = "Cascavel, PR, Brazil"
-
         [[params.contact.list]]
         class = "email"
         icon = "fas fa-envelope"
@@ -40,40 +32,38 @@ disableKinds = ["404", "RSS", "Sitemap"]
         [[params.contact.list]]
         class = "website"
         icon = "fas fa-globe"
-        url = "//ffrizzo.com/blog"
+        url = "https://ffrizzo.com/blog"
         text = "ffrizzo.com/blog"
 
     [params.social]
         enable = true
+        [[params.social.list]]
+        class = "linkedin"
+        icon = "fab fa-linkedin"
+        url = "https://linkedin.com/in/ffrizzo"
+        text = "linkedin.com/in/ffrizzo"
 
         [[params.social.list]]
         class = "stack-overflow"
         icon = "fab fa-stack-overflow"
-        url = "//stackoverflow.com/users/1550221/fabiano-frizzo"
+        url = "https://stackoverflow.com/users/1550221/fabiano-frizzo"
         text = "fabiano-ffrizzo"
         
         [[params.social.list]]
         class = "github"
         icon = "fab fa-github"
-        url = "//github.com/ffrizzo"
+        url = "https://github.com/ffrizzo"
         text = "github.com/ffrizzo"        
-
-        [[params.social.list]]
-        class = "linkedin"
-        icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/ffrizzo"
-        text = "linkedin.com/in/ffrizzo"
 
         [[params.social.list]]
         class = "twitter"
         icon = "fab fa-twitter"
-        url = "//twitter.com/ffrizzo"
+        url = "https://twitter.com/ffrizzo"
         text = "@ffrizzo"
 
     # Education section
     [params.education]
         enable = true
-
         [[params.education.list]]
         degree = "Bachelor’s Degree"
         university = "Univel University - Cascavel, Brazil"
@@ -81,24 +71,22 @@ disableKinds = ["404", "RSS", "Sitemap"]
 
    [params.skills]
         enable = true
-
         [[params.skills.list]]
-        title = "Technical"
+        title = "Cloud/DevOps Tools"
         [[params.skills.list.items]]
-        details = "Go/Java/Python/NodeJS"
+        details = "Kubernetes, Spinnaker, Terraform, Packer, Ansible"
+        [[params.skills.list]]
+        title = "Cloud Providers"
         [[params.skills.list.items]]
-        details = "PostgreSQL/MySQL"
+        details = "AWS, GCP"
+        [[params.skills.list]]
+        title = "Programming Languages"
         [[params.skills.list.items]]
-        details = "AWS/GCP"
-        [[params.skills.list.items]]
-        details = "Docker/K8s/Spinnaker"
-        [[params.skills.list.items]]
-        details = "Terraform/Packer/Ansible"
+        details = "Go, Java, Python, NodeJS"
 
     # Languages section
     [params.languages]
         enable = true
-
         [[params.languages.list]]
         name = "Portuguese"
         level = "Native"
@@ -109,16 +97,17 @@ disableKinds = ["404", "RSS", "Sitemap"]
     # Interests section
     [params.interests]
         enable = true
-
         [[params.interests.list]]
-        name = "Bike"
+        name = "Home Automation, "
         [[params.interests.list]]
-        name = "Music"
+        name = "Arduino, Raspberry PI"
+        [[params.interests.list]]
+        name = "Bike, Music"
 
     # Summary section
     [params.summary]
         enable = true
-        text = "Have more than 11 years of experience on software development. Had the opportunity to work with various technologies such as Go, Java, Python, NodeJS, AngularJS, ReactJS and EmberJS, also have more than 6 years of experience with infrastructure on AWS, more than 4 years working with DevOps culture using Terraform, Ansible, Packer, Docker, Spinnaker, K8s and other tools with focus on AWS and with experience on GCP"
+        text = "10+ years of experience working remotely with minimum supervision on different industries and delivering high-quality software using the best practices with different programming languages, on last 5+ years with focus on DevOps/Cloud Engineer on the implementation of tools to improve utilization of cloud provider and reducing costs, also had build tools for teams to improve how they iterate with the cloud providers and improve performance on daily tasks"
 
     # Experiences section
     [params.experience]
@@ -128,55 +117,49 @@ disableKinds = ["404", "RSS", "Sitemap"]
         title = "Cloud Engineer"
         dates = "01/2019 - Present"
         company = "Augmen Group"
-        details = "Cloud consultant with focus on AWS tools. Currently working as a member of CI/CD Team to provide tools to improve how internal teams delivery they products"
+        details = "As member of CI/CD Team that manage tools like GitlabCI, Github, Artifactory. Built a tool to integrate with Spinnaker to improve how teams delivery applications to AWS and to help on migration to Kubernetes"
 
         [[params.experience.list]]
-        title = "Senior DevOps Engineer"
-        dates = "03/2017 - 12/2018"
+        title = "Senior Software/DevOps Engineer"
+        dates = "11/2016 - 12/2018"
         company = "FoodLogiQ"
-        details = "As a DevOps engineer improved the infrastructure reliability and security, Introduce tools(terraform, ansible) to configure and manage the infrastructure. Built new tools to help dev teams on daily basis tasks"
-
-        [[params.experience.list]]
-        title = "Senior Software Engineer"
-        dates = "11/2016 - 03/2017"
-        company = "FoodLogiQ"
-        details = "As a senior software engineer worked on the high priority tickets to improve and fixes issues that affect customers directly and need quickly resolution using Go"
+        details = "Worked with high priority tickets to fix issues that affected customers and required quick fixes. I moved to work more focused on DevOps to help improving infrastructure reliability and security, also reducing costs with the cloud provider. Have introduced new tools(Terraform, Ansible, Packer) to manage the cloud, improved how containers are build and deployed, built tools to facilitate the integration of other teams with cloud, and improved repetitive daily tasks. Applications were built with Go and AngularJS"
 
         [[params.experience.list]]
         title = "Software Engineer"
         dates = "03/2016 - 10/2016"
         company = "Enlight Research"
-        details = "As a software engineer I've worked to add new functionalities and improve system. Mainly worked with Go and AngularJS also I have configured travis to build and test"
+        details = "Built new features and made improvements on differents areas of application, built integrations with external APIs. All applications was built with Go and AngularJS"
 
         [[params.experience.list]]
-        title = "Senior Full Stack Developer"
+        title = "Senior Software Developer"
         dates = "02/2010 - 03/2016"
-        company = "Integritas Solitions, Inc"
-        details = "As senior full-stack developer, added and maintained features on the applications for our customers. Developed multiple features on the back-end with Java and on front-end with Adobe Flex/JS(AngularJS, EmberJS), NodeJS in different's projects. As DevOps configuring servers with Jenkins, Tomcat, Apache, Nginx using Vagrant, Docker. Worked remotely"
+        company = "Integritas Solutions, Inc"
+        details = "Worked on multiple applications for different customers. Built new applications and work on maintenance using different technologies such as Java, NodeJs, Adobe Flex, AngularJS, EmberJS. As DevOps configured applications tools to run CI/CD(Jenkins, Apache, Nginx) and help other devs on setup the environment using Vagrant and Docker"
 
         [[params.experience.list]]
-        title = "Senior Full Stack Developer"
+        title = "Senior Software Engineer"
         dates = "07/2009 - 05/2015"
         company = "Escritório Contábil Iguaçu"
-        details = "As a senior full-stack developer, added and maintained features on the our application. Developed multiple features on the back-end and front-end with Java and Adobe Flex. As DevOps configuring servers with JBoss As 7, Apache, PostgreSQL"
-
+        details = "Built a new ERP on a small team using Java, Adobe Flex, PostgreSQL, built integrations with government applications. As SysAdmin configured the on-premise servers to run Apache, JBoss, PostgreSQL"
+        
         [[params.experience.list]]
         title = "Software Developer"
         dates = "02/2011 - 09/2011"
         company = "SetPoint"
-        details = "As a senior developer added and maintained features on a open source project Freedom ERP. Developed multiple features on the project using Java and Swing. Worked remotely"
+        details = "Worked to adding new features and on bugs fixes on FreedomERP an OpenSource ERP Project. FreedomERP is a project built with Java Swing application."
 
         [[params.experience.list]]
         title = "Software Developer"
         dates = "01/2010 - 11/2010"
         company = "NetSar"
-        details = "Worked on maintenance of rich internet application with Java, Adobe Flex and GraniteDS. Integration with third-party apps with company’s applications"
+        details = "As a member of a team that works mainly with the ERP Application. The ERP was built using Java and Adobe Flex, implemented few integrations with third-party applications and APIs"
 
         [[params.experience.list]]
-        title = "Software Developer"
+        title = "Junnior Software Developer"
         dates = "08/2006 - 05/2007"
         company = "Sicoob Cascavel"
-        details = "As a trainee back-end developer, develop internal applications with Delphi and Firebird to help users to calculate a risk of our customers and showing metrics and parameters to help our customers of the best option to invest your money"
-
+        details = "Built internal tools with Delphi and Firebird to help Account Managers calculate the risk for money loan and providing metrics to help customers to do the best investment"
+    
     [params.footer]
         copyright = "Fabiano Frizzo"
