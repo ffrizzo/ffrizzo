@@ -103,7 +103,7 @@ disableKinds = ["404", "RSS", "Sitemap"]
     # Summary section
     [params.summary]
         enable = true
-        text = "10+ years of experience working remotely with minimum supervision on different industries and delivering high-quality software using the best practices with different programming languages, on last 5+ years with focus on DevOps/Cloud Engineering implementating tools to improve utilization of cloud provider and reducing costs, also had build tools for teams to improve how they iterate with the cloud providers and improve performance on daily tasks"
+        text = "10+ years of experience working remotely with minimum supervision on different industries and delivering high-quality software using the best practices with different programming languages, on last 5+ years with focus on DevOps/Cloud Engineering implementing tools to improve utilization of cloud provider and reducing costs, also had build tools for teams to improve how they iterate with the cloud providers and improve performance on daily tasks"
 
     # Experiences section
     [params.experience]
