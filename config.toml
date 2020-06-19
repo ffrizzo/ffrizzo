@@ -113,7 +113,7 @@ disableKinds = ["404", "RSS", "Sitemap"]
         title = "Cloud Engineer"
         dates = "01/2019 - Present"
         company = "Augmen Group(remote)"
-        details = "As member of CI/CD Team that manage tools like GitlabCI, Github, Artifactory. Built a tool to integrate with Spinnaker to improve how teams delivery applications to AWS and to help on migration to Kubernetes"
+        details = "As a member of CI/CD Team that manages tools like GitlabCI, Github, Artifactory. Built a tool to integrate with Spinnaker to improve how teams delivery applications to AWS and to help on migration to Kubernetes"
 
         [[params.experience.list]]
         title = "Senior Software/DevOps Engineer"
@@ -125,7 +125,7 @@ disableKinds = ["404", "RSS", "Sitemap"]
         title = "Software Engineer"
         dates = "03/2016 - 10/2016"
         company = "Enlight Research(remote)"
-        details = "Built new features and made improvements on differents areas of application, built integrations with external APIs. All applications was built with Go and AngularJS"
+        details = "Built new features and made improvements in different areas of application, built integrations with external APIs. All applications were built with Go and AngularJS"
 
         [[params.experience.list]]
         title = "Senior Software Developer"
