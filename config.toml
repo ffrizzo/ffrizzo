@@ -70,7 +70,7 @@ disableKinds = ["404", "RSS", "Sitemap"]
         [[params.skills.list]]
         title = "Cloud/DevOps Tools"
         [[params.skills.list.items]]
-        details = "Kubernetes, Spinnaker, Terraform, Packer, Ansible"
+        details = "Docker, Kubernetes, Spinnaker, Terraform, Packer, Ansible"
         [[params.skills.list]]
         title = "Cloud Providers"
         [[params.skills.list.items]]
@@ -94,11 +94,9 @@ disableKinds = ["404", "RSS", "Sitemap"]
     [params.interests]
         enable = true
         [[params.interests.list]]
-        name = "Home Automation, "
+        name = "Home Automation, Raspberry PI"
         [[params.interests.list]]
-        name = "Arduino, Raspberry PI"
-        [[params.interests.list]]
-        name = "Bike, Music"
+        name = "Arduino, Car Hacking, Car Tuning"
 
     # Summary section
     [params.summary]
