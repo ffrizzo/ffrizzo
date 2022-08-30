@@ -11,7 +11,7 @@ disableKinds = ["404", "RSS", "Sitemap"]
     [params.profile]
         enable = true
         name = "Fabiano Frizzo"
-        tagline = "Cloud Engineer/DevOps Engineer"
+        tagline = "Software Engineer/Cloud Engineer"
 
     # Contact section
     [params.contact]
@@ -57,16 +57,12 @@ disableKinds = ["404", "RSS", "Sitemap"]
         icon = "fab fa-twitter"
         url = "https://twitter.com/ffrizzo"
 
-    # Education section
-    [params.education]
-        enable = true
-        [[params.education.list]]
-        degree = "Bachelor’s Degree"
-        university = "Univel University - Cascavel, Brazil"
-        dates = "2005 - 2008"
-
    [params.skills]
         enable = true
+        [[params.skills.list]]
+        title = "Programming Languages"
+        [[params.skills.list.items]]
+        details = "Go, Rust, Java, Python, NodeJS"
         [[params.skills.list]]
         title = "Cloud/DevOps Tools"
         [[params.skills.list.items]]
@@ -74,11 +70,15 @@ disableKinds = ["404", "RSS", "Sitemap"]
         [[params.skills.list]]
         title = "Cloud Providers"
         [[params.skills.list.items]]
-        details = "AWS, GCP"
-        [[params.skills.list]]
-        title = "Programming Languages"
-        [[params.skills.list.items]]
-        details = "Go, Java, Python, NodeJS"
+        details = "AWS, GCP, Azure"
+
+    # Education section
+    [params.education]
+        enable = true
+        [[params.education.list]]
+        degree = "Master Degree"
+        university = "Univel University - Cascavel, Brazil"
+        dates = "2005 - 2008"
 
     # Languages section
     [params.languages]
@@ -101,59 +101,65 @@ disableKinds = ["404", "RSS", "Sitemap"]
     # Summary section
     [params.summary]
         enable = true
-        text = "10+ years of experience working remotely with minimum supervision on different industries and delivering high-quality software using the best practices with different programming languages, on last 5+ years with focus on DevOps/Cloud Engineering implementing tools to improve utilization of cloud provider and reducing costs, also had build tools for teams to improve how they iterate with the cloud providers and improve performance on daily tasks"
+        text = "12+ years of experience working remotely with minimum supervision in different industries and delivering high-quality software using the best practices in various programming languages in the past 6+ years, focusing on DevOps/Cloud Engineering implementing tools to improve utilization and reducing costs with cloud providers. Also, build tools to improve how other teams iterate with the cloud providers and enhance performance on daily tasks"
 
     # Experiences section
     [params.experience]
         enable = true
 
         [[params.experience.list]]
+        title = "Senior software Engineer"
+        dates = "03/2022 - Present"
+        company = "WalletConnect Inc(remote)"
+        details = "As a member of the Cloud team, I work on the backend applications with Go and Rust. I also have worked with the CI/CD and infrastructure to improve the usage of quotas and cost savings."
+
+        [[params.experience.list]]
         title = "Cloud Engineer"
-        dates = "01/2019 - Present"
-        company = "Augmen Group(remote)"
-        details = "As a member of CI/CD Team that manages tools like GitlabCI, Github, Artifactory. Built a tool to integrate with Spinnaker to improve how teams delivery applications to AWS and to help on migration to Kubernetes"
+        dates = "01/2019 - 03/2022"
+        company = "Fanatics Inc(remote)"
+        details = "Built tools to help internal teams deploy applications to AWS(EC2) and Kubernetes, reducing the risks and improving the deployment process, also helping set up new applications. Also, as part of the CI/CD team, we manage Spinnaker, Kubernetes(kops), GitlabCI, Github, and Artifactory."
 
         [[params.experience.list]]
         title = "Senior Software/DevOps Engineer"
         dates = "11/2016 - 12/2018"
         company = "FoodLogiQ(remote)"
-        details = "Worked with high priority tickets to fix issues that affected customers and required quick fixes. I moved to work more focused on DevOps to help improving infrastructure reliability and security, also reducing costs with the cloud provider. Have introduced new tools(Terraform, Ansible, Packer) to manage the cloud, improved how containers are build and deployed, built tools to facilitate the integration of other teams with cloud, and improved repetitive daily tasks. Applications were built with Go and AngularJS"
+        details = "Worked with high-priority tickets to fix issues that affected customers and required quick fixes. I moved to work more focused on DevOps to help improve infrastructure reliability and security, reducing costs with the cloud provider. Have introduced new tools(Terraform, Ansible, Packer) to manage the cloud, improved how containers are built and deployed, built tools to facilitate the integration of other teams with the cloud, and enhanced repetitive daily tasks. Applications building with Go and AngularJS."
 
         [[params.experience.list]]
         title = "Software Engineer"
         dates = "03/2016 - 10/2016"
         company = "Enlight Research(remote)"
-        details = "Built new features and made improvements in different areas of application, built integrations with external APIs. All applications were built with Go and AngularJS"
+        details = "Built new features and improved the application performance, stability, and code quality built integrations with external APIs. The core applications used Go and AngularJS on the backend and the frontend, respectively. Worked in the DevOps area to improve how we built the container images and introduced a proper CI/CD environment, reducing the friction on releases and making it more reliable."
 
         [[params.experience.list]]
         title = "Senior Software Developer"
         dates = "02/2010 - 03/2016"
         company = "Integritas Solutions, Inc(remote)"
-        details = "Worked on multiple applications for different customers. Built new applications and work on maintenance using different technologies such as Java, NodeJs, Adobe Flex, AngularJS, EmberJS. As DevOps configured applications tools to run CI/CD(Jenkins, Apache, Nginx) and help other devs on setup the environment using Vagrant and Docker"
+        details = "Build new applications and work on maintenance using various technologies such as Java, NodeJs, Adobe Flex, AngularJS, and EmberJS. As a DevOps engineer helped set up applications to run CI/CD(Jenkins) and built servers with Apache, Nginx, Jboss, MySQL, and PostgreSQL. I worked with Vagrant to deliver a better experience for devs to start on projects. I Worked on multiple applications for different customers."
 
         [[params.experience.list]]
         title = "Senior Software Engineer"
         dates = "07/2009 - 05/2015"
         company = "Escritório Contábil Iguaçu(remote)"
-        details = "Built a new ERP on a small team using Java, Adobe Flex, PostgreSQL, built integrations with government applications. As SysAdmin configured the on-premise servers to run Apache, JBoss, PostgreSQL"
+        details = "Built a new ERP on a small team using Java, Adobe Flex, and PostgreSQL. Built integrations with government applications. As SysAdmin configured the on-premise servers to run Apache, JBoss, and PostgreSQL."
         
         [[params.experience.list]]
         title = "Software Developer"
         dates = "02/2011 - 09/2011"
         company = "SetPoint(remote)"
-        details = "Worked to adding new features and on bugs fixes on FreedomERP an OpenSource ERP Project. FreedomERP is a project built with Java Swing application."
+        details = "Worked on adding new features and bug fixes on an OpenSource ERP Project called FreedomERP. FreedomERP was a project built with Java Swing using the Firebird database."
 
         [[params.experience.list]]
         title = "Software Developer"
         dates = "01/2010 - 11/2010"
         company = "NetSar(remote)"
-        details = "As a member of a team that works mainly with the ERP Application. The ERP was built using Java and Adobe Flex, implemented few integrations with third-party applications and APIs"
+        details = "As a team member that works mainly with the ERP Application. The ERP was built using Java and Adobe Flex. Implemented integrations with third-party applications and APIs."
 
         [[params.experience.list]]
         title = "Junior Software Developer"
         dates = "08/2006 - 05/2007"
         company = "Sicoob Cascavel"
-        details = "Built internal tools with Delphi and Firebird to help Account Managers calculate the risk for money loan and providing metrics to help customers to do the best investment"
+        details = "Built internal tools with Delphi and Firebird to help Account Managers calculate the risk for money loans and provide metrics to enable customers to make the best investment."
     
     [params.footer]
         copyright = "Fabiano Frizzo"
