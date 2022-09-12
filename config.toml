@@ -46,7 +46,7 @@ disableKinds = ["404", "RSS", "Sitemap"]
         class = "stack-overflow"
         icon = "fab fa-stack-overflow"
         url = "https://stackoverflow.com/users/1550221/fabiano-frizzo"
-        
+
         [[params.social.list]]
         class = "github"
         icon = "fab fa-github"
@@ -101,7 +101,7 @@ disableKinds = ["404", "RSS", "Sitemap"]
     # Summary section
     [params.summary]
         enable = true
-        text = "12+ years of experience working remotely with minimum supervision in different industries and delivering high-quality software using the best practices in various programming languages in the past 6+ years, focusing on DevOps/Cloud Engineering implementing tools to improve utilization and reducing costs with cloud providers. Also, build tools to improve how other teams iterate with the cloud providers and enhance performance on daily tasks"
+        text = "10+ years of experience working remotely with minimum supervision in different industries and delivering high-quality software. With a focus on Backend development and DevOps/Cloud."
 
     # Experiences section
     [params.experience]
@@ -142,7 +142,7 @@ disableKinds = ["404", "RSS", "Sitemap"]
         dates = "07/2009 - 05/2015"
         company = "Escritório Contábil Iguaçu(remote)"
         details = "Built a new ERP on a small team using Java, Adobe Flex, and PostgreSQL. Built integrations with government applications. As SysAdmin configured the on-premise servers to run Apache, JBoss, and PostgreSQL."
-        
+
         [[params.experience.list]]
         title = "Software Developer"
         dates = "02/2011 - 09/2011"
@@ -160,6 +160,6 @@ disableKinds = ["404", "RSS", "Sitemap"]
         dates = "08/2006 - 05/2007"
         company = "Sicoob Cascavel"
         details = "Built internal tools with Delphi and Firebird to help Account Managers calculate the risk for money loans and provide metrics to enable customers to make the best investment."
-    
+
     [params.footer]
         copyright = "Fabiano Frizzo"
