@@ -21,14 +21,14 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [WalletConnect/walletconnect-monorepo @ 2.1.3](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.1.3) (2 days ago)
+- [WalletConnect/walletconnect-monorepo @ 2.1.3](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.1.3) (3 days ago)
 - [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (1 month ago)
 
 #### ⭐ Recent Stars
 
 
-- **[golemparts/rppal](https://github.com/golemparts/rppal)** - A Rust library that provides access to the Raspberry Pi&#39;s GPIO, I2C, PWM, SPI and UART peripherals. (2 days ago)
-- **[alibaba/sentinel-golang](https://github.com/alibaba/sentinel-golang)** - Sentinel Go version (Reliability &amp; Resilience) (2 days ago)
-- **[treeverse/lakeFS](https://github.com/treeverse/lakeFS)** - Git-like capabilities for your object storage (2 days ago)
-- **[rome/tools](https://github.com/rome/tools)** - Unified developer tools for JavaScript, TypeScript, and the web (1 week ago)
-- **[grafana/phlare](https://github.com/grafana/phlare)** - 🔥 horizontally-scalable, highly-available, multi-tenant continuous profiling aggregation system (1 week ago)
+- **[security-union/rust-zoom](https://github.com/security-union/rust-zoom)** - zoom clone written in rust for RESEARCH PURPOSES (1 day ago)
+- **[1debit/alternat](https://github.com/1debit/alternat)** - High availability implementation of AWS NAT instances. (1 day ago)
+- **[jetli/yew-hooks](https://github.com/jetli/yew-hooks)** - Hooks for Yew, inspired by streamich/react-use and alibaba/hooks. (1 day ago)
+- **[golemparts/rppal](https://github.com/golemparts/rppal)** - A Rust library that provides access to the Raspberry Pi&#39;s GPIO, I2C, PWM, SPI and UART peripherals. (3 days ago)
+- **[alibaba/sentinel-golang](https://github.com/alibaba/sentinel-golang)** - Sentinel Go version (Reliability &amp; Resilience) (3 days ago)
