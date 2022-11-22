@@ -5,8 +5,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 👷 Check out what I'm currently working on
 
 
-- [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (3 days ago)
-- [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (1 week ago)
+- [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (1 day ago)
+- [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (2 weeks ago)
 - [surrealdb/surrealdb.go](https://github.com/surrealdb/surrealdb.go) - SurrealDB driver for Golang (1 month ago)
 - [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web (1 month ago)
 - [WalletConnect/actions](https://github.com/WalletConnect/actions) - WalletConnect GitHub Actions (2 months ago)
@@ -27,8 +27,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[sycamore-rs/sycamore](https://github.com/sycamore-rs/sycamore)** - A library for creating reactive web apps in Rust and WebAssembly (3 days ago)
-- **[security-union/rust-zoom](https://github.com/security-union/rust-zoom)** - zoom clone written in rust for RESEARCH PURPOSES (5 days ago)
-- **[1debit/alternat](https://github.com/1debit/alternat)** - High availability implementation of AWS NAT instances. (5 days ago)
-- **[jetli/yew-hooks](https://github.com/jetli/yew-hooks)** - Hooks for Yew, inspired by streamich/react-use and alibaba/hooks. (5 days ago)
-- **[golemparts/rppal](https://github.com/golemparts/rppal)** - A Rust library that provides access to the Raspberry Pi&#39;s GPIO, I2C, PWM, SPI and UART peripherals. (1 week ago)
+- **[gbj/leptos](https://github.com/gbj/leptos)** - Build fast web applications with Rust. (1 day ago)
+- **[sycamore-rs/sycamore](https://github.com/sycamore-rs/sycamore)** - A library for creating reactive web apps in Rust and WebAssembly (4 days ago)
+- **[security-union/rust-zoom](https://github.com/security-union/rust-zoom)** - zoom clone written in rust for RESEARCH PURPOSES (6 days ago)
+- **[1debit/alternat](https://github.com/1debit/alternat)** - High availability implementation of AWS NAT instances. (6 days ago)
+- **[jetli/yew-hooks](https://github.com/jetli/yew-hooks)** - Hooks for Yew, inspired by streamich/react-use and alibaba/hooks. (6 days ago)
