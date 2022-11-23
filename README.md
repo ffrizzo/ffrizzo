@@ -27,8 +27,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
+- **[1Password/typeshare](https://github.com/1Password/typeshare)** - Typeshare is the ultimate tool for synchronizing your type definitions between Rust and other languages for seamless FFI. (today)
 - **[facebook/sapling](https://github.com/facebook/sapling)** - A Scalable, User-Friendly Source Control System. (1 day ago)
 - **[gbj/leptos](https://github.com/gbj/leptos)** - Build fast web applications with Rust. (2 days ago)
 - **[sycamore-rs/sycamore](https://github.com/sycamore-rs/sycamore)** - A library for creating reactive web apps in Rust and WebAssembly (5 days ago)
 - **[security-union/rust-zoom](https://github.com/security-union/rust-zoom)** - zoom clone written in rust for RESEARCH PURPOSES (1 week ago)
-- **[1debit/alternat](https://github.com/1debit/alternat)** - High availability implementation of AWS NAT instances. (1 week ago)
