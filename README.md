@@ -27,8 +27,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
+- **[lapce/lapce](https://github.com/lapce/lapce)** - Lightning-fast and Powerful Code Editor written in Rust (today)
 - **[signalapp/libsignal](https://github.com/signalapp/libsignal)** - Home to the Signal Protocol as well as other cryptographic primitives which make Signal possible. (1 day ago)
 - **[1Password/typeshare](https://github.com/1Password/typeshare)** - Typeshare is the ultimate tool for synchronizing your type definitions between Rust and other languages for seamless FFI. (6 days ago)
 - **[facebook/sapling](https://github.com/facebook/sapling)** - A Scalable, User-Friendly Source Control System. (1 week ago)
 - **[gbj/leptos](https://github.com/gbj/leptos)** - Build fast web applications with Rust. (1 week ago)
-- **[sycamore-rs/sycamore](https://github.com/sycamore-rs/sycamore)** - A library for creating reactive web apps in Rust and WebAssembly (1 week ago)
