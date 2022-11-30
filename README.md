@@ -9,7 +9,7 @@ I'm [Fabiano](https://ffrizzo.com)
 - [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (3 weeks ago)
 - [surrealdb/surrealdb.go](https://github.com/surrealdb/surrealdb.go) - SurrealDB driver for Golang (1 month ago)
 - [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web (2 months ago)
-- [WalletConnect/actions](https://github.com/WalletConnect/actions) - WalletConnect GitHub Actions (2 months ago)
+- [WalletConnect/actions](https://github.com/WalletConnect/actions) - WalletConnect GitHub Actions (3 months ago)
 
 #### 👨‍💻 Repositories I created recently
 - **[ffrizzo/e36-can](https://github.com/ffrizzo/e36-can)** - AC Module for BMW E36 with swap to MS43 ECU
@@ -21,14 +21,14 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [WalletConnect/walletconnect-monorepo @ 2.1.4](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.1.4) (4 days ago)
+- [WalletConnect/walletconnect-monorepo @ 2.1.4](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.1.4) (5 days ago)
 - [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (2 months ago)
 
 #### ⭐ Recent Stars
 
 
-- **[lapce/lapce](https://github.com/lapce/lapce)** - Lightning-fast and Powerful Code Editor written in Rust (today)
-- **[signalapp/libsignal](https://github.com/signalapp/libsignal)** - Home to the Signal Protocol as well as other cryptographic primitives which make Signal possible. (1 day ago)
-- **[1Password/typeshare](https://github.com/1Password/typeshare)** - Typeshare is the ultimate tool for synchronizing your type definitions between Rust and other languages for seamless FFI. (6 days ago)
+- **[linebender/druid](https://github.com/linebender/druid)** - A data-first Rust-native UI design toolkit.  (1 day ago)
+- **[lapce/lapce](https://github.com/lapce/lapce)** - Lightning-fast and Powerful Code Editor written in Rust (1 day ago)
+- **[signalapp/libsignal](https://github.com/signalapp/libsignal)** - Home to the Signal Protocol as well as other cryptographic primitives which make Signal possible. (2 days ago)
+- **[1Password/typeshare](https://github.com/1Password/typeshare)** - Typeshare is the ultimate tool for synchronizing your type definitions between Rust and other languages for seamless FFI. (1 week ago)
 - **[facebook/sapling](https://github.com/facebook/sapling)** - A Scalable, User-Friendly Source Control System. (1 week ago)
-- **[gbj/leptos](https://github.com/gbj/leptos)** - Build fast web applications with Rust. (1 week ago)
