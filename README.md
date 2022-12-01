@@ -27,8 +27,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
+- **[killinen/BrakeModule](https://github.com/killinen/BrakeModule)** - BrakeModule is system that will control braking in E39 BMW with BOSCH ABS 5.7. (today)
 - **[framesurge/perseus](https://github.com/framesurge/perseus)** - A state-driven web development framework for Rust with full support for server-side rendering and static generation. (1 day ago)
 - **[linebender/druid](https://github.com/linebender/druid)** - A data-first Rust-native UI design toolkit.  (2 days ago)
 - **[lapce/lapce](https://github.com/lapce/lapce)** - Lightning-fast and Powerful Code Editor written in Rust (2 days ago)
 - **[signalapp/libsignal](https://github.com/signalapp/libsignal)** - Home to the Signal Protocol as well as other cryptographic primitives which make Signal possible. (3 days ago)
-- **[1Password/typeshare](https://github.com/1Password/typeshare)** - Typeshare is the ultimate tool for synchronizing your type definitions between Rust and other languages for seamless FFI. (1 week ago)
