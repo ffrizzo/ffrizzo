@@ -21,14 +21,14 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [WalletConnect/walletconnect-monorepo @ 2.1.4](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.1.4) (5 days ago)
+- [WalletConnect/walletconnect-monorepo @ 2.1.4](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.1.4) (6 days ago)
 - [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (2 months ago)
 
 #### ⭐ Recent Stars
 
 
-- **[linebender/druid](https://github.com/linebender/druid)** - A data-first Rust-native UI design toolkit.  (1 day ago)
-- **[lapce/lapce](https://github.com/lapce/lapce)** - Lightning-fast and Powerful Code Editor written in Rust (1 day ago)
-- **[signalapp/libsignal](https://github.com/signalapp/libsignal)** - Home to the Signal Protocol as well as other cryptographic primitives which make Signal possible. (2 days ago)
+- **[framesurge/perseus](https://github.com/framesurge/perseus)** - A state-driven web development framework for Rust with full support for server-side rendering and static generation. (1 day ago)
+- **[linebender/druid](https://github.com/linebender/druid)** - A data-first Rust-native UI design toolkit.  (2 days ago)
+- **[lapce/lapce](https://github.com/lapce/lapce)** - Lightning-fast and Powerful Code Editor written in Rust (2 days ago)
+- **[signalapp/libsignal](https://github.com/signalapp/libsignal)** - Home to the Signal Protocol as well as other cryptographic primitives which make Signal possible. (3 days ago)
 - **[1Password/typeshare](https://github.com/1Password/typeshare)** - Typeshare is the ultimate tool for synchronizing your type definitions between Rust and other languages for seamless FFI. (1 week ago)
-- **[facebook/sapling](https://github.com/facebook/sapling)** - A Scalable, User-Friendly Source Control System. (1 week ago)
