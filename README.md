@@ -21,14 +21,14 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [WalletConnect/walletconnect-monorepo @ 2.1.4](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.1.4) (6 days ago)
+- [WalletConnect/walletconnect-monorepo @ 2.1.4](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.1.4) (1 week ago)
 - [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (2 months ago)
 
 #### ⭐ Recent Stars
 
 
-- **[killinen/BrakeModule](https://github.com/killinen/BrakeModule)** - BrakeModule is system that will control braking in E39 BMW with BOSCH ABS 5.7. (today)
-- **[framesurge/perseus](https://github.com/framesurge/perseus)** - A state-driven web development framework for Rust with full support for server-side rendering and static generation. (1 day ago)
-- **[linebender/druid](https://github.com/linebender/druid)** - A data-first Rust-native UI design toolkit.  (2 days ago)
-- **[lapce/lapce](https://github.com/lapce/lapce)** - Lightning-fast and Powerful Code Editor written in Rust (2 days ago)
-- **[signalapp/libsignal](https://github.com/signalapp/libsignal)** - Home to the Signal Protocol as well as other cryptographic primitives which make Signal possible. (3 days ago)
+- **[facebookincubator/buck2](https://github.com/facebookincubator/buck2)** - Build system, successor to Buck (1 day ago)
+- **[kubesphere/kubeeye](https://github.com/kubesphere/kubeeye)** - KubeEye aims to find various problems on Kubernetes, such as application misconfiguration, unhealthy cluster components and node problems. (1 day ago)
+- **[thangchung/go-coffeeshop](https://github.com/thangchung/go-coffeeshop)** - ☕ A practical event-driven microservices demo built with Golang. Nomad, Consul Connect, Vault, and Terraform for deployment (1 day ago)
+- **[killinen/BrakeModule](https://github.com/killinen/BrakeModule)** - BrakeModule is system that will control braking in BMW E39 with BOSCH ABS 5.7. (1 day ago)
+- **[framesurge/perseus](https://github.com/framesurge/perseus)** - A state-driven web development framework for Rust with full support for server-side rendering and static generation. (2 days ago)
