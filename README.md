@@ -5,8 +5,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 👷 Check out what I'm currently working on
 
 
-- [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (1 week ago)
-- [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (3 weeks ago)
+- [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (2 weeks ago)
+- [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (4 weeks ago)
 - [surrealdb/surrealdb.go](https://github.com/surrealdb/surrealdb.go) - SurrealDB driver for Golang (1 month ago)
 - [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web (2 months ago)
 - [WalletConnect/actions](https://github.com/WalletConnect/actions) - WalletConnect GitHub Actions (3 months ago)
@@ -27,8 +27,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[facebookincubator/buck2](https://github.com/facebookincubator/buck2)** - Build system, successor to Buck (4 days ago)
-- **[kubesphere/kubeeye](https://github.com/kubesphere/kubeeye)** - KubeEye aims to find various problems on Kubernetes, such as application misconfiguration, unhealthy cluster components and node problems. (4 days ago)
-- **[thangchung/go-coffeeshop](https://github.com/thangchung/go-coffeeshop)** - ☕ A practical event-driven microservices demo built with Golang. Nomad, Consul Connect, Vault, and Terraform for deployment (4 days ago)
-- **[killinen/BrakeModule](https://github.com/killinen/BrakeModule)** - BrakeModule is system that will control braking in BMW E39 with BOSCH ABS 5.7. (4 days ago)
-- **[framesurge/perseus](https://github.com/framesurge/perseus)** - A state-driven web development framework for Rust with full support for server-side rendering and static generation. (5 days ago)
+- **[mitchellh/zig-js](https://github.com/mitchellh/zig-js)** - Access the JS host environment from Zig compiled to WebAssembly. (1 day ago)
+- **[facebookincubator/buck2](https://github.com/facebookincubator/buck2)** - Build system, successor to Buck (5 days ago)
+- **[kubesphere/kubeeye](https://github.com/kubesphere/kubeeye)** - KubeEye aims to find various problems on Kubernetes, such as application misconfiguration, unhealthy cluster components and node problems. (5 days ago)
+- **[thangchung/go-coffeeshop](https://github.com/thangchung/go-coffeeshop)** - ☕ A practical event-driven microservices demo built with Golang. Nomad, Consul Connect, Vault, and Terraform for deployment (5 days ago)
+- **[killinen/BrakeModule](https://github.com/killinen/BrakeModule)** - BrakeModule is system that will control braking in BMW E39 with BOSCH ABS 5.7. (5 days ago)
