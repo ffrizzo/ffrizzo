@@ -27,8 +27,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[mitchellh/zig-js](https://github.com/mitchellh/zig-js)** - Access the JS host environment from Zig compiled to WebAssembly. (1 day ago)
-- **[facebookincubator/buck2](https://github.com/facebookincubator/buck2)** - Build system, successor to Buck (5 days ago)
-- **[kubesphere/kubeeye](https://github.com/kubesphere/kubeeye)** - KubeEye aims to find various problems on Kubernetes, such as application misconfiguration, unhealthy cluster components and node problems. (5 days ago)
-- **[thangchung/go-coffeeshop](https://github.com/thangchung/go-coffeeshop)** - ☕ A practical event-driven microservices demo built with Golang. Nomad, Consul Connect, Vault, and Terraform for deployment (5 days ago)
-- **[killinen/BrakeModule](https://github.com/killinen/BrakeModule)** - BrakeModule is system that will control braking in BMW E39 with BOSCH ABS 5.7. (5 days ago)
+- **[chiselstrike/chiselstrike](https://github.com/chiselstrike/chiselstrike)** - ChiselStrike abstracts common backends components like databases and message queues, and let you drive them from a convenient JavaScript/TypeScript business logic layer (1 day ago)
+- **[mitchellh/zig-js](https://github.com/mitchellh/zig-js)** - Access the JS host environment from Zig compiled to WebAssembly. (2 days ago)
+- **[facebookincubator/buck2](https://github.com/facebookincubator/buck2)** - Build system, successor to Buck (6 days ago)
+- **[kubesphere/kubeeye](https://github.com/kubesphere/kubeeye)** - KubeEye aims to find various problems on Kubernetes, such as application misconfiguration, unhealthy cluster components and node problems. (6 days ago)
+- **[thangchung/go-coffeeshop](https://github.com/thangchung/go-coffeeshop)** - ☕ A practical event-driven microservices demo built with Golang. Nomad, Consul Connect, Vault, and Terraform for deployment (6 days ago)
