@@ -6,7 +6,7 @@ I'm [Fabiano](https://ffrizzo.com)
 
 
 - [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (2 weeks ago)
-- [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (4 weeks ago)
+- [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (1 month ago)
 - [surrealdb/surrealdb.go](https://github.com/surrealdb/surrealdb.go) - SurrealDB driver for Golang (1 month ago)
 - [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web (2 months ago)
 - [WalletConnect/actions](https://github.com/WalletConnect/actions) - WalletConnect GitHub Actions (3 months ago)
@@ -27,8 +27,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[chiselstrike/chiselstrike](https://github.com/chiselstrike/chiselstrike)** - ChiselStrike abstracts common backends components like databases and message queues, and let you drive them from a convenient JavaScript/TypeScript business logic layer (1 day ago)
-- **[mitchellh/zig-js](https://github.com/mitchellh/zig-js)** - Access the JS host environment from Zig compiled to WebAssembly. (2 days ago)
-- **[facebookincubator/buck2](https://github.com/facebookincubator/buck2)** - Build system, successor to Buck (6 days ago)
-- **[kubesphere/kubeeye](https://github.com/kubesphere/kubeeye)** - KubeEye aims to find various problems on Kubernetes, such as application misconfiguration, unhealthy cluster components and node problems. (6 days ago)
-- **[thangchung/go-coffeeshop](https://github.com/thangchung/go-coffeeshop)** - ☕ A practical event-driven microservices demo built with Golang. Nomad, Consul Connect, Vault, and Terraform for deployment (6 days ago)
+- **[SeaQL/sea-orm](https://github.com/SeaQL/sea-orm)** - 🐚 An async &amp; dynamic ORM for Rust (1 day ago)
+- **[chiselstrike/chiselstrike](https://github.com/chiselstrike/chiselstrike)** - ChiselStrike abstracts common backends components like databases and message queues, and let you drive them from a convenient JavaScript/TypeScript business logic layer (2 days ago)
+- **[mitchellh/zig-js](https://github.com/mitchellh/zig-js)** - Access the JS host environment from Zig compiled to WebAssembly. (3 days ago)
+- **[facebookincubator/buck2](https://github.com/facebookincubator/buck2)** - Build system, successor to Buck (1 week ago)
+- **[kubesphere/kubeeye](https://github.com/kubesphere/kubeeye)** - KubeEye aims to find various problems on Kubernetes, such as application misconfiguration, unhealthy cluster components and node problems. (1 week ago)
