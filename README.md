@@ -21,14 +21,14 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [WalletConnect/walletconnect-monorepo @ 2.1.4](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.1.4) (1 week ago)
+- [WalletConnect/walletconnect-monorepo @ 2.1.4](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.1.4) (2 weeks ago)
 - [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (2 months ago)
 
 #### ⭐ Recent Stars
 
 
-- **[SeaQL/sea-orm](https://github.com/SeaQL/sea-orm)** - 🐚 An async &amp; dynamic ORM for Rust (1 day ago)
-- **[chiselstrike/chiselstrike](https://github.com/chiselstrike/chiselstrike)** - ChiselStrike abstracts common backends components like databases and message queues, and let you drive them from a convenient JavaScript/TypeScript business logic layer (2 days ago)
-- **[mitchellh/zig-js](https://github.com/mitchellh/zig-js)** - Access the JS host environment from Zig compiled to WebAssembly. (3 days ago)
+- **[SeaQL/sea-orm](https://github.com/SeaQL/sea-orm)** - 🐚 An async &amp; dynamic ORM for Rust (2 days ago)
+- **[chiselstrike/chiselstrike](https://github.com/chiselstrike/chiselstrike)** - ChiselStrike abstracts common backends components like databases and message queues, and let you drive them from a convenient JavaScript/TypeScript business logic layer (3 days ago)
+- **[mitchellh/zig-js](https://github.com/mitchellh/zig-js)** - Access the JS host environment from Zig compiled to WebAssembly. (4 days ago)
 - **[facebookincubator/buck2](https://github.com/facebookincubator/buck2)** - Build system, successor to Buck (1 week ago)
 - **[kubesphere/kubeeye](https://github.com/kubesphere/kubeeye)** - KubeEye aims to find various problems on Kubernetes, such as application misconfiguration, unhealthy cluster components and node problems. (1 week ago)
