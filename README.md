@@ -5,7 +5,7 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 👷 Check out what I'm currently working on
 
 
-- [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (2 weeks ago)
+- [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (3 weeks ago)
 - [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (1 month ago)
 - [surrealdb/surrealdb.go](https://github.com/surrealdb/surrealdb.go) - SurrealDB driver for Golang (1 month ago)
 - [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web (2 months ago)
@@ -27,8 +27,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[SeaQL/sea-orm](https://github.com/SeaQL/sea-orm)** - 🐚 An async &amp; dynamic ORM for Rust (5 days ago)
-- **[chiselstrike/chiselstrike](https://github.com/chiselstrike/chiselstrike)** - ChiselStrike abstracts common backends components like databases and message queues, and let you drive them from a convenient TypeScript business logic layer (6 days ago)
+- **[terrastruct/d2](https://github.com/terrastruct/d2)** - D2 is a modern diagram scripting language that turns text to diagrams. (1 day ago)
+- **[SeaQL/sea-orm](https://github.com/SeaQL/sea-orm)** - 🐚 An async &amp; dynamic ORM for Rust (6 days ago)
+- **[chiselstrike/chiselstrike](https://github.com/chiselstrike/chiselstrike)** - ChiselStrike abstracts common backends components like databases and message queues, and let you drive them from a convenient TypeScript business logic layer (1 week ago)
 - **[mitchellh/zig-js](https://github.com/mitchellh/zig-js)** - Access the JS host environment from Zig compiled to WebAssembly. (1 week ago)
 - **[facebookincubator/buck2](https://github.com/facebookincubator/buck2)** - Build system, successor to Buck (1 week ago)
-- **[kubesphere/kubeeye](https://github.com/kubesphere/kubeeye)** - KubeEye aims to find various problems on Kubernetes, such as application misconfiguration, unhealthy cluster components and node problems. (1 week ago)
