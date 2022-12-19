@@ -27,8 +27,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
+- **[Shopify/toxiproxy](https://github.com/Shopify/toxiproxy)** - :alarm_clock: :fire: A TCP proxy to simulate network and system conditions for chaos and resiliency testing (today)
 - **[terrastruct/d2](https://github.com/terrastruct/d2)** - D2 is a modern diagram scripting language that turns text to diagrams. (1 week ago)
 - **[SeaQL/sea-orm](https://github.com/SeaQL/sea-orm)** - 🐚 An async &amp; dynamic ORM for Rust (1 week ago)
 - **[chiselstrike/chiselstrike](https://github.com/chiselstrike/chiselstrike)** - ChiselStrike abstracts common backends components like databases and message queues, and let you drive them from a convenient TypeScript business logic layer (1 week ago)
 - **[mitchellh/zig-js](https://github.com/mitchellh/zig-js)** - Access the JS host environment from Zig compiled to WebAssembly. (2 weeks ago)
-- **[facebookincubator/buck2](https://github.com/facebookincubator/buck2)** - Build system, successor to Buck (2 weeks ago)
