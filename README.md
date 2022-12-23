@@ -21,14 +21,14 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [WalletConnect/walletconnect-monorepo @ 2.1.4](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.1.4) (3 weeks ago)
+- [WalletConnect/walletconnect-monorepo @ 2.1.5](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.1.5) (1 day ago)
 - [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (2 months ago)
 
 #### ⭐ Recent Stars
 
 
-- **[vmstan/gravity-sync](https://github.com/vmstan/gravity-sync)** - 💫 The easy way to synchronize the DNS configuration of two Pi-hole 5.x instances. (2 days ago)
-- **[Shopify/toxiproxy](https://github.com/Shopify/toxiproxy)** - :alarm_clock: :fire: A TCP proxy to simulate network and system conditions for chaos and resiliency testing (3 days ago)
+- **[vmstan/gravity-sync](https://github.com/vmstan/gravity-sync)** - 💫 The easy way to synchronize the DNS configuration of two Pi-hole 5.x instances. (3 days ago)
+- **[Shopify/toxiproxy](https://github.com/Shopify/toxiproxy)** - :alarm_clock: :fire: A TCP proxy to simulate network and system conditions for chaos and resiliency testing (4 days ago)
 - **[terrastruct/d2](https://github.com/terrastruct/d2)** - D2 is a modern diagram scripting language that turns text to diagrams. (1 week ago)
 - **[SeaQL/sea-orm](https://github.com/SeaQL/sea-orm)** - 🐚 An async &amp; dynamic ORM for Rust (2 weeks ago)
 - **[chiselstrike/chiselstrike](https://github.com/chiselstrike/chiselstrike)** - ChiselStrike abstracts common backends components like databases and message queues, and let you drive them from a convenient TypeScript business logic layer (2 weeks ago)
