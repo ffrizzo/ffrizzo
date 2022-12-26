@@ -8,7 +8,7 @@ I'm [Fabiano](https://ffrizzo.com)
 - [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (1 month ago)
 - [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (1 month ago)
 - [surrealdb/surrealdb.go](https://github.com/surrealdb/surrealdb.go) - SurrealDB driver for Golang (2 months ago)
-- [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web (2 months ago)
+- [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web (3 months ago)
 - [WalletConnect/actions](https://github.com/WalletConnect/actions) - WalletConnect GitHub Actions (3 months ago)
 
 #### 👨‍💻 Repositories I created recently
@@ -21,14 +21,14 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [WalletConnect/walletconnect-monorepo @ 2.1.5](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.1.5) (3 days ago)
+- [WalletConnect/walletconnect-monorepo @ 2.1.5](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.1.5) (4 days ago)
 - [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (2 months ago)
 
 #### ⭐ Recent Stars
 
 
-- **[vmstan/gravity-sync](https://github.com/vmstan/gravity-sync)** - 💫 The easy way to synchronize the DNS configuration of two Pi-hole 5.x instances. (5 days ago)
-- **[Shopify/toxiproxy](https://github.com/Shopify/toxiproxy)** - :alarm_clock: :fire: A TCP proxy to simulate network and system conditions for chaos and resiliency testing (6 days ago)
-- **[terrastruct/d2](https://github.com/terrastruct/d2)** - D2 is a modern diagram scripting language that turns text to diagrams. (1 week ago)
+- **[vmstan/gravity-sync](https://github.com/vmstan/gravity-sync)** - 💫 The easy way to synchronize the DNS configuration of two Pi-hole 5.x instances. (6 days ago)
+- **[Shopify/toxiproxy](https://github.com/Shopify/toxiproxy)** - :alarm_clock: :fire: A TCP proxy to simulate network and system conditions for chaos and resiliency testing (1 week ago)
+- **[terrastruct/d2](https://github.com/terrastruct/d2)** - D2 is a modern diagram scripting language that turns text to diagrams. (2 weeks ago)
 - **[SeaQL/sea-orm](https://github.com/SeaQL/sea-orm)** - 🐚 An async &amp; dynamic ORM for Rust (2 weeks ago)
 - **[chiselstrike/chiselstrike](https://github.com/chiselstrike/chiselstrike)** - ChiselStrike abstracts common backends components like databases and message queues, and let you drive them from a convenient TypeScript business logic layer (2 weeks ago)
