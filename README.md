@@ -21,13 +21,13 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [WalletConnect/walletconnect-monorepo @ 2.1.5](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.1.5) (6 days ago)
-- [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (2 months ago)
+- [WalletConnect/walletconnect-monorepo @ 2.1.5](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.1.5) (1 week ago)
+- [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (3 months ago)
 
 #### ⭐ Recent Stars
 
 
-- **[leandromoreira/cdn-up-and-running](https://github.com/leandromoreira/cdn-up-and-running)** - CDN Up and Running - Building a CDN from Scratch to Learn (1 day ago)
+- **[leandromoreira/cdn-up-and-running](https://github.com/leandromoreira/cdn-up-and-running)** - CDN Up and Running - Building a CDN from Scratch to Learn (2 days ago)
 - **[vmstan/gravity-sync](https://github.com/vmstan/gravity-sync)** - 💫 The easy way to synchronize the DNS configuration of two Pi-hole 5.x instances. (1 week ago)
 - **[Shopify/toxiproxy](https://github.com/Shopify/toxiproxy)** - :alarm_clock: :fire: A TCP proxy to simulate network and system conditions for chaos and resiliency testing (1 week ago)
 - **[terrastruct/d2](https://github.com/terrastruct/d2)** - D2 is a modern diagram scripting language that turns text to diagrams. (2 weeks ago)
