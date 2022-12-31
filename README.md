@@ -27,8 +27,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[leandromoreira/cdn-up-and-running](https://github.com/leandromoreira/cdn-up-and-running)** - CDN Up and Running - Building a CDN from Scratch to Learn (3 days ago)
+- **[A-poc/RedTeam-Tools](https://github.com/A-poc/RedTeam-Tools)** - Tools and Techniques for Red Team / Penetration Testing (1 day ago)
+- **[leandromoreira/cdn-up-and-running](https://github.com/leandromoreira/cdn-up-and-running)** - CDN Up and Running - Building a CDN from Scratch to Learn about CDN (4 days ago)
 - **[vmstan/gravity-sync](https://github.com/vmstan/gravity-sync)** - 💫 The easy way to synchronize the DNS configuration of two Pi-hole 5.x instances. (1 week ago)
 - **[Shopify/toxiproxy](https://github.com/Shopify/toxiproxy)** - :alarm_clock: :fire: A TCP proxy to simulate network and system conditions for chaos and resiliency testing (1 week ago)
 - **[terrastruct/d2](https://github.com/terrastruct/d2)** - D2 is a modern diagram scripting language that turns text to diagrams. (2 weeks ago)
-- **[SeaQL/sea-orm](https://github.com/SeaQL/sea-orm)** - 🐚 An async &amp; dynamic ORM for Rust (3 weeks ago)
