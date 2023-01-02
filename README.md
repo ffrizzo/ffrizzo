@@ -27,8 +27,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[segalion/raspipool](https://github.com/segalion/raspipool)** - Swimming Pool Automation Systen with Raspberry Pi &#43; Home Assistant (1 day ago)
-- **[A-poc/RedTeam-Tools](https://github.com/A-poc/RedTeam-Tools)** - Tools and Techniques for Red Team / Penetration Testing (2 days ago)
-- **[leandromoreira/cdn-up-and-running](https://github.com/leandromoreira/cdn-up-and-running)** - CDN Up and Running - Building a CDN from Scratch to Learn about CDN (5 days ago)
+- **[segalion/raspipool](https://github.com/segalion/raspipool)** - Swimming Pool Automation Systen with Raspberry Pi &#43; Home Assistant (2 days ago)
+- **[A-poc/RedTeam-Tools](https://github.com/A-poc/RedTeam-Tools)** - Tools and Techniques for Red Team / Penetration Testing (3 days ago)
+- **[leandromoreira/cdn-up-and-running](https://github.com/leandromoreira/cdn-up-and-running)** - CDN Up and Running - Building a CDN from Scratch to Learn about CDN (6 days ago)
 - **[vmstan/gravity-sync](https://github.com/vmstan/gravity-sync)** - 💫 The easy way to synchronize the DNS configuration of two Pi-hole 5.x instances. (1 week ago)
-- **[Shopify/toxiproxy](https://github.com/Shopify/toxiproxy)** - :alarm_clock: :fire: A TCP proxy to simulate network and system conditions for chaos and resiliency testing (1 week ago)
+- **[Shopify/toxiproxy](https://github.com/Shopify/toxiproxy)** - :alarm_clock: :fire: A TCP proxy to simulate network and system conditions for chaos and resiliency testing (2 weeks ago)
