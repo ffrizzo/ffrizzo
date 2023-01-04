@@ -27,8 +27,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[mitchellh/zig-objc](https://github.com/mitchellh/zig-objc)** - Objective-C runtime bindings for Zig (Zig calling ObjC). (today)
-- **[segalion/raspipool](https://github.com/segalion/raspipool)** - Swimming Pool Automation Systen with Raspberry Pi &#43; Home Assistant (3 days ago)
-- **[A-poc/RedTeam-Tools](https://github.com/A-poc/RedTeam-Tools)** - Tools and Techniques for Red Team / Penetration Testing (4 days ago)
+- **[mitchellh/zig-objc](https://github.com/mitchellh/zig-objc)** - Objective-C runtime bindings for Zig (Zig calling ObjC). (1 day ago)
+- **[segalion/raspipool](https://github.com/segalion/raspipool)** - Swimming Pool Automation Systen with Raspberry Pi &#43; Home Assistant (4 days ago)
+- **[A-poc/RedTeam-Tools](https://github.com/A-poc/RedTeam-Tools)** - Tools and Techniques for Red Team / Penetration Testing (5 days ago)
 - **[leandromoreira/cdn-up-and-running](https://github.com/leandromoreira/cdn-up-and-running)** - CDN Up and Running - Building a CDN from Scratch to Learn about CDN (1 week ago)
 - **[vmstan/gravity-sync](https://github.com/vmstan/gravity-sync)** - 💫 The easy way to synchronize the DNS configuration of two Pi-hole 5.x instances. (2 weeks ago)
