@@ -21,14 +21,14 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [WalletConnect/walletconnect-monorepo @ 2.1.5](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.1.5) (2 weeks ago)
+- [WalletConnect/walletconnect-monorepo @ 2.2.0](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.2.0) (1 day ago)
 - [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (3 months ago)
 
 #### ⭐ Recent Stars
 
 
-- **[mitchellh/zig-objc](https://github.com/mitchellh/zig-objc)** - Objective-C runtime bindings for Zig (Zig calling ObjC). (2 days ago)
-- **[segalion/raspipool](https://github.com/segalion/raspipool)** - Swimming Pool Automation Systen with Raspberry Pi &#43; Home Assistant (5 days ago)
-- **[A-poc/RedTeam-Tools](https://github.com/A-poc/RedTeam-Tools)** - Tools and Techniques for Red Team / Penetration Testing (6 days ago)
+- **[mitchellh/zig-objc](https://github.com/mitchellh/zig-objc)** - Objective-C runtime bindings for Zig (Zig calling ObjC). (3 days ago)
+- **[segalion/raspipool](https://github.com/segalion/raspipool)** - Swimming Pool Automation Systen with Raspberry Pi &#43; Home Assistant (6 days ago)
+- **[A-poc/RedTeam-Tools](https://github.com/A-poc/RedTeam-Tools)** - Tools and Techniques for Red Team / Penetration Testing (1 week ago)
 - **[leandromoreira/cdn-up-and-running](https://github.com/leandromoreira/cdn-up-and-running)** - CDN Up and Running - Building a CDN from Scratch to Learn about CDN (1 week ago)
 - **[vmstan/gravity-sync](https://github.com/vmstan/gravity-sync)** - 💫 The easy way to synchronize the DNS configuration of two Pi-hole 5.x instances. (2 weeks ago)
