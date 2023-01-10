@@ -27,8 +27,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
+- **[FyroxEngine/Fyrox](https://github.com/FyroxEngine/Fyrox)** - 3D and 2D game engine written in Rust (today)
 - **[sourcegraph/conc](https://github.com/sourcegraph/conc)** - Better structured concurrency for go (4 days ago)
 - **[mitchellh/zig-objc](https://github.com/mitchellh/zig-objc)** - Objective-C runtime bindings for Zig (Zig calling ObjC). (1 week ago)
 - **[segalion/raspipool](https://github.com/segalion/raspipool)** - Swimming Pool Automation Systen with Raspberry Pi &#43; Home Assistant (1 week ago)
 - **[A-poc/RedTeam-Tools](https://github.com/A-poc/RedTeam-Tools)** - Tools and Techniques for Red Team / Penetration Testing (1 week ago)
-- **[leandromoreira/cdn-up-and-running](https://github.com/leandromoreira/cdn-up-and-running)** - CDN Up and Running - Building a CDN from Scratch to Learn about CDN (2 weeks ago)
