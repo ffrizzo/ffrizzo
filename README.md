@@ -21,14 +21,14 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [WalletConnect/walletconnect-monorepo @ 2.2.1](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.2.1) (3 days ago)
+- [WalletConnect/walletconnect-monorepo @ 2.2.1](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.2.1) (4 days ago)
 - [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (3 months ago)
 
 #### ⭐ Recent Stars
 
 
-- **[sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX)** - Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers. (1 day ago)
-- **[FyroxEngine/Fyrox](https://github.com/FyroxEngine/Fyrox)** - 3D and 2D game engine written in Rust (3 days ago)
+- **[GTO2013/DirectNT64](https://github.com/GTO2013/DirectNT64)** - 64 Bit Port of the DirectNT Driver (1 day ago)
+- **[sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX)** - Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers. (2 days ago)
+- **[FyroxEngine/Fyrox](https://github.com/FyroxEngine/Fyrox)** - 3D and 2D game engine written in Rust (4 days ago)
 - **[sourcegraph/conc](https://github.com/sourcegraph/conc)** - Better structured concurrency for go (1 week ago)
 - **[mitchellh/zig-objc](https://github.com/mitchellh/zig-objc)** - Objective-C runtime bindings for Zig (Zig calling ObjC). (1 week ago)
-- **[segalion/raspipool](https://github.com/segalion/raspipool)** - Swimming Pool Automation Systen with Raspberry Pi &#43; Home Assistant (1 week ago)
