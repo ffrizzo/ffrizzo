@@ -21,14 +21,14 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [WalletConnect/walletconnect-monorepo @ 2.2.1](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.2.1) (5 days ago)
+- [WalletConnect/walletconnect-monorepo @ 2.2.1](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.2.1) (6 days ago)
 - [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (3 months ago)
 
 #### ⭐ Recent Stars
 
 
-- **[GTO2013/DirectNT64](https://github.com/GTO2013/DirectNT64)** - 64 Bit Port of the DirectNT Driver (2 days ago)
-- **[sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX)** - Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers. (3 days ago)
-- **[FyroxEngine/Fyrox](https://github.com/FyroxEngine/Fyrox)** - 3D and 2D game engine written in Rust (5 days ago)
+- **[GTO2013/DirectNT64](https://github.com/GTO2013/DirectNT64)** - 64 Bit Port of the DirectNT Driver (3 days ago)
+- **[sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX)** - Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers. (4 days ago)
+- **[FyroxEngine/Fyrox](https://github.com/FyroxEngine/Fyrox)** - 3D and 2D game engine written in Rust (6 days ago)
 - **[sourcegraph/conc](https://github.com/sourcegraph/conc)** - Better structured concurrency for go (1 week ago)
 - **[mitchellh/zig-objc](https://github.com/mitchellh/zig-objc)** - Objective-C runtime bindings for Zig (Zig calling ObjC). (1 week ago)
