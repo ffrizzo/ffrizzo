@@ -27,8 +27,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[GTO2013/DirectNT64](https://github.com/GTO2013/DirectNT64)** - 64 Bit Port of the DirectNT Driver (4 days ago)
-- **[sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX)** - Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers. (5 days ago)
+- **[nnethercote/dhat-rs](https://github.com/nnethercote/dhat-rs)** - Heap profiling and ad hoc profiling for Rust programs. (1 day ago)
+- **[GTO2013/DirectNT64](https://github.com/GTO2013/DirectNT64)** - 64 Bit Port of the DirectNT Driver (5 days ago)
+- **[sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX)** - Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers. (6 days ago)
 - **[FyroxEngine/Fyrox](https://github.com/FyroxEngine/Fyrox)** - 3D and 2D game engine written in Rust (1 week ago)
 - **[sourcegraph/conc](https://github.com/sourcegraph/conc)** - Better structured concurrency for go (1 week ago)
-- **[mitchellh/zig-objc](https://github.com/mitchellh/zig-objc)** - Objective-C runtime bindings for Zig (Zig calling ObjC). (2 weeks ago)
