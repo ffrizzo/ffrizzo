@@ -27,8 +27,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
+- **[watchexec/watchexec](https://github.com/watchexec/watchexec)** - Executes commands in response to file modifications (today)
+- **[CarlBugeja/Open-Reflow](https://github.com/CarlBugeja/Open-Reflow)** - A controller for self-reflowing PCBs (today)
 - **[emilk/egui](https://github.com/emilk/egui)** - egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native (1 day ago)
 - **[nnethercote/dhat-rs](https://github.com/nnethercote/dhat-rs)** - Heap profiling and ad hoc profiling for Rust programs. (3 days ago)
 - **[GTO2013/DirectNT64](https://github.com/GTO2013/DirectNT64)** - 64 Bit Port of the DirectNT Driver (1 week ago)
-- **[sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX)** - Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers. (1 week ago)
-- **[FyroxEngine/Fyrox](https://github.com/FyroxEngine/Fyrox)** - 3D and 2D game engine written in Rust (1 week ago)
