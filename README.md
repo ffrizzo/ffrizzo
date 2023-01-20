@@ -5,7 +5,7 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 👷 Check out what I'm currently working on
 
 
-- [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (1 week ago)
+- [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (2 weeks ago)
 - [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (2 months ago)
 - [surrealdb/surrealdb.go](https://github.com/surrealdb/surrealdb.go) - SurrealDB driver for Golang (3 months ago)
 - [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web (3 months ago)
@@ -27,8 +27,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[emilk/egui](https://github.com/emilk/egui)** - egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native (today)
-- **[nnethercote/dhat-rs](https://github.com/nnethercote/dhat-rs)** - Heap profiling and ad hoc profiling for Rust programs. (2 days ago)
-- **[GTO2013/DirectNT64](https://github.com/GTO2013/DirectNT64)** - 64 Bit Port of the DirectNT Driver (6 days ago)
+- **[emilk/egui](https://github.com/emilk/egui)** - egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native (1 day ago)
+- **[nnethercote/dhat-rs](https://github.com/nnethercote/dhat-rs)** - Heap profiling and ad hoc profiling for Rust programs. (3 days ago)
+- **[GTO2013/DirectNT64](https://github.com/GTO2013/DirectNT64)** - 64 Bit Port of the DirectNT Driver (1 week ago)
 - **[sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX)** - Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers. (1 week ago)
 - **[FyroxEngine/Fyrox](https://github.com/FyroxEngine/Fyrox)** - 3D and 2D game engine written in Rust (1 week ago)
