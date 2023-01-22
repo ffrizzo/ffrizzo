@@ -27,8 +27,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[watchexec/watchexec](https://github.com/watchexec/watchexec)** - Executes commands in response to file modifications (1 day ago)
-- **[CarlBugeja/Open-Reflow](https://github.com/CarlBugeja/Open-Reflow)** - A controller for self-reflowing PCBs (1 day ago)
-- **[emilk/egui](https://github.com/emilk/egui)** - egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native (2 days ago)
-- **[nnethercote/dhat-rs](https://github.com/nnethercote/dhat-rs)** - Heap profiling and ad hoc profiling for Rust programs. (4 days ago)
+- **[watchexec/watchexec](https://github.com/watchexec/watchexec)** - Executes commands in response to file modifications (2 days ago)
+- **[CarlBugeja/Open-Reflow](https://github.com/CarlBugeja/Open-Reflow)** - A controller for self-reflowing PCBs (2 days ago)
+- **[emilk/egui](https://github.com/emilk/egui)** - egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native (3 days ago)
+- **[nnethercote/dhat-rs](https://github.com/nnethercote/dhat-rs)** - Heap profiling and ad hoc profiling for Rust programs. (5 days ago)
 - **[GTO2013/DirectNT64](https://github.com/GTO2013/DirectNT64)** - 64 Bit Port of the DirectNT Driver (1 week ago)
