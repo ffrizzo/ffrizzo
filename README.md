@@ -21,14 +21,14 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [WalletConnect/walletconnect-monorepo @ 2.2.1](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.2.1) (1 week ago)
+- [WalletConnect/walletconnect-monorepo @ 2.3.0](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.3.0) (1 day ago)
 - [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (3 months ago)
 
 #### ⭐ Recent Stars
 
 
-- **[watchexec/watchexec](https://github.com/watchexec/watchexec)** - Executes commands in response to file modifications (3 days ago)
-- **[CarlBugeja/Open-Reflow](https://github.com/CarlBugeja/Open-Reflow)** - A controller for self-reflowing PCBs (3 days ago)
-- **[emilk/egui](https://github.com/emilk/egui)** - egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native (4 days ago)
-- **[nnethercote/dhat-rs](https://github.com/nnethercote/dhat-rs)** - Heap profiling and ad hoc profiling for Rust programs. (6 days ago)
+- **[watchexec/watchexec](https://github.com/watchexec/watchexec)** - Executes commands in response to file modifications (4 days ago)
+- **[CarlBugeja/Open-Reflow](https://github.com/CarlBugeja/Open-Reflow)** - A controller for self-reflowing PCBs (4 days ago)
+- **[emilk/egui](https://github.com/emilk/egui)** - egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native (5 days ago)
+- **[nnethercote/dhat-rs](https://github.com/nnethercote/dhat-rs)** - Heap profiling and ad hoc profiling for Rust programs. (1 week ago)
 - **[GTO2013/DirectNT64](https://github.com/GTO2013/DirectNT64)** - 64 Bit Port of the DirectNT Driver (1 week ago)
