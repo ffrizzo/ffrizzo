@@ -9,7 +9,7 @@ I'm [Fabiano](https://ffrizzo.com)
 - [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (2 months ago)
 - [surrealdb/surrealdb.go](https://github.com/surrealdb/surrealdb.go) - SurrealDB driver for Golang (3 months ago)
 - [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web (4 months ago)
-- [WalletConnect/actions](https://github.com/WalletConnect/actions) - WalletConnect GitHub Actions (4 months ago)
+- [WalletConnect/actions](https://github.com/WalletConnect/actions) - WalletConnect GitHub Actions (5 months ago)
 
 #### 👨‍💻 Repositories I created recently
 - **[ffrizzo/e36-can](https://github.com/ffrizzo/e36-can)** - AC Module for BMW E36 with swap to MS43 ECU
@@ -21,7 +21,7 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [WalletConnect/walletconnect-monorepo @ 2.3.2](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.3.2) (2 days ago)
+- [WalletConnect/walletconnect-monorepo @ 2.3.2](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.3.2) (3 days ago)
 - [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (4 months ago)
 
 #### ⭐ Recent Stars
