@@ -21,7 +21,7 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [WalletConnect/walletconnect-monorepo @ 2.3.2](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.3.2) (5 days ago)
+- [WalletConnect/walletconnect-monorepo @ 2.3.2](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.3.2) (6 days ago)
 - [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (4 months ago)
 
 #### ⭐ Recent Stars
