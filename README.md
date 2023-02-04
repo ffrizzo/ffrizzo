@@ -21,14 +21,14 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [WalletConnect/walletconnect-monorepo @ 2.3.3](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.3.3) (2 days ago)
+- [WalletConnect/walletconnect-monorepo @ 2.3.3](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.3.3) (3 days ago)
 - [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (4 months ago)
 
 #### ⭐ Recent Stars
 
 
-- **[ucan-wg/awake](https://github.com/ucan-wg/awake)** - AWAKE Protocol Specification (1 day ago)
-- **[henvic/httpretty](https://github.com/henvic/httpretty)** - Package httpretty prints the HTTP requests you make with Go pretty on your terminal. (1 day ago)
+- **[ucan-wg/awake](https://github.com/ucan-wg/awake)** - AWAKE Protocol Specification (2 days ago)
+- **[henvic/httpretty](https://github.com/henvic/httpretty)** - Package httpretty prints the HTTP requests you make with Go pretty on your terminal. (2 days ago)
 - **[watchexec/watchexec](https://github.com/watchexec/watchexec)** - Executes commands in response to file modifications (2 weeks ago)
 - **[CarlBugeja/Open-Reflow](https://github.com/CarlBugeja/Open-Reflow)** - A controller for self-reflowing PCBs (2 weeks ago)
 - **[emilk/egui](https://github.com/emilk/egui)** - egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native (2 weeks ago)
