@@ -27,8 +27,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[surrealdb/awesome-surreal](https://github.com/surrealdb/awesome-surreal)** - A curated list of SurrealDB resources, tools, utilities, and applications. (today)
-- **[ellie/atuin](https://github.com/ellie/atuin)** - 🐢 Magical shell history (today)
-- **[hashicorp/nomad-driver-podman](https://github.com/hashicorp/nomad-driver-podman)** - A nomad taskdriver for podman containers (2 days ago)
-- **[ucan-wg/awake](https://github.com/ucan-wg/awake)** - AWAKE Protocol Specification (5 days ago)
-- **[henvic/httpretty](https://github.com/henvic/httpretty)** - Package httpretty prints the HTTP requests you make with Go pretty on your terminal. (5 days ago)
+- **[zadam/trilium](https://github.com/zadam/trilium)** - Build your personal knowledge base with Trilium Notes (today)
+- **[benbusby/whoogle-search](https://github.com/benbusby/whoogle-search)** - A self-hosted, ad-free, privacy-respecting metasearch engine (today)
+- **[esphome/esphome](https://github.com/esphome/esphome)** - ESPHome is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems. (today)
+- **[requarks/wiki](https://github.com/requarks/wiki)** - Wiki.js | A modern and powerful wiki app built on Node.js (today)
+- **[nostr-protocol/nostr](https://github.com/nostr-protocol/nostr)** - a truly censorship-resistant alternative to Twitter that has a chance of working (today)
