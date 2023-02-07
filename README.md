@@ -21,14 +21,14 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [WalletConnect/walletconnect-monorepo @ 2.3.3](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.3.3) (5 days ago)
+- [WalletConnect/walletconnect-monorepo @ 2.3.3](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.3.3) (6 days ago)
 - [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (4 months ago)
 
 #### ⭐ Recent Stars
 
 
-- **[hashicorp/nomad-driver-podman](https://github.com/hashicorp/nomad-driver-podman)** - A nomad taskdriver for podman containers (1 day ago)
-- **[ucan-wg/awake](https://github.com/ucan-wg/awake)** - AWAKE Protocol Specification (4 days ago)
-- **[henvic/httpretty](https://github.com/henvic/httpretty)** - Package httpretty prints the HTTP requests you make with Go pretty on your terminal. (4 days ago)
-- **[watchexec/watchexec](https://github.com/watchexec/watchexec)** - Executes commands in response to file modifications (2 weeks ago)
-- **[CarlBugeja/Open-Reflow](https://github.com/CarlBugeja/Open-Reflow)** - A controller for self-reflowing PCBs (2 weeks ago)
+- **[surrealdb/awesome-surreal](https://github.com/surrealdb/awesome-surreal)** - A curated list of SurrealDB resources, tools, utilities, and applications. (today)
+- **[ellie/atuin](https://github.com/ellie/atuin)** - 🐢 Magical shell history (today)
+- **[hashicorp/nomad-driver-podman](https://github.com/hashicorp/nomad-driver-podman)** - A nomad taskdriver for podman containers (2 days ago)
+- **[ucan-wg/awake](https://github.com/ucan-wg/awake)** - AWAKE Protocol Specification (5 days ago)
+- **[henvic/httpretty](https://github.com/henvic/httpretty)** - Package httpretty prints the HTTP requests you make with Go pretty on your terminal. (5 days ago)
