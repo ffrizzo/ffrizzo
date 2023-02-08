@@ -27,8 +27,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
+- **[aljazceru/awesome-nostr](https://github.com/aljazceru/awesome-nostr)** - A curated list of nostr projects and resources   (today)
+- **[getumbrel/umbrel-nostr-relay](https://github.com/getumbrel/umbrel-nostr-relay)** - The official Nostr Relay app for Umbrel. Run your private relay to backup all your activity on Nostr. (today)
+- **[scsibug/nostr-rs-relay](https://github.com/scsibug/nostr-rs-relay)** - Mirror of https://sr.ht/~gheartsfield/nostr-rs-relay/ (today)
 - **[zadam/trilium](https://github.com/zadam/trilium)** - Build your personal knowledge base with Trilium Notes (1 day ago)
 - **[benbusby/whoogle-search](https://github.com/benbusby/whoogle-search)** - A self-hosted, ad-free, privacy-respecting metasearch engine (1 day ago)
-- **[esphome/esphome](https://github.com/esphome/esphome)** - ESPHome is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems. (1 day ago)
-- **[requarks/wiki](https://github.com/requarks/wiki)** - Wiki.js | A modern and powerful wiki app built on Node.js (1 day ago)
-- **[nostr-protocol/nostr](https://github.com/nostr-protocol/nostr)** - a truly censorship-resistant alternative to Twitter that has a chance of working (1 day ago)
