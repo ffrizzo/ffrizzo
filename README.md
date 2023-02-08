@@ -21,14 +21,14 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [WalletConnect/walletconnect-monorepo @ 2.3.3](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.3.3) (6 days ago)
+- [WalletConnect/walletconnect-monorepo @ 2.3.3](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.3.3) (1 week ago)
 - [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (4 months ago)
 
 #### ⭐ Recent Stars
 
 
-- **[zadam/trilium](https://github.com/zadam/trilium)** - Build your personal knowledge base with Trilium Notes (today)
-- **[benbusby/whoogle-search](https://github.com/benbusby/whoogle-search)** - A self-hosted, ad-free, privacy-respecting metasearch engine (today)
-- **[esphome/esphome](https://github.com/esphome/esphome)** - ESPHome is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems. (today)
-- **[requarks/wiki](https://github.com/requarks/wiki)** - Wiki.js | A modern and powerful wiki app built on Node.js (today)
-- **[nostr-protocol/nostr](https://github.com/nostr-protocol/nostr)** - a truly censorship-resistant alternative to Twitter that has a chance of working (today)
+- **[zadam/trilium](https://github.com/zadam/trilium)** - Build your personal knowledge base with Trilium Notes (1 day ago)
+- **[benbusby/whoogle-search](https://github.com/benbusby/whoogle-search)** - A self-hosted, ad-free, privacy-respecting metasearch engine (1 day ago)
+- **[esphome/esphome](https://github.com/esphome/esphome)** - ESPHome is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems. (1 day ago)
+- **[requarks/wiki](https://github.com/requarks/wiki)** - Wiki.js | A modern and powerful wiki app built on Node.js (1 day ago)
+- **[nostr-protocol/nostr](https://github.com/nostr-protocol/nostr)** - a truly censorship-resistant alternative to Twitter that has a chance of working (1 day ago)
