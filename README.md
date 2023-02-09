@@ -27,8 +27,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[aljazceru/awesome-nostr](https://github.com/aljazceru/awesome-nostr)** - A curated list of nostr projects and resources   (today)
-- **[getumbrel/umbrel-nostr-relay](https://github.com/getumbrel/umbrel-nostr-relay)** - The official Nostr Relay app for Umbrel. Run your private relay to backup all your activity on Nostr. (today)
-- **[scsibug/nostr-rs-relay](https://github.com/scsibug/nostr-rs-relay)** - Mirror of https://sr.ht/~gheartsfield/nostr-rs-relay/ (today)
-- **[zadam/trilium](https://github.com/zadam/trilium)** - Build your personal knowledge base with Trilium Notes (1 day ago)
-- **[benbusby/whoogle-search](https://github.com/benbusby/whoogle-search)** - A self-hosted, ad-free, privacy-respecting metasearch engine (1 day ago)
+- **[aljazceru/awesome-nostr](https://github.com/aljazceru/awesome-nostr)** - A curated list of nostr projects and resources   (1 day ago)
+- **[getumbrel/umbrel-nostr-relay](https://github.com/getumbrel/umbrel-nostr-relay)** - The official Nostr Relay app for Umbrel. Run your private relay to backup all your activity on Nostr. (1 day ago)
+- **[scsibug/nostr-rs-relay](https://github.com/scsibug/nostr-rs-relay)** - Mirror of https://sr.ht/~gheartsfield/nostr-rs-relay/ (1 day ago)
+- **[zadam/trilium](https://github.com/zadam/trilium)** - Build your personal knowledge base with Trilium Notes (2 days ago)
+- **[benbusby/whoogle-search](https://github.com/benbusby/whoogle-search)** - A self-hosted, ad-free, privacy-respecting metasearch engine (2 days ago)
