@@ -27,8 +27,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
+- **[rustdesk/rustdesk-server](https://github.com/rustdesk/rustdesk-server)** - RustDesk Server Program (today)
 - **[grunch/rana](https://github.com/grunch/rana)** - Nostr public key mining tool (1 day ago)
 - **[fiatjaf/nos2x](https://github.com/fiatjaf/nos2x)** - nostr signer extension (1 day ago)
 - **[rot13maxi/key-convertr](https://github.com/rot13maxi/key-convertr)** - convert nostr keys and note-ids between hex and bech32 (1 day ago)
 - **[aljazceru/awesome-nostr](https://github.com/aljazceru/awesome-nostr)** - A curated list of nostr projects and resources   (2 days ago)
-- **[getumbrel/umbrel-nostr-relay](https://github.com/getumbrel/umbrel-nostr-relay)** - The official Nostr Relay app for Umbrel. Run your private relay to backup all your activity on Nostr. (2 days ago)
