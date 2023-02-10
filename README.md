@@ -21,14 +21,14 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [WalletConnect/walletconnect-monorepo @ 2.4.0](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.4.0) (today)
+- [WalletConnect/walletconnect-monorepo @ 2.4.0](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.4.0) (1 day ago)
 - [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (4 months ago)
 
 #### ⭐ Recent Stars
 
 
-- **[aljazceru/awesome-nostr](https://github.com/aljazceru/awesome-nostr)** - A curated list of nostr projects and resources   (1 day ago)
-- **[getumbrel/umbrel-nostr-relay](https://github.com/getumbrel/umbrel-nostr-relay)** - The official Nostr Relay app for Umbrel. Run your private relay to backup all your activity on Nostr. (1 day ago)
-- **[scsibug/nostr-rs-relay](https://github.com/scsibug/nostr-rs-relay)** - Mirror of https://sr.ht/~gheartsfield/nostr-rs-relay/ (1 day ago)
-- **[zadam/trilium](https://github.com/zadam/trilium)** - Build your personal knowledge base with Trilium Notes (2 days ago)
-- **[benbusby/whoogle-search](https://github.com/benbusby/whoogle-search)** - A self-hosted, ad-free, privacy-respecting metasearch engine (2 days ago)
+- **[grunch/rana](https://github.com/grunch/rana)** - Nostr public key mining tool (1 day ago)
+- **[fiatjaf/nos2x](https://github.com/fiatjaf/nos2x)** - nostr signer extension (1 day ago)
+- **[rot13maxi/key-convertr](https://github.com/rot13maxi/key-convertr)** - convert nostr keys and note-ids between hex and bech32 (1 day ago)
+- **[aljazceru/awesome-nostr](https://github.com/aljazceru/awesome-nostr)** - A curated list of nostr projects and resources   (2 days ago)
+- **[getumbrel/umbrel-nostr-relay](https://github.com/getumbrel/umbrel-nostr-relay)** - The official Nostr Relay app for Umbrel. Run your private relay to backup all your activity on Nostr. (2 days ago)
