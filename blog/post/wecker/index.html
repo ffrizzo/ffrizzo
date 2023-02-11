@@ -1,0 +1,161 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Wercker - Build e Deploy de maneira facil.</title>
+<style>html body{font-family:raleway,sans-serif;background-color:#fff}:root{--accent:#4CAC9D;--border-width:5px}</style>
+<link rel=stylesheet href=https://ffrizzo.com/blog/css/main.css>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css integrity=sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js></script>
+<script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js integrity=sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa crossorigin=anonymous></script>
+<script>$(document).on('click',function(){$('.collapse').collapse('hide')})</script>
+<meta name=generator content="Hugo 0.92.1">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63537429-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-63537429-1')</script>
+<script type=text/javascript async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class=container>
+<div class=navbar-header>
+<a class="navbar-brand visible-xs" href=#>Wercker - Build e Deploy de maneira facil.</a>
+<button class=navbar-toggle data-target=.navbar-collapse data-toggle=collapse>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+</button>
+</div>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+<li><a href=/blog/>Home</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class=navbar-icon><a href=mailto:ffrizzo@gmail.com><i class="fa fa-envelope-o"></i></a></li>
+<li class=navbar-icon><a href=https://github.com/ffrizzo/><i class="fa fa-github"></i></a></li>
+<li class=navbar-icon><a href=https://twitter.com/ffrizzo/><i class="fa fa-twitter"></i></a></li>
+<li class=navbar-icon><a href=https://www.linkedin.com/in/ffrizzo/><i class="fa fa-linkedin"></i></a></li>
+<li class=navbar-icon><a href=https://www.stackoverflow.com/users/1550221/fabiano-frizzo/><i class="fa fa-stack-overflow"></i></a></li>
+</ul>
+</div>
+</div>
+</nav>
+<main>
+<div class=item>
+<h4><a href=/blog/post/wecker/>Wercker - Build e Deploy de maneira facil.</a></h4>
+<h5>June 10, 2015</h5>
+<a href=https://ffrizzo.com/blogtags/deployment><kbd class=item-tag>deployment</kbd></a>
+<a href=https://ffrizzo.com/blogtags/golang><kbd class=item-tag>golang</kbd></a>
+<a href=https://ffrizzo.com/blogtags/docker><kbd class=item-tag>docker</kbd></a>
+<a href=https://ffrizzo.com/blogtags/wercker><kbd class=item-tag>wercker</kbd></a>
+</div>
+<br> <div class=text-justify><p>O que é o <a href=http://wercker.com>Wercker</a>?</p>
+<p>Wercker é uma plataforma para facilitar as tarefas de build e deployment. A versão atual é utiliza o <a href=http://docker.com>Docker</a> para executar os builds, assim você pode usar o Wercker para fazer o build e deployment de qualquer linguagem basta utilizar uma imagem Docker e configurar os passos a serem executados pelo. Você pode customizar scripts para executar os passos tanto no build quanto no deployment assim evitando retrabalho quando precisar fazer o processo para outra aplicação que tenha a mesma estrutura. Não esqueça de compartilhar estes scripts com a comunidade, para isso você vai precisar criar um repositório separado contendo um arquivo <strong>run.sh</strong> e um arquivo <strong>wercker-step.yml</strong>, o <strong>wercker-step.yml</strong> é o arquivo de manifesto ele vai conter as informações sobre o passo que você esta criando, o <strong>run.sh</strong> vai conter os comandos que o seu passo vai executar, e claro não podemos esquecer de adicionar um bom <strong>README</strong> a este reposiório.</p>
+<p>Agora vamos a um exemplo. Vou utilizar o a configuração que fiz para o build e deployment do blog no <a href=https://pages.github.com>GitHub Pages</a>. Abaixo esta o arquivo <strong>wercker.yml</strong> completo.</p>
+<pre tabindex=0><code>box: google/golang
+build:
+  steps:
+    - setup-go-workspace
+    - script:
+        name: setup hugo
+        code: go get github.com/spf13/hugo
+    - script:
+        name: build app
+        code: |
+              cd /pipeline/source
+              hugo
+deploy:
+  steps:
+    - lukevivier/gh-pages:
+        token: $GIT_TOKEN
+        domain: blog.ffrizzo.com
+        basedir: ./public
+
+</code></pre><p>Como ja falei anteriormente o Wercker tem o Docker como base então podemos utilizar qualquer image Docker neste caso estou utilizando a imagem <strong>google/golang</strong> esta esta definida em <strong>box: google/golang</strong>.</p>
+<p>Os passos para executar o build e criar os arquivos para deployment estão descritos em <strong>build</strong>.</p>
+<p>Os Passos</p>
+<ul>
+<li><strong>step-go-workspace</strong> configra todas as variáveis de ambiente para utilizaros GO</li>
+<li><strong>script setup hugo</strong> aqui estamos baixando o <strong>hugo</strong> o comando <strong>go get</strong> vai baixar o hugo e todas as suas dependências e também irá fazer o build adicionando o hugo ao path.</li>
+<li><strong>script build app</strong> aqui estamos acessando a pasta aonde o source code é baixado pelo wercker e em seguida rodamos o hugo para criar a pasta <strong>public</strong> que é utilizada para o deploy.</li>
+</ul>
+<p>Segue um link para visualisar como os passos são executados no wercker <a href=https://app.wercker.com/#build/556e271f00bccd884301e4fa>https://app.wercker.com/#build/556e271f00bccd884301e4fa</a></p>
+<p>O deployment</p>
+<ul>
+<li>
+<p><strong>lukevivier/gh-pages</strong> Este é um passo disponibilizado por outro desenvolvedor que estou utilizando. Eu preciso configurar o <strong>TOKEN</strong> o <strong>DOMAIN</strong> e o <strong>BASEDIR</strong></p>
+<ul>
+<li><strong>GIT_TOKEN</strong> é uma variavel de ambiente que que configuramos nas settings do projeto. Mas esta mais especifamente esta configurada para estar disponível somento no momento em que os passos de deployment estão sendo executados.</li>
+<li><strong>BASEDIR</strong> é a pasta que será utilizada para o <em>deployment</em> no GitHub Pages.</li>
+</ul>
+</li>
+</ul>
+<p>Agora que temos o nosso projeto configurado com um arquivo <strong>wercker.yml</strong> vamos fazer as configurações no ambiente do Wercker.
+Vamos criar uma nova aplicação
+<img src=/imgs/posts/wercker/wercker-create.png alt="alt text"></p>
+<p>No primeiro passo vamos selecionar se o nosso repositório esta no GitHub ou no BitBucket.
+<img src=/imgs/posts/wercker/wercker-create-1.png alt="alt text"></p>
+<p>O segundo passo qual o repositório que vamos utilizar.
+<img src=/imgs/posts/wercker/wercker-create-2.png alt="alt text"></p>
+<p>Terceiro passo é selecionar o Owner.
+<img src=/imgs/posts/wercker/wercker-create-3.png alt="alt text"></p>
+<p>Quarto passo selecionamos a forma como o wercker vai baixar o repositório.
+<img src=/imgs/posts/wercker/wercker-create-4.png alt="alt text"></p>
+<p>No quinto passo o wercker vai tentar identificar qual linguagem esta sendo utilizada no repositório e vai criar um arquivo <strong>wercker.yml</strong> inicial.
+<img src=/imgs/posts/wercker/wercker-create-5.png alt="alt text"></p>
+<p>O sexto e ultimo passo é para confirmar a criação da aplicação e decidir se você quer tornar esse repositório publico.
+<img src=/imgs/posts/wercker/wercker-create-6.png alt="alt text"></p>
+<p>No passo a seguir vamos configurar onde faremos o deployment.
+<img src=/imgs/posts/wercker/wercker-deploy.png alt="alt text"></p>
+<p>Vamos adicionar um novo deploy target do tipo <strong>Custom Deploy</strong>.</p>
+<ul>
+<li>Em <strong>Deploy Target Name</strong> vamos colocar GitHub Pages.</li>
+<li>Vamos selecionar o <strong>Auto Deploy</strong> assim toda vez que um novo commit for feito além do build também será executado os passos para deploy se o build ocorrer com sucesso. E também devemos indicar qual o branch será usado.</li>
+</ul>
+<p>Vamos precisar adicionar uma variável com token para ser utilizado pelo deploy. (<a href=https://help.github.com/articles/creating-an-access-token-for-command-line-use/>GitHub Help Token</a>). Eu criei uma variável com o nome GIT_TOKEN e marquei ela como <em>Protected</em> assim ela não ficara visível.</p>
+<p>E agora podemos alterar nosso código fazer pull para o repositório e deixar o Wercker fazer o resto do trabalho.</p>
+<p>O Wercker também possui on cliente(OsX e Linux) que permitir baixarmos um container gerado por um build do wercker para rodar localmente com Docker. Isto é util quando precisamos descobrir porque nosso build não esta funcionando como deveria.</p>
+<p>Para instalar o wercker no OsX.</p>
+<pre tabindex=0><code>curl https://s3.amazonaws.com/downloads.wercker.com/cli/stable/linux_amd64/wercker -o /usr/local/bin/wercker
+</code></pre><p>No Linux</p>
+<pre tabindex=0><code>curl https://s3.amazonaws.com/downloads.wercker.com/cli/stable/linux_amd64/wercker -o /usr/local/bin/wercker
+</code></pre><p>E por fim precisamos executar a seguinte linha tanto para OsX quanto para Linux.</p>
+<pre tabindex=0><code>chmod +x /usr/local/bin/wercker
+</code></pre><p>Documentação <a href=http://devcenter.wercker.com/docs/index.html>http://devcenter.wercker.com/docs/index.html</a>
+Documentação da API <a href=http://devcenter.wercker.com/api/index.html>http://devcenter.wercker.com/api/index.html</a></p>
+</div>
+<h4 class=page-header>Related</h4>
+<div class=item>
+<h4><a href=/blog/post/start-docker/>Iniciando com Docker</a></h4>
+<h5>January 2, 2016</h5>
+<a href=https://ffrizzo.com/blogtags/docker><kbd class=item-tag>docker</kbd></a>
+<a href=https://ffrizzo.com/blogtags/devops><kbd class=item-tag>devops</kbd></a>
+</div>
+<div class=item>
+<h4><a href=/blog/post/rancheros/>Rancher OS - Uma distribuição Linux para rodar containers Docker</a></h4>
+<h5>July 18, 2015</h5>
+<a href=https://ffrizzo.com/blogtags/so><kbd class=item-tag>so</kbd></a>
+<a href=https://ffrizzo.com/blogtags/docker><kbd class=item-tag>docker</kbd></a>
+</div>
+<div class=item>
+<h4><a href=/blog/post/hugo/>Hugo - Gerando um site com conteúdo estático.</a></h4>
+<h5>June 2, 2015</h5>
+<a href=https://ffrizzo.com/blogtags/desenvolvimento><kbd class=item-tag>desenvolvimento</kbd></a>
+<a href=https://ffrizzo.com/blogtags/golang><kbd class=item-tag>golang</kbd></a>
+</div>
+<h4 class=page-header>Comments</h4>
+<div id=disqus_thread></div>
+<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//ffrizzo.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</main>
+<footer>
+<p class="copyright text-muted">© All rights reserved. Powered by <a href=https://gohugo.io>Hugo</a> and <a href=https://github.com/calintat/minimal>Minimal</a></p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Iniciando com Docker</title>
+<style>html body{font-family:raleway,sans-serif;background-color:#fff}:root{--accent:#4CAC9D;--border-width:5px}</style>
+<link rel=stylesheet href=https://ffrizzo.com/blog/css/main.css>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css integrity=sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js></script>
+<script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js integrity=sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa crossorigin=anonymous></script>
+<script>$(document).on('click',function(){$('.collapse').collapse('hide')})</script>
+<meta name=generator content="Hugo 0.92.1">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63537429-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-63537429-1')</script>
+<script type=text/javascript async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class=container>
+<div class=navbar-header>
+<a class="navbar-brand visible-xs" href=#>Iniciando com Docker</a>
+<button class=navbar-toggle data-target=.navbar-collapse data-toggle=collapse>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+</button>
+</div>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+<li><a href=/blog/>Home</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class=navbar-icon><a href=mailto:ffrizzo@gmail.com><i class="fa fa-envelope-o"></i></a></li>
+<li class=navbar-icon><a href=https://github.com/ffrizzo/><i class="fa fa-github"></i></a></li>
+<li class=navbar-icon><a href=https://twitter.com/ffrizzo/><i class="fa fa-twitter"></i></a></li>
+<li class=navbar-icon><a href=https://www.linkedin.com/in/ffrizzo/><i class="fa fa-linkedin"></i></a></li>
+<li class=navbar-icon><a href=https://www.stackoverflow.com/users/1550221/fabiano-frizzo/><i class="fa fa-stack-overflow"></i></a></li>
+</ul>
+</div>
+</div>
+</nav>
+<main>
+<div class=item>
+<h4><a href=/blog/post/start-docker/>Iniciando com Docker</a></h4>
+<h5>January 2, 2016</h5>
+<a href=https://ffrizzo.com/blogtags/docker><kbd class=item-tag>docker</kbd></a>
+<a href=https://ffrizzo.com/blogtags/devops><kbd class=item-tag>devops</kbd></a>
+</div>
+<br> <div class=text-justify><p>Após um longo periodo sem atualizações estou de volta para falar sobre algo muito interessante que na verdade ja deveria ter escrito aqui sobre isso a muito tempo. Como este é o primeiro post sobre <a href=http://docker.com>Docker</a> vou começar com a instalação e uso do Docker no ambiente de desenvolvimento e em posts futuros vamos falar sobre algumas ferramentas e o uso do Docker em ambiente de produção.</p>
+<p>Vou demonstrar a instalação do Docker em uma maquina com OsX. A instalação é diferente de uma maquina com Linux mas o a execução e uso é parecido. Eu sempre instalo tudo utilizando o <a href=http://brew.sh>Homebrew</a> então com o Docker não poderia ser diferente.</p>
+<p>Vamos precisar instalar o Docker e o <a href=https://docs.docker.com/machine/>Docker Machine</a> para quem utiliza OsX ou Windows o Docker Machine é obrigatório pois precisamos criar uma maquina aonde possamos rodar os comandos Docker. Apesar de não ser obrigatório o uso do Docker Machine no Linux você também pode usar ele. O Docker Machine não só nos permite criar hosts locais para o Docker como também na Amazon na Digital Ocean entre outros.</p>
+<p>Instalando o docker e o docker-machine no OsX</p>
+<pre tabindex=0><code>brew install docker
+brew install docker-machine
+</code></pre><p>Agora criaremos um host utilizando o docker-machine para que possamos executar os comandos docker, criar nossos containers, imagens etc.</p>
+<pre tabindex=0><code>docker-machine create -d virtualbox mydockermachine
+</code></pre><p>Este comando adiciona algumas informações ao profile. Estas informações informam ao docker em que host os comandos deverão ser executados</p>
+<pre tabindex=0><code>eval &quot;$(docker-machine env dev)&quot;
+</code></pre><p>Abaixo um exemplo do profile da minha maquina.</p>
+<pre tabindex=0><code>DOCKER_HOST=tcp://192.168.99.100:2376
+DOCKER_MACHINE_NAME=dev
+DOCKER_TLS_VERIFY=1
+DOCKER_CERT_PATH=/Users/fabianofrizzo/.docker/machine/machines/dev
+</code></pre><p>Se executarmos o comando abaixo teremos a lista de maquinas criadas e também qual esta ativa.</p>
+<pre tabindex=0><code>docker-machine ls
+</code></pre><p>Fazendo pull das imagens para criar os containers. Podemos simplesmente fazer o pull da ultima versão(<em><strong>latest</strong></em>) como também podemos informar qual versão gostariamos de fazer pull, para isto bastaria adicionar <em>:{versão}</em> logo após o nome da imagem que esta sendo feito o pull.</p>
+<pre tabindex=0><code>docker pull postgres
+</code></pre><p>Criaremos o container docker apartir da imagem que baixamos no passo anterior.</p>
+<pre tabindex=0><code>docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD={seu password} -d postgres
+</code></pre><p>Um pouco sobre os parametros utilizados</p>
+<ul>
+<li>O parametro <em><strong>-p 5432:5432</strong></em> é para redirecionar a porta do container para a maquina host</li>
+<li>O <em><strong>-d</strong></em> é para rodar o container em background</li>
+<li>O <em><strong>&ndash;name postgres</strong></em> define um nome para este container</li>
+<li>E o <em><strong>-e POSTGRES_PASSWORD={seu password}</strong></em> define a senha do usuário principal do postgres</li>
+</ul>
+<p>Se tudo occoreu como o esperado quando for executado o comando <strong>docker ps</strong> deverá aparecer na lista um container com o nome postgres, para visualizar todos os containers mesmo os que não estão sendo executados use o comando <strong>docker ps -a</strong>.
+Se vocÊ precisar acessar o bash do seu container é possivel utilizando o comando <strong>exec</strong>. Com o comando <strong>exec</strong> é possível executar todos os comandos de um terminal linux você pode rodar <em><strong>ls</strong></em>, <em><strong>rm</strong></em>, etc.</p>
+<pre tabindex=0><code>docker exec -it postgres bash
+</code></pre><p>O comando acima nos da acesso ao terminal do container postgres que criamos.</p>
+<p>É possível parar e startar novamente o mesmo container com os comandos <em><strong>start</strong></em> e <em><strong>stop</strong></em></p>
+<pre tabindex=0><code>docker stop postgres
+docker start postgres
+</code></pre><p>Excluir um container</p>
+<pre tabindex=0><code>docker rm postgres
+</code></pre><p>Excluir uma imagem.</p>
+<pre tabindex=0><code>docker rmi postgres
+</code></pre><p>Para ver todos os comandos disponíveis no docker execute <strong>docker help</strong> e para mais detalhes sobre cada comando <strong>docker help {comando}</strong></p>
+<p>Este é um post básico sobre o uso do docker, em posts futuros irei abortar outros comandos do docker e outras ferramentas como <strong>docker compose</strong> e o <strong>docker swarm</strong>, claro que ainda temos várias outras ferramentas de terceiros para utilizar em conjunto com o docker e tornar o uso muito dele mais prático.</p>
+</div>
+<h4 class=page-header>Related</h4>
+<div class=item>
+<h4><a href=/blog/post/supervisor/>Controlando processos com o Supervisor</a></h4>
+<h5>September 11, 2015</h5>
+<a href=https://ffrizzo.com/blogtags/supervisord><kbd class=item-tag>supervisord</kbd></a>
+<a href=https://ffrizzo.com/blogtags/devops><kbd class=item-tag>devops</kbd></a>
+</div>
+<div class=item>
+<h4><a href=/blog/post/rancheros/>Rancher OS - Uma distribuição Linux para rodar containers Docker</a></h4>
+<h5>July 18, 2015</h5>
+<a href=https://ffrizzo.com/blogtags/so><kbd class=item-tag>so</kbd></a>
+<a href=https://ffrizzo.com/blogtags/docker><kbd class=item-tag>docker</kbd></a>
+</div>
+<div class=item>
+<h4><a href=/blog/post/wecker/>Wercker - Build e Deploy de maneira facil.</a></h4>
+<h5>June 10, 2015</h5>
+<a href=https://ffrizzo.com/blogtags/deployment><kbd class=item-tag>deployment</kbd></a>
+<a href=https://ffrizzo.com/blogtags/golang><kbd class=item-tag>golang</kbd></a>
+<a href=https://ffrizzo.com/blogtags/docker><kbd class=item-tag>docker</kbd></a>
+<a href=https://ffrizzo.com/blogtags/wercker><kbd class=item-tag>wercker</kbd></a>
+</div>
+<h4 class=page-header>Comments</h4>
+<div id=disqus_thread></div>
+<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//ffrizzo.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</main>
+<footer>
+<p class="copyright text-muted">© All rights reserved. Powered by <a href=https://gohugo.io>Hugo</a> and <a href=https://github.com/calintat/minimal>Minimal</a></p>
+</footer>
+</body>
+</html>

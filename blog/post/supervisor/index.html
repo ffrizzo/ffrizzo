@@ -1,0 +1,175 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Controlando processos com o Supervisor</title>
+<style>html body{font-family:raleway,sans-serif;background-color:#fff}:root{--accent:#4CAC9D;--border-width:5px}</style>
+<link rel=stylesheet href=https://ffrizzo.com/blog/css/main.css>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css integrity=sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js></script>
+<script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js integrity=sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa crossorigin=anonymous></script>
+<script>$(document).on('click',function(){$('.collapse').collapse('hide')})</script>
+<meta name=generator content="Hugo 0.92.1">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63537429-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-63537429-1')</script>
+<script type=text/javascript async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class=container>
+<div class=navbar-header>
+<a class="navbar-brand visible-xs" href=#>Controlando processos com o Supervisor</a>
+<button class=navbar-toggle data-target=.navbar-collapse data-toggle=collapse>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+</button>
+</div>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+<li><a href=/blog/>Home</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class=navbar-icon><a href=mailto:ffrizzo@gmail.com><i class="fa fa-envelope-o"></i></a></li>
+<li class=navbar-icon><a href=https://github.com/ffrizzo/><i class="fa fa-github"></i></a></li>
+<li class=navbar-icon><a href=https://twitter.com/ffrizzo/><i class="fa fa-twitter"></i></a></li>
+<li class=navbar-icon><a href=https://www.linkedin.com/in/ffrizzo/><i class="fa fa-linkedin"></i></a></li>
+<li class=navbar-icon><a href=https://www.stackoverflow.com/users/1550221/fabiano-frizzo/><i class="fa fa-stack-overflow"></i></a></li>
+</ul>
+</div>
+</div>
+</nav>
+<main>
+<div class=item>
+<h4><a href=/blog/post/supervisor/>Controlando processos com o Supervisor</a></h4>
+<h5>September 11, 2015</h5>
+<a href=https://ffrizzo.com/blogtags/supervisord><kbd class=item-tag>supervisord</kbd></a>
+<a href=https://ffrizzo.com/blogtags/devops><kbd class=item-tag>devops</kbd></a>
+</div>
+<br> <div class=text-justify><p><a href=http://supervisord.org>Supervisor</a> é uma aplicação cliente/servidor que permite o usuário monitorar e controlar varios processos em sistemas baseados em UNIX. Ele ajuda a eliminar a burocratica tarefa de escrever arquivos de inicialização.
+Supervisor roda os aplicativos como subprocessos desta forma ele consegue identificar o real status da aplicação se algum erro ocorrer ele reinicia o processo automaticamente se assim for configurado.</p>
+<p>Instalando e configurando o supervisor no OsX.
+O processo de instalação é muito simples bastando instalar via <strong>pip</strong>.</p>
+<pre tabindex=0><code>pip install supervisor
+</code></pre><p>Eu adicionei o arquivo de configuração do supervisor em <strong>/usr/local/etc/supervisord.conf</strong> com as seguintes configurações que utilizo na minha maquina.</p>
+<pre tabindex=0><code>[unix_http_server]
+file=/tmp/supervisor.sock
+chmod=0766
+chown=fabianofrizzo:staff
+
+[inet_http_server]
+port=7070
+username=admin
+password=1234
+
+[supervisord]
+logfile = /Users/fabianofrizzo/.supervisor/supervisord.log
+logfile_maxbytes = 50MB
+logfile_backups=10
+loglevel = info
+pidfile = /tmp/supervisord.pid
+nodaemon = False
+minfds = 1024
+minprocs = 200
+umask = 022
+identifier = supervisor
+directory = /tmp
+nocleanup = true
+childlogdir = /tmp
+
+[supervisorctl]
+serverurl = unix:///tmp/supervisor.sock
+
+[rpcinterface:supervisor]
+supervisor.rpcinterface_factory = supervisor.rpcinterface:make_main_rpcinterface
+
+[include]
+files = /usr/local/share/supervisor/conf.d/*.conf
+</code></pre><p>Se desejar você poder acesar os processos por uma aplicação web para isso será preciso configurar o nó <strong>inet_http_server</strong> username e password não são obrigatórios. A interface da aplicação é bem simples porém você consegue fazer todas as operações por ela.
+<img src=/imgs/posts/supervisor/supervisor.png alt="alt text"></p>
+<p>O nó <strong>include</strong> é aonde configuramos uma pasta onde o supervisor deve ler os arquivos que contém as configurações das aplicações que desejamos monitorar/controlar, é possível ter vários arquivos <em>.conf</em> nesta pasta, isto é importante pois podemos manter as configurações para varias aplicações em arquivos separados de forma organizada.</p>
+<p>Depois de configurarmos o <strong>supervisor</strong> vamos configura para que ele rode como daemon no OsX. Vamos criar um <em>plist</em> no seguinte caminho <strong>/Library/LaunchDaemons/com.agendaless.supervisord.plist</strong>, agora sempre que o computador for reiniciado o supervisor será inicializado, abaixo o conteúdo do arquivo.</p>
+<pre tabindex=0><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;dict&gt;
+    &lt;key&gt;KeepAlive&lt;/key&gt;
+    &lt;dict&gt;
+        &lt;key&gt;SuccessfulExit&lt;/key&gt;
+        &lt;false/&gt;
+    &lt;/dict&gt;
+    &lt;key&gt;Label&lt;/key&gt;
+    &lt;string&gt;com.agendaless.supervisord&lt;/string&gt;
+    &lt;key&gt;ProgramArguments&lt;/key&gt;
+    &lt;array&gt;
+        &lt;string&gt;/usr/local/bin/supervisord&lt;/string&gt;
+        &lt;string&gt;-n&lt;/string&gt;
+        &lt;string&gt;-c&lt;/string&gt;
+        &lt;string&gt;/usr/local/etc/supervisord.conf&lt;/string&gt;
+    &lt;/array&gt;
+    &lt;key&gt;RunAtLoad&lt;/key&gt;
+    &lt;true/&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;
+</code></pre><p>Vamos iniciar o supervisor.</p>
+<pre tabindex=0><code>launchctl load /Library/LaunchDaemons/com.agendaless.supervisord.plist
+</code></pre><p>Abaixo um exemplo de um dos meus arquivos <em>.conf</em> que definem as aplicações a serem controladas pelo <strong>supervisor</strong></p>
+<pre tabindex=0><code>[program:awassess]
+command=java -Dlogging.path=/var/log/ffrizzo/ -jar /path/app1.war -Xms32m -Xss512k
+user=fabianofrizzo
+autostart=false
+autorestart=false
+startsecs=10
+startretries=3
+stdout_logfile=/var/log/ffrizzo/app1-stdout.log
+stderr_logfile=/var/log/ffrizzo/app1-stderr.log
+
+[program:awdatamgt]
+command=java -Dlogging.path=/var/log/ffrizzo/ -jar /path/app2.war -Xms32m -Xss512k
+user=fabianofrizzo
+autostart=false
+autorestart=false
+startsecs=10
+startretries=3
+stdout_logfile=/var/log/ffrizzo/app2-stdout.log
+stderr_logfile=/var/log/ffrizzo/app2-stderr.log
+</code></pre><p>No mesmo arquivo eu tenho a definição de um grupo o qual posso usar para subir as aplicações definidas no grupo em um comando unico.</p>
+<pre tabindex=0><code>[group:apps]
+programs=app-1,app-2
+priority=999
+</code></pre><p>Agora vamos inciar as aplicações de forma individual.</p>
+<pre tabindex=0><code>supervisorctl start app-1
+supervisorctl start app-2
+</code></pre><p>Para inciar todas as aplicações utilizamos o start all. Este comando vai inciar todas as aplicações de todos os arquivos <strong>.conf</strong> que estiverem na pasta configurada para o supervisor ler.</p>
+<pre tabindex=0><code>supervisorctl start all
+</code></pre><p>Quando temos grupos definidos podemos iniciar o grupo ao invés de iniciar cada aplicação de forma individual. Podemos ter vários grupos isso nos ajuda a evitar rodar o <strong>start all</strong>.</p>
+<pre tabindex=0><code>supervisorctl start apps:*
+</code></pre><p>Para pararmos os processos é só substituir o <strong>start</strong> pelo <strong>stop</strong> seguindo o mesmo padrão.</p>
+<p>Se em algum momento você precisar adicionar mais algum aplicativo a sua lista ou mesmo alterar alguma configuração de algum aplicativo que ja esta na lista basta mandar o supervisor ler as configurações novamente utilizando o seguinte comando.</p>
+<pre tabindex=0><code>supervisorctl reread
+</code></pre><p>Com estas configurações e comandos temos uma configuração do supervisor completa e funcional.</p>
+</div>
+<h4 class=page-header>Related</h4>
+<div class=item>
+<h4><a href=/blog/post/start-docker/>Iniciando com Docker</a></h4>
+<h5>January 2, 2016</h5>
+<a href=https://ffrizzo.com/blogtags/docker><kbd class=item-tag>docker</kbd></a>
+<a href=https://ffrizzo.com/blogtags/devops><kbd class=item-tag>devops</kbd></a>
+</div>
+<h4 class=page-header>Comments</h4>
+<div id=disqus_thread></div>
+<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//ffrizzo.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</main>
+<footer>
+<p class="copyright text-muted">© All rights reserved. Powered by <a href=https://gohugo.io>Hugo</a> and <a href=https://github.com/calintat/minimal>Minimal</a></p>
+</footer>
+</body>
+</html>

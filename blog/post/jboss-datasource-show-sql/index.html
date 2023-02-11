@@ -1,0 +1,185 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>JBoss/Wildfly - Configurando log de queries para o datasource</title>
+<style>html body{font-family:raleway,sans-serif;background-color:#fff}:root{--accent:#4CAC9D;--border-width:5px}</style>
+<link rel=stylesheet href=https://ffrizzo.com/blog/css/main.css>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css integrity=sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js></script>
+<script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js integrity=sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa crossorigin=anonymous></script>
+<script>$(document).on('click',function(){$('.collapse').collapse('hide')})</script>
+<meta name=generator content="Hugo 0.92.1">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63537429-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-63537429-1')</script>
+<script type=text/javascript async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class=container>
+<div class=navbar-header>
+<a class="navbar-brand visible-xs" href=#>JBoss/Wildfly - Configurando log de queries para o datasource</a>
+<button class=navbar-toggle data-target=.navbar-collapse data-toggle=collapse>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+</button>
+</div>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+<li><a href=/blog/>Home</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class=navbar-icon><a href=mailto:ffrizzo@gmail.com><i class="fa fa-envelope-o"></i></a></li>
+<li class=navbar-icon><a href=https://github.com/ffrizzo/><i class="fa fa-github"></i></a></li>
+<li class=navbar-icon><a href=https://twitter.com/ffrizzo/><i class="fa fa-twitter"></i></a></li>
+<li class=navbar-icon><a href=https://www.linkedin.com/in/ffrizzo/><i class="fa fa-linkedin"></i></a></li>
+<li class=navbar-icon><a href=https://www.stackoverflow.com/users/1550221/fabiano-frizzo/><i class="fa fa-stack-overflow"></i></a></li>
+</ul>
+</div>
+</div>
+</nav>
+<main>
+<div class=item>
+<h4><a href=/blog/post/jboss-datasource-show-sql/>JBoss/Wildfly - Configurando log de queries para o datasource</a></h4>
+<h5>June 27, 2015</h5>
+<a href=https://ffrizzo.com/blogtags/jboss><kbd class=item-tag>jboss</kbd></a>
+<a href=https://ffrizzo.com/blogtags/java><kbd class=item-tag>java</kbd></a>
+<a href=https://ffrizzo.com/blogtags/sql><kbd class=item-tag>sql</kbd></a>
+<a href=https://ffrizzo.com/blogtags/p6spy><kbd class=item-tag>p6spy</kbd></a>
+</div>
+<br> <div class=text-justify><p>Muitas vezes quando estamos desenvolvendo precisamos verificar quais e como estão sendo geradas as queries pelo <a href=http://hibernate.org>Hibernate</a>, e para isso utilizamos as opções do próprio hibernate a <strong>show_sql</strong> e a <strong>format_sql</strong> porém estas opções nos mostram as queries com varias <strong>?</strong> no lugar dos parametros que estão sendo passados para a query assim dificultando um pouco saber se os parametros estão corretos ou não.</p>
+<p>Utilizando o <a href=http://jbossas.jboss.org>JBoss AS</a> ou o <a href=http://wildfly.org>Wildfly</a> utilizando datasource nós podemos ativar o log do próprio datasource, este log é bem detalhado mostra as queries as transações em fim todo o o processo envolvendo o datasource. Mas também podemos utilizar o <a href=https://github.com/p6spy/p6spy>P6SPY</a> integrado com os datasources abaixo vou explicar como utilizar as duas formas.</p>
+<p>Utilizando o spy default do JBoss AS/Wildfly.
+Para ativar o log do datasource precisamos editar o <strong>standalone.xml</strong> e adicionar o seguinte trecho as configurações de log.</p>
+<pre tabindex=0><code>&lt;logger category=&quot;jboss.jdbc.spy&quot;&gt;
+    &lt;level name=&quot;TRACE&quot;/&gt;
+&lt;/logger&gt;
+</code></pre><p>Também precisamos habilitar o <strong>spy</strong> para o datasource que que desejamos adicionado <strong>spy=&lsquo;&lsquo;true&rsquo;'</strong> a declaração do datasource.</p>
+<pre tabindex=0><code>&lt;datasource jndi-name=&quot;java:jboss/datasources/ExampleDS&quot; pool-name=&quot;ExampleDS&quot; use-java-context=&quot;true&quot; enabled=&quot;true&quot; spy=&quot;true&quot;&gt;
+</code></pre><p>Vamos analisar o log gerado pelo <strong>jdbc-spy</strong> do Jboss AS/Wildfly. Ainda assim temos a query gerada com <strong>?</strong> exemplo <strong>(limit ?)</strong>, porém podemos notar logo a seguir um <strong>[PreparedStatement] setInt(1, 1)</strong> aonde o primeiro parametro do setInt é a posição e o segundo o valor de fato, neste exemplo só temos uma parametro a ser setado o <strong>limit</strong>, mas a quantidade de PreparedStatement pode variar de acordo com a sua query dependendo da quantidade de where/and/order que tiver a query.</p>
+<pre tabindex=0><code>14:22:02,767 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [Connection] prepareStatement(select this_.cod as cod1112_1_, this_.descricao as descricao1112_1_, this_.desoneracaoFolha as desonera3_1112_1_, this_.tipo_empresa_cod_fk as tipo4_1112_1_, tipoempres2_.cod as cod1195_0_, tipoempres2_.descricao as descricao1195_0_ from global.cnae this_ inner join global.tipo_empresa tipoempres2_ on this_.tipo_empresa_cod_fk=tipoempres2_.cod order by this_.cod asc limit ?)
+14:22:02,769 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [PreparedStatement] setInt(1, 1)
+14:22:02,770 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [PreparedStatement] executeQuery()
+14:22:02,822 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [ResultSet] next()
+14:22:02,822 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [ResultSet] getInt(cod1195_0_)
+14:22:02,822 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [ResultSet] wasNull()
+14:22:02,822 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [ResultSet] getString(cod1112_1_)
+14:22:02,823 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [ResultSet] wasNull()
+14:22:02,823 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [ResultSet] getString(descricao1195_0_)
+14:22:02,823 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [ResultSet] wasNull()
+14:22:02,824 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [ResultSet] getString(descricao1112_1_)
+14:22:02,824 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [ResultSet] wasNull()
+14:22:02,824 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [ResultSet] getBoolean(desonera3_1112_1_)
+14:22:02,824 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [ResultSet] wasNull()
+14:22:02,825 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [ResultSet] getInt(tipo4_1112_1_)
+14:22:02,825 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [ResultSet] wasNull()
+14:22:02,826 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [ResultSet] close()
+14:22:02,826 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [Statement] getMaxRows()
+14:22:02,826 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [Statement] getQueryTimeout()
+14:22:02,826 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [Statement] close()
+14:22:02,827 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [Connection] isClosed()
+14:22:02,827 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [Connection] getWarnings()
+14:22:02,827 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [Connection] clearWarnings()
+14:22:02,828 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [Connection] close()
+14:22:02,830 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [Connection] prepareStatement(select count(*) as y0_ from global.cnae this_)
+14:22:02,831 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [PreparedStatement] executeQuery()
+14:22:02,849 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [ResultSet] next()
+14:22:02,849 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [ResultSet] getLong(y0_)
+14:22:02,850 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [ResultSet] wasNull()
+14:22:02,850 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [ResultSet] next()
+14:22:02,850 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [ResultSet] close()
+14:22:02,851 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [Statement] getMaxRows()
+14:22:02,851 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [Statement] getQueryTimeout()
+14:22:02,851 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [Statement] close()
+14:22:02,852 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [Connection] isClosed()
+14:22:02,852 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [Connection] getWarnings()
+14:22:02,852 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [Connection] clearWarnings()
+14:22:02,852 DEBUG [jboss.jdbc.spy] (http-localhost-127.0.0.1-8080-2) java:jboss/datasource/exampleDS [Connection] close()
+</code></pre><p>Apesar deste log me mostrar a query final gerada e os parametros sendo usados ainda assim não parecia o ideal para mim, imagine que você tenha uma query com vários filtros teriamos varios PreparedStatement e se fosse preciso executar esta query diretamente no banco de dados precisariamos pegar cada PreparedStatement e substituir os valores nos parametros <strong>?</strong> da query.</p>
+<p>Agora vou explicar como utilizar o <a href=https://github.com/p6spy/p6spy>P6SPY</a> para gerar os logs das queries.
+Para ativar o P6SPY no JBoss AS/Wildfly também é muito simples. Vamos precisar adicionar o arquivo <strong>spy.properties</strong> na pasta <strong>bin/</strong> do JBoss AS/Wildfly com duas informações.</p>
+<p>E no nosso arquivo <strong>standalone.xml</strong> vamos precisar adicionar um driver para o P6SPY e um datasource para ele. Vamos ter as configurações de driver e datasource da seguinte forma.</p>
+<pre tabindex=0><code>&lt;subsystem xmlns=&quot;urn:jboss:domain:datasources:1.0&quot;&gt;
+        &lt;datasource jta=&quot;true&quot; jndi-name=&quot;java:jboss/datasource/exampleDS_real&quot; pool-name=&quot;example_pool&quot; enabled=&quot;true&quot; use-java-context=&quot;true&quot; spy=&quot;true&quot; use-ccm=&quot;false&quot;&gt;
+            &lt;connection-url&gt;jdbc:postgresql://localhost:5432/example&lt;/connection-url&gt;
+            &lt;driver&gt;postgresql&lt;/driver&gt;
+            &lt;pool&gt;
+                &lt;min-pool-size&gt;5&lt;/min-pool-size&gt;
+                &lt;max-pool-size&gt;1000&lt;/max-pool-size&gt;
+                &lt;prefill&gt;false&lt;/prefill&gt;
+                &lt;use-strict-min&gt;false&lt;/use-strict-min&gt;
+                &lt;flush-strategy&gt;FailingConnectionOnly&lt;/flush-strategy&gt;
+            &lt;/pool&gt;
+            &lt;security&gt;
+                &lt;user-name&gt;postgres&lt;/user-name&gt;
+                &lt;password&gt;postgres&lt;/password&gt;
+            &lt;/security&gt;
+            &lt;validation&gt;
+                &lt;check-valid-connection-sql&gt;SELECT 1&lt;/check-valid-connection-sql&gt;
+                &lt;validate-on-match&gt;false&lt;/validate-on-match&gt;
+                &lt;background-validation&gt;false&lt;/background-validation&gt;
+                &lt;use-fast-fail&gt;false&lt;/use-fast-fail&gt;
+            &lt;/validation&gt;
+        &lt;/datasource&gt;
+        &lt;datasource jta=&quot;true&quot; jndi-name=&quot;java:jboss/datasource/exampleDS&quot; pool-name=&quot;exampleP6SPY_pool&quot; enabled=&quot;true&quot; use-java-context=&quot;true&quot; use-ccm=&quot;true&quot;&gt;
+            &lt;connection-url&gt;jdbc:p6spy:postgresql://localhost:5432/example&lt;/connection-url&gt;
+            &lt;driver&gt;p6spy&lt;/driver&gt;
+            &lt;security&gt;
+                &lt;user-name&gt;postgres&lt;/user-name&gt;
+                &lt;password&gt;postgres&lt;/password&gt;
+            &lt;/security&gt;
+        &lt;/datasource&gt;
+        &lt;drivers&gt;
+            &lt;driver name=&quot;postgresql&quot; module=&quot;org.postgresql&quot;&gt;
+                &lt;xa-datasource-class&gt;org.postgresql.xa.PGXADatasource&lt;/xa-datasource-class&gt;
+            &lt;/driver&gt;
+            &lt;driver name=&quot;p6spy&quot; module=&quot;com.p6spy&quot;&gt;
+                &lt;driver-class&gt;com.p6spy.engine.spy.P6SpyDriver&lt;/driver-class&gt;
+            &lt;/driver&gt;
+        &lt;/drivers&gt;
+    &lt;/datasources&gt;
+&lt;/subsystem&gt;
+</code></pre><p>Desta forma estamos modificando para a nossa aplicação utilizar o DataSource com o P6SPY sem precisar alterar o código da nossa aplicação. E o P6SPY vai utilizar o DataSource real que configuramos no <strong>spy.properties</strong>.</p>
+<p>Não podemos esquecer é claro de criar um module com o driver do P6SPY. A estrutura da pasta do P6SPY para o JBoss AS/Wildfly ficara da seguinte forma.</p>
+<pre tabindex=0><code>├── com
+│   ├── p6spy
+│   │   └── main
+│   │       ├── module.xml
+│   │       ├── p6spy-2.1.4.jar
+
+</code></pre><p>E o arquivo <strong>module.xml</strong> tera o seguinte conteúdo.</p>
+<pre tabindex=0><code>&lt;module xmlns=&quot;urn:jboss:module:1.0&quot; name=&quot;com.p6spy&quot;&gt;
+    &lt;resources&gt;
+        &lt;resource-root path=&quot;p6spy-2.1.4.jar&quot;/&gt;
+    &lt;/resources&gt;
+    &lt;dependencies&gt;
+        &lt;module name=&quot;javax.api&quot;/&gt;
+        &lt;module name=&quot;javax.transaction.api&quot;/&gt;
+        &lt;!-- make sure to refer to module holding real driver --&gt;
+        &lt;module name=&quot;org.postgresql&quot;/&gt;
+    &lt;/dependencies&gt;
+&lt;/module&gt;
+</code></pre><p>A partir de agora o P6SPY passara a gerar os logs na pasta <strong>bin/spy.log</strong> na mesma pasta que esta o <strong>spy.properties</strong> esta opção é configurável dentro do <strong>spy.properties</strong>.</p>
+<p>Vamos analisar o log gerado pelo P6SPY.
+Note que ainda temos a query original com <strong>?</strong> mas agora também temos a query com o parametro certo podendo ser copiada e executada diretamente no banco sem qualquer esforço extra.</p>
+<pre tabindex=0><code>1435425204636|9|statement|connection 1|select this_.cod as cod1112_1_, this_.descricao as descricao1112_1_, this_.desoneracaoFolha as desonera3_1112_1_, this_.tipo_empresa_cod_fk as tipo4_1112_1_, tipoempres2_.cod as cod1195_0_, tipoempres2_.descricao as descricao1195_0_ from global.cnae this_ inner join global.tipo_empresa tipoempres2_ on this_.tipo_empresa_cod_fk=tipoempres2_.cod order by this_.cod asc limit ?|select this_.cod as cod1112_1_, this_.descricao as descricao1112_1_, this_.desoneracaoFolha as desonera3_1112_1_, this_.tipo_empresa_cod_fk as tipo4_1112_1_, tipoempres2_.cod as cod1195_0_, tipoempres2_.descricao as descricao1195_0_ from global.cnae this_ inner join global.tipo_empresa tipoempres2_ on this_.tipo_empresa_cod_fk=tipoempres2_.cod order by this_.cod asc limit 1
+</code></pre><p>Agora imaginemos uma query aonde temos uma clausa <strong>where</strong> complexa com varios <strong>and&rsquo;s</strong> com a query gerada pelo P6SPY seria muito mais rapido e pratico pegar esta query e analisar ou executar diretamente no banco de dados.</p>
+</div>
+<h4 class=page-header>Comments</h4>
+<div id=disqus_thread></div>
+<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//ffrizzo.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</main>
+<footer>
+<p class="copyright text-muted">© All rights reserved. Powered by <a href=https://gohugo.io>Hugo</a> and <a href=https://github.com/calintat/minimal>Minimal</a></p>
+</footer>
+</body>
+</html>
