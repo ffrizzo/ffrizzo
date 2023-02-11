@@ -21,14 +21,14 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [WalletConnect/walletconnect-monorepo @ 2.4.0](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.4.0) (1 day ago)
+- [WalletConnect/walletconnect-monorepo @ 2.4.0](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.4.0) (2 days ago)
 - [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (4 months ago)
 
 #### ⭐ Recent Stars
 
 
-- **[rustdesk/rustdesk-server](https://github.com/rustdesk/rustdesk-server)** - RustDesk Server Program (today)
-- **[grunch/rana](https://github.com/grunch/rana)** - Nostr public key mining tool (1 day ago)
-- **[fiatjaf/nos2x](https://github.com/fiatjaf/nos2x)** - nostr signer extension (1 day ago)
-- **[rot13maxi/key-convertr](https://github.com/rot13maxi/key-convertr)** - convert nostr keys and note-ids between hex and bech32 (1 day ago)
-- **[aljazceru/awesome-nostr](https://github.com/aljazceru/awesome-nostr)** - A curated list of nostr projects and resources   (2 days ago)
+- **[rustdesk/rustdesk-server](https://github.com/rustdesk/rustdesk-server)** - RustDesk Server Program (1 day ago)
+- **[grunch/rana](https://github.com/grunch/rana)** - Nostr public key mining tool (2 days ago)
+- **[fiatjaf/nos2x](https://github.com/fiatjaf/nos2x)** - nostr signer extension (2 days ago)
+- **[rot13maxi/key-convertr](https://github.com/rot13maxi/key-convertr)** - convert nostr keys and note-ids between hex and bech32 (2 days ago)
+- **[aljazceru/awesome-nostr](https://github.com/aljazceru/awesome-nostr)** - A curated list of nostr projects and resources   (3 days ago)
