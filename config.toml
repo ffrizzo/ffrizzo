@@ -66,7 +66,7 @@ disableKinds = ["404", "RSS", "Sitemap"]
         [[params.skills.list]]
         title = "Cloud/DevOps Tools"
         [[params.skills.list.items]]
-        details = "Docker, Kubernetes, Spinnaker, Terraform, Packer, Ansible"
+        details = "Docker, Kubernetes, Nomad, Spinnaker, Terraform, Packer, Ansible"
         [[params.skills.list]]
         title = "Cloud Providers"
         [[params.skills.list.items]]
@@ -94,27 +94,33 @@ disableKinds = ["404", "RSS", "Sitemap"]
     [params.interests]
         enable = true
         [[params.interests.list]]
-        name = "Home Automation, Raspberry PI"
+        name = "Blockchain, Home Automation, Raspberry PI"
         [[params.interests.list]]
         name = "Arduino, Car Hacking, Car Tuning"
 
     # Summary section
     [params.summary]
         enable = true
-        text = "10+ years of experience working remotely with minimum supervision in different industries and delivering high-quality software. With a focus on Backend development and DevOps/Cloud."
+        text = "A Senior Software engineer with 13+ years of experience delivering high-quality software, specialized in Cloud/DevOps and Backend development."
 
     # Experiences section
     [params.experience]
         enable = true
 
         [[params.experience.list]]
-        title = "Senior software Engineer"
-        dates = "03/2022 - Present"
-        company = "WalletConnect Inc(remote)"
-        details = "As a member of the Cloud team, I work on the backend applications with Go and Rust. I also have worked with the CI/CD and infrastructure to improve the usage of quotas and cost savings."
+        title = "Senior Cloud Engineer - Contractor"
+        dates = "01/2023 - present"
+        company = "Fanatics Inc(remote)"
+        details = "As a member of the CI/CD Team, work on the development of internal tools to improve user experience on deployments to multiple cloud providers using Spinnaker to deploy to AWS and Kubernetes also bringing Nomad from Hashicorp as a new cloud provider"
 
         [[params.experience.list]]
-        title = "Cloud Engineer"
+        title = "Senior Software Engineer"
+        dates = "03/2022 - 09/2022"
+        company = "WalletConnect Inc(remote)"
+        details = "Worked as a Go engineer on projects that support authentication with Supabase and integration with Waku. Also worked on the first implementation of the V2 protocol in Rust. Got involved with infrastructure and CI/CD improvements."
+
+        [[params.experience.list]]
+        title = "Cloud Engineer - Contractor"
         dates = "01/2019 - 03/2022"
         company = "Fanatics Inc(remote)"
         details = "Built tools to help internal teams deploy applications to AWS(EC2) and Kubernetes, reducing the risks and improving the deployment process, also helping set up new applications. Also, as part of the CI/CD team, we manage Spinnaker, Kubernetes(kops), GitlabCI, Github, and Artifactory."
