@@ -21,15 +21,15 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [getzola/zola @ v0.17.1](https://github.com/getzola/zola/releases/tag/v0.17.1) (2 days ago)
-- [WalletConnect/walletconnect-monorepo @ 2.4.6](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.4.6) (3 days ago)
-- [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (4 months ago)
+- [WalletConnect/walletconnect-monorepo @ 2.4.7](https://github.com/WalletConnect/walletconnect-monorepo/releases/tag/2.4.7) (2 days ago)
+- [getzola/zola @ v0.17.1](https://github.com/getzola/zola/releases/tag/v0.17.1) (1 week ago)
+- [surrealdb/surrealdb @ v1.0.0-beta.8](https://github.com/surrealdb/surrealdb/releases/tag/v1.0.0-beta.8) (5 months ago)
 
 #### ⭐ Recent Stars
 
 
-- **[n8n-io/n8n](https://github.com/n8n-io/n8n)** - Free and source-available fair-code licensed workflow automation tool. Easily automate tasks across different services. (2 days ago)
-- **[zedeus/nitter](https://github.com/zedeus/nitter)** - Alternative Twitter front-end (2 days ago)
-- **[mullvad/mullvadvpn-app](https://github.com/mullvad/mullvadvpn-app)** - The Mullvad VPN client app for desktop and mobile (5 days ago)
-- **[lebrunel/nex](https://github.com/lebrunel/nex)** - Powerful and flexible Nostr relay written in Elixir. (5 days ago)
-- **[google/comprehensive-rust](https://github.com/google/comprehensive-rust)** - This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust to everyone. (6 days ago)
+- **[breard-r/acmed](https://github.com/breard-r/acmed)** - ACME (RFC 8555) client daemon (1 day ago)
+- **[hashicorp/nomad-pack](https://github.com/hashicorp/nomad-pack)** (3 days ago)
+- **[MutinyWallet/blastr](https://github.com/MutinyWallet/blastr)** - A nostr cloudflare workers proxy relay that publishes to all known relays (3 days ago)
+- **[hashicorp/damon](https://github.com/hashicorp/damon)** - A terminal UI (TUI) for HashiCorp Nomad (3 days ago)
+- **[servian/hashiqube](https://github.com/servian/hashiqube)** - HashiQube - All the Hashicorp products in a Container or VM for anyone to demo or practise with. (4 days ago)
