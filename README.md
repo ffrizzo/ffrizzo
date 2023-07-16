@@ -28,8 +28,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[traderepublic/Cilicon](https://github.com/traderepublic/Cilicon)** - 🛠️ Self-Hosted ephemeral macOS CI on Apple Silicon (4 days ago)
-- **[SamSamskies/nostr-zap](https://github.com/SamSamskies/nostr-zap)** - Zap any Nostr npub or note from anywhere. (4 days ago)
-- **[BurntSushi/memchr](https://github.com/BurntSushi/memchr)** - Optimized string search routines for Rust. (5 days ago)
-- **[damus-io/shatter](https://github.com/damus-io/shatter)** - A fast, zero-copy nostr content parser in Rust (5 days ago)
-- **[darashi/searchnos](https://github.com/darashi/searchnos)** - Searchnos: an experimental implementation of NIP-50 (5 days ago)
+- **[diggerhq/digger](https://github.com/diggerhq/digger)** - Digger is an open source alternative to Terraform Cloud &amp; Terraform Enterprise. Digger allows you to run Terraform plan/apply in your existing CI pipeline ⚡️   (5 days ago)
+- **[traderepublic/Cilicon](https://github.com/traderepublic/Cilicon)** - 🛠️ Self-Hosted ephemeral macOS CI on Apple Silicon (1 week ago)
+- **[SamSamskies/nostr-zap](https://github.com/SamSamskies/nostr-zap)** - Zap any Nostr npub or note from anywhere. (1 week ago)
+- **[BurntSushi/memchr](https://github.com/BurntSushi/memchr)** - Optimized string search routines for Rust. (1 week ago)
+- **[damus-io/shatter](https://github.com/damus-io/shatter)** - A fast, zero-copy nostr content parser in Rust (1 week ago)
