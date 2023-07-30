@@ -9,7 +9,7 @@ I'm [Fabiano](https://ffrizzo.com)
 - [surrealdb/surrealdb.go](https://github.com/surrealdb/surrealdb.go) - SurrealDB driver for Golang (4 months ago)
 - [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (8 months ago)
 - [getzola/zola](https://github.com/getzola/zola) - A fast static site generator in a single binary with everything built-in. https://www.getzola.org (9 months ago)
-- [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web (9 months ago)
+- [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web (10 months ago)
 
 #### 👨‍💻 Repositories I created recently
 - **[ffrizzo/e36-can](https://github.com/ffrizzo/e36-can)** - AC Module for BMW E36 with swap to MS43 ECU
@@ -28,8 +28,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[ratatui-org/ratatui](https://github.com/ratatui-org/ratatui)** - Rust library to build rich terminal user interfaces (TUIs) and dashboards (3 days ago)
-- **[diggerhq/digger](https://github.com/diggerhq/digger)** - Digger is an open source alternative to Terraform Cloud &amp; Terraform Enterprise. Digger allows you to run Terraform plan/apply in your existing CI pipeline ⚡️   (1 week ago)
-- **[traderepublic/Cilicon](https://github.com/traderepublic/Cilicon)** - 🛠️ Self-Hosted ephemeral macOS CI on Apple Silicon (2 weeks ago)
-- **[SamSamskies/nostr-zap](https://github.com/SamSamskies/nostr-zap)** - Zap any Nostr npub or note from anywhere. (2 weeks ago)
-- **[BurntSushi/memchr](https://github.com/BurntSushi/memchr)** - Optimized string search routines for Rust. (2 weeks ago)
+- **[DeterminateSystems/magic-nix-cache](https://github.com/DeterminateSystems/magic-nix-cache)** - Save 30-50%&#43; of CI time without any effort or cost. Use Magic Nix Cache, a totally free and zero-configuration binary cache for Nix on GitHub Actions. (6 days ago)
+- **[PrajwalCH/yazap](https://github.com/PrajwalCH/yazap)** - 🔧 The ultimate Zig library for seamless command line parsing. Effortlessly handles options, subcommands, and custom arguments with ease. (6 days ago)
+- **[rnd-ash/OpenVehicleDiag](https://github.com/rnd-ash/OpenVehicleDiag)** - A rust based cross-platform ECU diagnostics and car hacking application, utilizing the passthru protocol (6 days ago)
+- **[ratatui-org/ratatui](https://github.com/ratatui-org/ratatui)** - Rust library to build rich terminal user interfaces (TUIs) and dashboards (1 week ago)
+- **[diggerhq/digger](https://github.com/diggerhq/digger)** - Digger is an open source alternative to Terraform Cloud &amp; Terraform Enterprise. Digger allows you to run Terraform plan/apply in your existing CI pipeline ⚡️   (2 weeks ago)
