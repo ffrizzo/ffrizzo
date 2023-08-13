@@ -28,8 +28,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[rikatz/kubepug](https://github.com/rikatz/kubepug)** - Kubernetes PreUpGrade (Checker) (5 days ago)
-- **[DeterminateSystems/magic-nix-cache](https://github.com/DeterminateSystems/magic-nix-cache)** - Save 30-50%&#43; of CI time without any effort or cost. Use Magic Nix Cache, a totally free and zero-configuration binary cache for Nix on GitHub Actions. (1 week ago)
-- **[PrajwalCH/yazap](https://github.com/PrajwalCH/yazap)** - 🔧 The ultimate Zig library for seamless command line parsing. Effortlessly handles options, subcommands, and custom arguments with ease. (1 week ago)
-- **[rnd-ash/OpenVehicleDiag](https://github.com/rnd-ash/OpenVehicleDiag)** - A rust based cross-platform ECU diagnostics and car hacking application, utilizing the passthru protocol (1 week ago)
-- **[ratatui-org/ratatui](https://github.com/ratatui-org/ratatui)** - Rust library to build rich terminal user interfaces (TUIs) and dashboards (2 weeks ago)
+- **[getAlby/nostr-wallet-connect](https://github.com/getAlby/nostr-wallet-connect)** - Nostr Wallet Connect (NIP-47) application to allow apps to connect to your node (6 days ago)
+- **[rikatz/kubepug](https://github.com/rikatz/kubepug)** - Kubernetes PreUpGrade (Checker) (1 week ago)
+- **[DeterminateSystems/magic-nix-cache](https://github.com/DeterminateSystems/magic-nix-cache)** - Save 30-50%&#43; of CI time without any effort or cost. Use Magic Nix Cache, a totally free and zero-configuration binary cache for Nix on GitHub Actions. (2 weeks ago)
+- **[PrajwalCH/yazap](https://github.com/PrajwalCH/yazap)** - 🔧 The ultimate Zig library for seamless command line parsing. Effortlessly handles options, subcommands, and custom arguments with ease. (2 weeks ago)
+- **[rnd-ash/OpenVehicleDiag](https://github.com/rnd-ash/OpenVehicleDiag)** - A rust based cross-platform ECU diagnostics and car hacking application, utilizing the passthru protocol (2 weeks ago)
