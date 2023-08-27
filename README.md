@@ -5,11 +5,11 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 👷 Check out what I'm currently working on
 
 
-- [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (2 months ago)
+- [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (4 days ago)
+- [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (3 months ago)
 - [surrealdb/surrealdb.go](https://github.com/surrealdb/surrealdb.go) - SurrealDB driver for Golang (5 months ago)
-- [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (9 months ago)
-- [getzola/zola](https://github.com/getzola/zola) - A fast static site generator in a single binary with everything built-in. https://www.getzola.org (9 months ago)
-- [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web (10 months ago)
+- [getzola/zola](https://github.com/getzola/zola) - A fast static site generator in a single binary with everything built-in. https://www.getzola.org (10 months ago)
+- [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web (11 months ago)
 
 #### 👨‍💻 Repositories I created recently
 - **[ffrizzo/e36-can](https://github.com/ffrizzo/e36-can)** - AC Module for BMW E36 with swap to MS43 ECU
@@ -28,8 +28,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[systeminit/si](https://github.com/systeminit/si)** - The System Initiative software (4 days ago)
-- **[getAlby/nostr-wallet-connect](https://github.com/getAlby/nostr-wallet-connect)** - Nostr Wallet Connect (NIP-47) application to allow apps to connect to your node (1 week ago)
-- **[rikatz/kubepug](https://github.com/rikatz/kubepug)** - Kubernetes PreUpGrade (Checker) (2 weeks ago)
-- **[DeterminateSystems/magic-nix-cache](https://github.com/DeterminateSystems/magic-nix-cache)** - Save 30-50%&#43; of CI time without any effort or cost. Use Magic Nix Cache, a totally free and zero-configuration binary cache for Nix on GitHub Actions. (3 weeks ago)
-- **[prajwalch/yazap](https://github.com/prajwalch/yazap)** - 🔧 The ultimate Zig library for seamless command line parsing. Effortlessly handles options, subcommands, and custom arguments with ease. (3 weeks ago)
+- **[anchore/syft](https://github.com/anchore/syft)** - CLI tool and library for generating a Software Bill of Materials from container images and filesystems (6 days ago)
+- **[systeminit/si](https://github.com/systeminit/si)** - The System Initiative software (1 week ago)
+- **[getAlby/nostr-wallet-connect](https://github.com/getAlby/nostr-wallet-connect)** - Nostr Wallet Connect (NIP-47) application to allow apps to connect to your node (2 weeks ago)
+- **[rikatz/kubepug](https://github.com/rikatz/kubepug)** - Kubernetes PreUpGrade (Checker) (3 weeks ago)
+- **[DeterminateSystems/magic-nix-cache](https://github.com/DeterminateSystems/magic-nix-cache)** - Save 30-50%&#43; of CI time without any effort or cost. Use Magic Nix Cache, a totally free and zero-configuration binary cache for Nix on GitHub Actions. (1 month ago)
