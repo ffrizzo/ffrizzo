@@ -19,13 +19,13 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [surrealdb/surrealdb.go @ v0.2.1](https://github.com/surrealdb/surrealdb.go/releases/tag/v0.2.1) (6 months ago)
+- [surrealdb/surrealdb.go @ v0.2.1](https://github.com/surrealdb/surrealdb.go/releases/tag/v0.2.1) (7 months ago)
 
 #### ⭐ Recent Stars
 
 
-- **[kestra-io/kestra](https://github.com/kestra-io/kestra)** - Infinitely scalable, event-driven, language-agnostic orchestration and scheduling platform to manage millions of workflows declaratively in code. (6 days ago)
-- **[spinnaker-plugin-examples/nomadPlugin](https://github.com/spinnaker-plugin-examples/nomadPlugin)** - a Nomad cloud provider (1 week ago)
-- **[kubernetes/client-go](https://github.com/kubernetes/client-go)** - Go client for Kubernetes. (2 weeks ago)
+- **[kestra-io/kestra](https://github.com/kestra-io/kestra)** - Infinitely scalable, event-driven, language-agnostic orchestration and scheduling platform to manage millions of workflows declaratively in code. (1 week ago)
+- **[spinnaker-plugin-examples/nomadPlugin](https://github.com/spinnaker-plugin-examples/nomadPlugin)** - a Nomad cloud provider (2 weeks ago)
+- **[kubernetes/client-go](https://github.com/kubernetes/client-go)** - Go client for Kubernetes. (3 weeks ago)
 - **[tedsalmon/BlueBus](https://github.com/tedsalmon/BlueBus)** - A Bluetooth module for vehicles equipped with I-Bus (1 month ago)
 - **[jenv/jenv](https://github.com/jenv/jenv)** - Manage your Java environment  (1 month ago)
