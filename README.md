@@ -24,8 +24,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[kestra-io/kestra](https://github.com/kestra-io/kestra)** - Infinitely scalable, event-driven, language-agnostic orchestration and scheduling platform to manage millions of workflows declaratively in code. (1 week ago)
-- **[spinnaker-plugin-examples/nomadPlugin](https://github.com/spinnaker-plugin-examples/nomadPlugin)** - a Nomad cloud provider (2 weeks ago)
-- **[kubernetes/client-go](https://github.com/kubernetes/client-go)** - Go client for Kubernetes. (3 weeks ago)
-- **[tedsalmon/BlueBus](https://github.com/tedsalmon/BlueBus)** - A Bluetooth module for vehicles equipped with I-Bus (1 month ago)
-- **[jenv/jenv](https://github.com/jenv/jenv)** - Manage your Java environment  (1 month ago)
+- **[mriscoc/Special_Configurations](https://github.com/mriscoc/Special_Configurations)** - In this repository there are the configuration files and releases for the Professional firmware with several features enabled. You can use the Configurator if you want to compile your own custom set of features. You can also request a pre-made binary for a small contribution on the Patreon site. (2 days ago)
+- **[MarlinFirmware/Marlin](https://github.com/MarlinFirmware/Marlin)** - Marlin is an optimized firmware for RepRap 3D printers based on the Arduino platform. Many commercial 3D printers come with Marlin installed. Check with your vendor if you need source code for your specific machine. (3 days ago)
+- **[chuckwagoncomputing/interactive-pinout](https://github.com/chuckwagoncomputing/interactive-pinout)** - Interactive Pinout Generator (4 days ago)
+- **[uber-go/nilaway](https://github.com/uber-go/nilaway)** - Static Analysis tool to detect potential Nil panics in Go code (6 days ago)
+- **[kestra-io/kestra](https://github.com/kestra-io/kestra)** - Infinitely scalable, event-driven, language-agnostic orchestration and scheduling platform to manage millions of workflows declaratively in code. (2 weeks ago)
