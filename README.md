@@ -5,8 +5,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 👷 Check out what I'm currently working on
 
 
-- [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (1 month ago)
-- [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (2 months ago)
+- [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (2 months ago)
+- [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (3 months ago)
 - [surrealdb/surrealdb.go](https://github.com/surrealdb/surrealdb.go) - SurrealDB driver for Golang (8 months ago)
 
 #### 👨‍💻 Repositories I created recently
@@ -24,8 +24,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[mriscoc/Special_Configurations](https://github.com/mriscoc/Special_Configurations)** - In this repository there are the configuration files and releases for the Professional firmware with several features enabled. You can use the Configurator if you want to compile your own custom set of features. You can also request a pre-made binary for a small contribution on the Patreon site. (2 days ago)
-- **[MarlinFirmware/Marlin](https://github.com/MarlinFirmware/Marlin)** - Marlin is an optimized firmware for RepRap 3D printers based on the Arduino platform. Many commercial 3D printers come with Marlin installed. Check with your vendor if you need source code for your specific machine. (3 days ago)
-- **[chuckwagoncomputing/interactive-pinout](https://github.com/chuckwagoncomputing/interactive-pinout)** - Interactive Pinout Generator (4 days ago)
-- **[uber-go/nilaway](https://github.com/uber-go/nilaway)** - Static Analysis tool to detect potential Nil panics in Go code (6 days ago)
-- **[kestra-io/kestra](https://github.com/kestra-io/kestra)** - Infinitely scalable, event-driven, language-agnostic orchestration and scheduling platform to manage millions of workflows declaratively in code. (2 weeks ago)
+- **[salvo-rs/salvo](https://github.com/salvo-rs/salvo)** - A powerful web framework that can make your work easier (4 days ago)
+- **[spinnaker-plugins/aws-lambda-deployment-plugin-spinnaker](https://github.com/spinnaker-plugins/aws-lambda-deployment-plugin-spinnaker)** - Spinnaker plugin to support deployment of AWS Lambda functions via Spinnaker pipelines (5 days ago)
+- **[mriscoc/Special_Configurations](https://github.com/mriscoc/Special_Configurations)** - In this repository there are the configuration files and releases for the Professional firmware with several features enabled. You can use the Configurator if you want to compile your own custom set of features. You can also request a pre-made binary for a small contribution on the Patreon site. (1 week ago)
+- **[MarlinFirmware/Marlin](https://github.com/MarlinFirmware/Marlin)** - Marlin is an optimized firmware for RepRap 3D printers based on the Arduino platform. Many commercial 3D printers come with Marlin installed. Check with your vendor if you need source code for your specific machine. (1 week ago)
+- **[chuckwagoncomputing/interactive-pinout](https://github.com/chuckwagoncomputing/interactive-pinout)** - Interactive Pinout Generator (1 week ago)
