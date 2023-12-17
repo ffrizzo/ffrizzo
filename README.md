@@ -19,13 +19,13 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [surrealdb/surrealdb.go @ v0.2.1](https://github.com/surrealdb/surrealdb.go/releases/tag/v0.2.1) (7 months ago)
+- [surrealdb/surrealdb.go @ v0.2.1](https://github.com/surrealdb/surrealdb.go/releases/tag/v0.2.1) (8 months ago)
 
 #### ⭐ Recent Stars
 
 
-- **[film42/sidekiq-rs](https://github.com/film42/sidekiq-rs)** - A port of sidekiq to rust using tokio (4 days ago)
-- **[loco-rs/loco](https://github.com/loco-rs/loco)** - 🚂 🦀 The one-person framework for Rust for side-projects and startups (4 days ago)
-- **[salvo-rs/salvo](https://github.com/salvo-rs/salvo)** - A powerful web framework that can make your work easier (1 week ago)
-- **[spinnaker-plugins/aws-lambda-deployment-plugin-spinnaker](https://github.com/spinnaker-plugins/aws-lambda-deployment-plugin-spinnaker)** - Spinnaker plugin to support deployment of AWS Lambda functions via Spinnaker pipelines (1 week ago)
-- **[mriscoc/Special_Configurations](https://github.com/mriscoc/Special_Configurations)** - In this repository there are the configuration files and releases for the Professional firmware with several features enabled. You can use the Configurator if you want to compile your own custom set of features. You can also request a pre-made binary for a small contribution on the Patreon site. (2 weeks ago)
+- **[openobserve/openobserve](https://github.com/openobserve/openobserve)** - 🚀 10x easier, 🚀 140x lower storage cost, 🚀 high performance,  🚀 petabyte scale - Elasticsearch/Splunk/Datadog alternative for 🚀 (logs, metrics, traces, RUM, Error tracking, Session replay). (4 days ago)
+- **[kyleisah/Klipper-Adaptive-Meshing-Purging](https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging)** - A unique leveling solution for Klipper-enabled 3D printers! (1 week ago)
+- **[film42/sidekiq-rs](https://github.com/film42/sidekiq-rs)** - A port of sidekiq to rust using tokio (1 week ago)
+- **[loco-rs/loco](https://github.com/loco-rs/loco)** - 🚂 🦀 The one-person framework for Rust for side-projects and startups (1 week ago)
+- **[salvo-rs/salvo](https://github.com/salvo-rs/salvo)** - A powerful web framework that can make your work easier (2 weeks ago)
