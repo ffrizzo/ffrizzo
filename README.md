@@ -24,8 +24,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[openobserve/openobserve](https://github.com/openobserve/openobserve)** - 🚀 10x easier, 🚀 140x lower storage cost, 🚀 high performance,  🚀 petabyte scale - Elasticsearch/Splunk/Datadog alternative for 🚀 (logs, metrics, traces, RUM, Error tracking, Session replay). (4 days ago)
-- **[kyleisah/Klipper-Adaptive-Meshing-Purging](https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging)** - A unique leveling solution for Klipper-enabled 3D printers! (1 week ago)
-- **[film42/sidekiq-rs](https://github.com/film42/sidekiq-rs)** - A port of sidekiq to rust using tokio (1 week ago)
-- **[loco-rs/loco](https://github.com/loco-rs/loco)** - 🚂 🦀 The one-person framework for Rust for side-projects and startups (1 week ago)
-- **[salvo-rs/salvo](https://github.com/salvo-rs/salvo)** - A powerful web framework that can make your work easier (2 weeks ago)
+- **[oreboot/oreboot](https://github.com/oreboot/oreboot)** - oreboot is a fork of coreboot, with C removed, written in Rust. (3 days ago)
+- **[halseth/elftrace](https://github.com/halseth/elftrace)** (3 days ago)
+- **[KatharaFramework/NetworkPlugin](https://github.com/KatharaFramework/NetworkPlugin)** - Docker Network Plugin used by Kathará to create pure L2 networks. (4 days ago)
+- **[handmade0octopus/ESP32-TWAI-CAN](https://github.com/handmade0octopus/ESP32-TWAI-CAN)** - ESP32 driver for TWAI / CAN for adruino (1 week ago)
+- **[openobserve/openobserve](https://github.com/openobserve/openobserve)** - 🚀 10x easier, 🚀 140x lower storage cost, 🚀 high performance,  🚀 petabyte scale - Elasticsearch/Splunk/Datadog alternative for 🚀 (logs, metrics, traces, RUM, Error tracking, Session replay). (1 week ago)
