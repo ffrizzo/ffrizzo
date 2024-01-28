@@ -5,8 +5,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 👷 Check out what I'm currently working on
 
 
-- [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (4 weeks ago)
-- [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (3 months ago)
+- [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (1 month ago)
+- [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (4 months ago)
 - [surrealdb/surrealdb.go](https://github.com/surrealdb/surrealdb.go) - SurrealDB driver for Golang (10 months ago)
 
 #### 👨‍💻 Repositories I created recently
@@ -24,8 +24,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[kristoff-it/zig-spoon](https://github.com/kristoff-it/zig-spoon)** (5 days ago)
-- **[Ragnt/AngryOxide](https://github.com/Ragnt/AngryOxide)** - 802.11 Attack Tool (5 days ago)
-- **[k8sgpt-ai/charts](https://github.com/k8sgpt-ai/charts)** - Helm Charts for K8sGPT (2 weeks ago)
-- **[Qovery/Torii](https://github.com/Qovery/Torii)** - Torii ⛩️ is a simple, powerful and extensible open-source Internal Developer Portal (2 weeks ago)
-- **[k8sgpt-ai/k8sgpt](https://github.com/k8sgpt-ai/k8sgpt)** - Giving Kubernetes Superpowers to everyone (2 weeks ago)
+- **[google/bindiff](https://github.com/google/bindiff)** - Quickly find differences and similarities in disassembled code (2 days ago)
+- **[zeromicro/go-zero](https://github.com/zeromicro/go-zero)** - A cloud-native Go microservices framework with cli tool for productivity. (5 days ago)
+- **[erebe/wstunnel](https://github.com/erebe/wstunnel)** - Tunnel all your traffic over Websocket or HTTP2 - Bypass firewalls/DPI - Static binary available  (1 week ago)
+- **[kristoff-it/zig-spoon](https://github.com/kristoff-it/zig-spoon)** (1 week ago)
+- **[Ragnt/AngryOxide](https://github.com/Ragnt/AngryOxide)** - 802.11 Attack Tool (1 week ago)
