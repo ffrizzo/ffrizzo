@@ -19,13 +19,13 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [surrealdb/surrealdb.go @ v0.2.1](https://github.com/surrealdb/surrealdb.go/releases/tag/v0.2.1) (9 months ago)
+- [surrealdb/surrealdb.go @ v0.2.1](https://github.com/surrealdb/surrealdb.go/releases/tag/v0.2.1) (10 months ago)
 
 #### ⭐ Recent Stars
 
 
-- **[martinvonz/jj](https://github.com/martinvonz/jj)** - A Git-compatible VCS that is both simple and powerful (3 days ago)
-- **[actions/runner-container-hooks](https://github.com/actions/runner-container-hooks)** - Runner Container Hooks for GitHub Actions (1 week ago)
-- **[google/bindiff](https://github.com/google/bindiff)** - Quickly find differences and similarities in disassembled code (2 weeks ago)
-- **[zeromicro/go-zero](https://github.com/zeromicro/go-zero)** - A cloud-native Go microservices framework with cli tool for productivity. (2 weeks ago)
-- **[erebe/wstunnel](https://github.com/erebe/wstunnel)** - Tunnel all your traffic over Websocket or HTTP2 - Bypass firewalls/DPI - Static binary available  (3 weeks ago)
+- **[martinvonz/jj](https://github.com/martinvonz/jj)** - A Git-compatible VCS that is both simple and powerful (1 week ago)
+- **[actions/runner-container-hooks](https://github.com/actions/runner-container-hooks)** - Runner Container Hooks for GitHub Actions (2 weeks ago)
+- **[google/bindiff](https://github.com/google/bindiff)** - Quickly find differences and similarities in disassembled code (3 weeks ago)
+- **[zeromicro/go-zero](https://github.com/zeromicro/go-zero)** - A cloud-native Go microservices framework with cli tool for productivity. (3 weeks ago)
+- **[erebe/wstunnel](https://github.com/erebe/wstunnel)** - Tunnel all your traffic over Websocket or HTTP2 - Bypass firewalls/DPI - Static binary available  (4 weeks ago)
