@@ -6,8 +6,8 @@ I'm [Fabiano](https://ffrizzo.com)
 
 
 - [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (2 months ago)
-- [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (4 months ago)
-- [surrealdb/surrealdb.go](https://github.com/surrealdb/surrealdb.go) - SurrealDB driver for Golang (11 months ago)
+- [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (5 months ago)
+- [surrealdb/surrealdb.go](https://github.com/surrealdb/surrealdb.go) - SurrealDB driver for Golang (1 year ago)
 
 #### 👨‍💻 Repositories I created recently
 - **[ffrizzo/e36-can](https://github.com/ffrizzo/e36-can)** - AC Module for BMW E36 with swap to MS43 ECU
@@ -24,8 +24,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[alajmo/mani](https://github.com/alajmo/mani)** - :robot: CLI tool to help you manage repositories (6 days ago)
-- **[earthly/earthly](https://github.com/earthly/earthly)** - Super simple build framework with fast, repeatable builds and an instantly familiar syntax – like Dockerfile and Makefile had a baby. (6 days ago)
-- **[shepherdjerred/macos-cross-compiler](https://github.com/shepherdjerred/macos-cross-compiler)** - Compile binaries for macOS on Linux (6 days ago)
-- **[martinvonz/jj](https://github.com/martinvonz/jj)** - A Git-compatible VCS that is both simple and powerful (2 weeks ago)
-- **[actions/runner-container-hooks](https://github.com/actions/runner-container-hooks)** - Runner Container Hooks for GitHub Actions (3 weeks ago)
+- **[I-CAN-hack/pq-flasher](https://github.com/I-CAN-hack/pq-flasher)** - This repository conatains tools to reflash a PQ35 VW EPS, it also contains some useful libraries to deal with the TP 2.0 transport layer and abstracts away the KWP2000 diagnsotics protocol. (5 days ago)
+- **[qarmin/czkawka](https://github.com/qarmin/czkawka)** - Multi functional app to find duplicates, empty folders, similar images etc. (6 days ago)
+- **[rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer)** - A Rust compiler front-end for IDEs (6 days ago)
+- **[alajmo/mani](https://github.com/alajmo/mani)** - :robot: CLI tool to help you manage repositories (1 week ago)
+- **[earthly/earthly](https://github.com/earthly/earthly)** - Super simple build framework with fast, repeatable builds and an instantly familiar syntax – like Dockerfile and Makefile had a baby. (1 week ago)
