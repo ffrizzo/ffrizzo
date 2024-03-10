@@ -19,13 +19,12 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 🚀 Latest releases I've contributed to
 
 
-- [surrealdb/surrealdb.go @ v0.2.1](https://github.com/surrealdb/surrealdb.go/releases/tag/v0.2.1) (10 months ago)
 
 #### ⭐ Recent Stars
 
 
-- **[I-CAN-hack/pq-flasher](https://github.com/I-CAN-hack/pq-flasher)** - This repository conatains tools to reflash a PQ35 VW EPS, it also contains some useful libraries to deal with the TP 2.0 transport layer and abstracts away the KWP2000 diagnsotics protocol. (5 days ago)
-- **[qarmin/czkawka](https://github.com/qarmin/czkawka)** - Multi functional app to find duplicates, empty folders, similar images etc. (6 days ago)
-- **[rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer)** - A Rust compiler front-end for IDEs (6 days ago)
-- **[alajmo/mani](https://github.com/alajmo/mani)** - :robot: CLI tool to help you manage repositories (1 week ago)
-- **[earthly/earthly](https://github.com/earthly/earthly)** - Super simple build framework with fast, repeatable builds and an instantly familiar syntax – like Dockerfile and Makefile had a baby. (1 week ago)
+- **[tg123/sshpiper](https://github.com/tg123/sshpiper)** - The missing reverse proxy for ssh scp (3 days ago)
+- **[dmacpro91/BMW-XDFs](https://github.com/dmacpro91/BMW-XDFs)** (6 days ago)
+- **[I-CAN-hack/pq-flasher](https://github.com/I-CAN-hack/pq-flasher)** - This repository conatains tools to reflash a PQ35 VW EPS, it also contains some useful libraries to deal with the TP 2.0 transport layer and abstracts away the KWP2000 diagnsotics protocol. (1 week ago)
+- **[qarmin/czkawka](https://github.com/qarmin/czkawka)** - Multi functional app to find duplicates, empty folders, similar images etc. (1 week ago)
+- **[rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer)** - A Rust compiler front-end for IDEs (1 week ago)
