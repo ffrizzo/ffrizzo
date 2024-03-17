@@ -7,7 +7,6 @@ I'm [Fabiano](https://ffrizzo.com)
 
 - [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (2 months ago)
 - [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (5 months ago)
-- [surrealdb/surrealdb.go](https://github.com/surrealdb/surrealdb.go) - SurrealDB driver for Golang (1 year ago)
 
 #### 👨‍💻 Repositories I created recently
 - **[ffrizzo/e36-can](https://github.com/ffrizzo/e36-can)** - AC Module for BMW E36 with swap to MS43 ECU
@@ -23,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[tg123/sshpiper](https://github.com/tg123/sshpiper)** - The missing reverse proxy for ssh scp (3 days ago)
-- **[dmacpro91/BMW-XDFs](https://github.com/dmacpro91/BMW-XDFs)** (6 days ago)
-- **[I-CAN-hack/pq-flasher](https://github.com/I-CAN-hack/pq-flasher)** - This repository conatains tools to reflash a PQ35 VW EPS, it also contains some useful libraries to deal with the TP 2.0 transport layer and abstracts away the KWP2000 diagnsotics protocol. (1 week ago)
-- **[qarmin/czkawka](https://github.com/qarmin/czkawka)** - Multi functional app to find duplicates, empty folders, similar images etc. (1 week ago)
-- **[rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer)** - A Rust compiler front-end for IDEs (1 week ago)
+- **[tg123/sshpiper](https://github.com/tg123/sshpiper)** - The missing reverse proxy for ssh scp (1 week ago)
+- **[dmacpro91/BMW-XDFs](https://github.com/dmacpro91/BMW-XDFs)** (1 week ago)
+- **[I-CAN-hack/pq-flasher](https://github.com/I-CAN-hack/pq-flasher)** - This repository conatains tools to reflash a PQ35 VW EPS, it also contains some useful libraries to deal with the TP 2.0 transport layer and abstracts away the KWP2000 diagnsotics protocol. (2 weeks ago)
+- **[qarmin/czkawka](https://github.com/qarmin/czkawka)** - Multi functional app to find duplicates, empty folders, similar images etc. (2 weeks ago)
+- **[rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer)** - A Rust compiler front-end for IDEs (2 weeks ago)
