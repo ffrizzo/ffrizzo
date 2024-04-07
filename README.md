@@ -22,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)** - A list of Free Software network services and web applications which can be hosted on your own servers (3 days ago)
-- **[charmbracelet/freeze](https://github.com/charmbracelet/freeze)** - Generate images of code and terminal output 📸 (4 days ago)
-- **[meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)** - A lightning-fast search API that fits effortlessly into your apps, websites, and workflow (1 week ago)
-- **[bevyengine/bevy](https://github.com/bevyengine/bevy)** - A refreshingly simple data-driven game engine built in Rust (1 week ago)
-- **[aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware)** - Volvo MKII Open Hardware (1 week ago)
+- **[OpenDevin/OpenDevin](https://github.com/OpenDevin/OpenDevin)** - 🐚 OpenDevin: Code Less, Make More (6 days ago)
+- **[helix-editor/helix](https://github.com/helix-editor/helix)** - A post-modern modal text editor. (6 days ago)
+- **[awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)** - A list of Free Software network services and web applications which can be hosted on your own servers (1 week ago)
+- **[charmbracelet/freeze](https://github.com/charmbracelet/freeze)** - Generate images of code and terminal output 📸 (1 week ago)
+- **[meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)** - A lightning-fast search API that fits effortlessly into your apps, websites, and workflow (2 weeks ago)
