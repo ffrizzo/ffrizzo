@@ -22,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[HeinrichG-V12/E65_ReverseEngineering](https://github.com/HeinrichG-V12/E65_ReverseEngineering)** (5 days ago)
-- **[OpenDevin/OpenDevin](https://github.com/OpenDevin/OpenDevin)** - 🐚 OpenDevin: Code Less, Make More (1 week ago)
-- **[helix-editor/helix](https://github.com/helix-editor/helix)** - A post-modern modal text editor. (1 week ago)
-- **[awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)** - A list of Free Software network services and web applications which can be hosted on your own servers (2 weeks ago)
-- **[charmbracelet/freeze](https://github.com/charmbracelet/freeze)** - Generate images of code and terminal output 📸 (2 weeks ago)
+- **[Diolum/BMW_gateway_emulator](https://github.com/Diolum/BMW_gateway_emulator)** - BMW E46 E39 Diagnostic gateway emulator without the need of Kombi. Emulator will become master on the KBUS. (2 days ago)
+- **[amanbolat/awesome-go-with-stars](https://github.com/amanbolat/awesome-go-with-stars)** - Awesome-go list with stars. Automatically updated. (3 days ago)
+- **[xataio/pgroll](https://github.com/xataio/pgroll)** - PostgreSQL zero-downtime migrations made easy (4 days ago)
+- **[ajvb/awesome-tor](https://github.com/ajvb/awesome-tor)** - A list of awesome Tor related projects, articles, papers, etc (1 week ago)
+- **[HeinrichG-V12/E65_ReverseEngineering](https://github.com/HeinrichG-V12/E65_ReverseEngineering)** (1 week ago)
