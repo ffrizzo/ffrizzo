@@ -115,7 +115,7 @@ disableKinds = ["404", "RSS", "Sitemap"]
         title = "Senior Cloud Engineer - Contractor"
         dates = "01/2023 - present"
         company = "Fanatics Inc(remote)"
-        details = "As a valued member of the CI/CD Team, I contributed to the development of internal tools focused on enhancing user experience during deployments across multiple cloud providers. Working alongside talented colleagues, we utilized Spinnaker to facilitate deployments to AWS and Kubernetes environments. Additionally, I had the opportunity to introduce Nomad from HashiCorp as a new cloud provider, expanding our deployment options and contributing to the team's evolving capabilities."
+        details = "As a member of the CI/CD Team, I played a pivotal role in the development of internal tools aimed at enhancing the deployment experience. Collaborating closely with talented colleagues, our team utilized Spinnaker to efficiently manage deployments across AWS and Kubernetes. Additionally, as a team effort, we introduced HashiCorp’s Nomad to enhance our workload orchestration, significantly expanding our deployment capabilities and ensuring seamless operations across our infrastructure."
 
         [[params.experience.list]]
         title = "Senior Software Engineer"
