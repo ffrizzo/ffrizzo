@@ -66,11 +66,15 @@ disableKinds = ["404", "RSS", "Sitemap"]
         [[params.skills.list]]
         title = "Cloud/DevOps Tools"
         [[params.skills.list.items]]
-        details = "Docker, Kubernetes, Nomad, Spinnaker, Terraform, Packer, Ansible"
+        details = "Docker, Kubernetes, Nomad, Spinnaker, Terraform, Packer, Ansibl, Helm"
         [[params.skills.list]]
         title = "Cloud Providers"
         [[params.skills.list.items]]
         details = "AWS, GCP, Azure"
+        [[params.skills.list]]
+        title = "Other Tools"
+        [[params.skills.list.items]]
+        details = "Gitlab Pipelines, Github Actions, JFrog Artifactory"
 
     # Education section
     [params.education]
@@ -101,7 +105,7 @@ disableKinds = ["404", "RSS", "Sitemap"]
     # Summary section
     [params.summary]
         enable = true
-        text = "A Senior Software engineer with 13+ years of experience delivering high-quality software, specialized in Cloud/DevOps and Backend development."
+        text = "With over 14 years of specialized experience in software development, my expertise lies in architecting resilient systems and optimizing CI/CD pipelines for enhanced efficiency and scalability. Proficient in AWS, Kubernetes, and key DevOps tools such as Spinnaker and Terraform, I have a proven track record of delivering innovative solutions that significantly improve performance and reduce costs. My extensive experience underscores a consistent dedication to advancing software architecture and driving impactful outcomes. Moreover, I possess strong collaboration skills, enabling me to effectively work with distributed teams across diverse industries."
 
     # Experiences section
     [params.experience]
@@ -111,61 +115,61 @@ disableKinds = ["404", "RSS", "Sitemap"]
         title = "Senior Cloud Engineer - Contractor"
         dates = "01/2023 - present"
         company = "Fanatics Inc(remote)"
-        details = "As a member of the CI/CD Team, work on the development of internal tools to improve user experience on deployments to multiple cloud providers using Spinnaker to deploy to AWS and Kubernetes also bringing Nomad from Hashicorp as a new cloud provider"
+        details = "As a valued member of the CI/CD Team, I contributed to the development of internal tools focused on enhancing user experience during deployments across multiple cloud providers. Working alongside talented colleagues, we utilized Spinnaker to facilitate deployments to AWS and Kubernetes environments. Additionally, I had the opportunity to introduce Nomad from HashiCorp as a new cloud provider, expanding our deployment options and contributing to the team's evolving capabilities."
 
         [[params.experience.list]]
         title = "Senior Software Engineer"
         dates = "03/2022 - 09/2022"
         company = "WalletConnect Inc(remote)"
-        details = "Worked as a Go engineer on projects that support authentication with Supabase and integration with Waku. Also worked on the first implementation of the V2 protocol in Rust. Got involved with infrastructure and CI/CD improvements."
+        details = "As a Go engineer, I contributed to projects focused on enhancing authentication with Supabase and integrating with Waku, enriching user experiences and functionality. Additionally, I had the opportunity to participate in pioneering the first implementation of the V2 protocol in Rust, furthering our team's technological advancements. Beyond my primary role, I actively engaged in infrastructure and CI/CD enhancements, recognizing the importance of robust and efficient development processes."
 
         [[params.experience.list]]
         title = "Cloud Engineer - Contractor"
         dates = "01/2019 - 03/2022"
         company = "Fanatics Inc(remote)"
-        details = "Built tools to help internal teams deploy applications to AWS(EC2) and Kubernetes, reducing the risks and improving the deployment process, also helping set up new applications. Also, as part of the CI/CD team, we manage Spinnaker, Kubernetes(kops), GitlabCI, Github, and Artifactory."
+        details = "As a member of the CI/CD team, I contributed to the development of an in-house deployment tool designed to streamline the deployment process across cloud providers such as AWS and Kubernetes. Leveraging Golang, we built a comprehensive solution comprising a server, CLI, and Terraform provider, aimed at enhancing efficiency and reliability. Additionally, our responsibilities extended to the management of key technologies including Spinnaker, Kubernetes, GitLab CI, GitHub, and Artifactory, ensuring seamless integration and operation within our development ecosystem."
 
         [[params.experience.list]]
         title = "Senior Software/DevOps Engineer"
         dates = "11/2016 - 12/2018"
         company = "FoodLogiQ(remote)"
-        details = "Worked with high-priority tickets to fix issues that affected customers and required quick fixes. I moved to work more focused on DevOps to help improve infrastructure reliability and security, reducing costs with the cloud provider. Have introduced new tools(Terraform, Ansible, Packer) to manage the cloud, improved how containers are built and deployed, built tools to facilitate the integration of other teams with the cloud, and enhanced repetitive daily tasks. Applications building with Go and AngularJS."
+        details = "I initially tackled critical customer issues, swiftly resolving high-priority tickets to maintain seamless service delivery. Transitioning towards a more focused DevOps role, I dedicated myself to enhancing infrastructure reliability and bolstering security measures while strategically optimizing costs with our cloud provider. My initiatives included the introduction of pivotal tools like Terraform, Ansible, and Packer, revolutionizing our cloud management practices. I also revamped containerization processes and spearheaded the development of tools facilitating seamless integration with other teams' workflows. Concurrently, I actively contributed to application development, leveraging Go and AngularJS to deliver robust and user-centric solutions."
 
         [[params.experience.list]]
         title = "Software Engineer"
         dates = "03/2016 - 10/2016"
         company = "Enlight Research(remote)"
-        details = "Built new features and improved the application performance, stability, and code quality built integrations with external APIs. The core applications used Go and AngularJS on the backend and the frontend, respectively. Worked in the DevOps area to improve how we built the container images and introduced a proper CI/CD environment, reducing the friction on releases and making it more reliable."
+        details = "I had the opportunity to contribute to our applications by adding new features and refining performance while prioritizing stability and code quality. Additionally, I worked on integrating external APIs to enhance functionality. My primary focus was on backend development using Go and frontend with AngularJS. In the DevOps sphere, I played a part in refining our container image building processes and establishing a more reliable CI/CD environment. These efforts aimed to minimize release friction and improve deployment consistency."
 
         [[params.experience.list]]
         title = "Senior Software Developer"
         dates = "02/2010 - 03/2016"
         company = "Integritas Solutions, Inc(remote)"
-        details = "Build new applications and work on maintenance using various technologies such as Java, NodeJs, Adobe Flex, AngularJS, and EmberJS. As a DevOps engineer helped set up applications to run CI/CD(Jenkins) and built servers with Apache, Nginx, Jboss, MySQL, and PostgreSQL. I worked with Vagrant to deliver a better experience for devs to start on projects. I Worked on multiple applications for different customers."
+        details = "I've had the opportunity to develop new applications and maintain existing ones using a variety of technologies, including Java, Node.js, Adobe Flex, AngularJS, and Ember.js. As a DevOps engineer, I played a role in establishing CI/CD pipelines (using Jenkins) and configuring servers with Apache, Nginx, JBoss, MySQL, and PostgreSQL. Additionally, I implemented Vagrant to enhance the developer experience, simplifying project setup. Over time, I've worked on multiple applications for diverse clients, gaining valuable experience in meeting different requirements and delivering effective solutions."
 
         [[params.experience.list]]
         title = "Senior Software Engineer"
         dates = "07/2009 - 05/2015"
         company = "Escritório Contábil Iguaçu(remote)"
-        details = "Built a new ERP on a small team using Java, Adobe Flex, and PostgreSQL. Built integrations with government applications. As SysAdmin configured the on-premise servers to run Apache, JBoss, and PostgreSQL."
+        details = "Contributed to the development of a new ERP system using Java and Adobe Flex, collaborating closely with a small team. Integrated the ERP system with government applications to ensure seamless data exchange. Additionally, as a SysAdmin, took charge of configuring on-premise servers, optimizing them for performance and reliability with Apache, JBoss, and PostgreSQL."
 
         [[params.experience.list]]
         title = "Software Developer"
         dates = "02/2011 - 09/2011"
         company = "SetPoint(remote)"
-        details = "Worked on adding new features and bug fixes on an OpenSource ERP Project called FreedomERP. FreedomERP was a project built with Java Swing using the Firebird database."
+        details = "Contributed to feature enhancements and bug fixes for FreedomERP, an open-source ERP project. Utilized Java Swing and Firebird database to develop and maintain the system's functionality and user interface."
 
         [[params.experience.list]]
         title = "Software Developer"
         dates = "01/2010 - 11/2010"
         company = "NetSar(remote)"
-        details = "As a team member that works mainly with the ERP Application. The ERP was built using Java and Adobe Flex. Implemented integrations with third-party applications and APIs."
+        details = "As a team member dedicated to the ERP application, I specialized in Java and Adobe Flex development. I actively integrated third-party applications and APIs, enhancing the ERP's functionality and interoperability."
 
         [[params.experience.list]]
         title = "Junior Software Developer"
         dates = "08/2006 - 05/2007"
         company = "Sicoob Cascavel"
-        details = "Built internal tools with Delphi and Firebird to help Account Managers calculate the risk for money loans and provide metrics to enable customers to make the best investment."
+        details = "Developed internal tools using Delphi and Firebird to support Account Managers in risk assessment for money loans. These tools also provided essential metrics to assist customers in making informed investment decisions."
 
     [params.footer]
         copyright = "Fabiano Frizzo"
