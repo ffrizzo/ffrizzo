@@ -105,7 +105,7 @@ disableKinds = ["404", "RSS", "Sitemap"]
     # Summary section
     [params.summary]
         enable = true
-        text = "With over 14 years of specialized experience in software development, my expertise lies in architecting resilient systems and optimizing CI/CD pipelines for enhanced efficiency and scalability. Proficient in AWS, Kubernetes, and key DevOps tools such as Spinnaker and Terraform, I have a proven track record of delivering innovative solutions that significantly improve performance and reduce costs. My extensive experience underscores a consistent dedication to advancing software architecture and driving impactful outcomes. Moreover, I possess strong collaboration skills, enabling me to effectively work with distributed teams across diverse industries."
+        text = "Highly skilled Backend & DevOps Engineer with 14+ years of experience building, deploying, and maintaining robust and scalable software systems. Expertise in backend development using Go, Java, and other languages. Extensive experience with DevOps tools and methodologies (CI/CD pipelines, containerization, cloud infrastructure management) to automate deployments and ensure operational efficiency. Proven ability to collaborate effectively across teams and deliver impactful results in both startup and enterprise environments."
 
     # Experiences section
     [params.experience]
