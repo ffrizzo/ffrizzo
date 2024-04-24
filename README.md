@@ -22,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[Diolum/BMW_gateway_emulator](https://github.com/Diolum/BMW_gateway_emulator)** - BMW E46 E39 Diagnostic gateway emulator without the need of Kombi. Emulator will become master on the KBUS. (4 days ago)
-- **[amanbolat/awesome-go-with-stars](https://github.com/amanbolat/awesome-go-with-stars)** - Awesome-go list with stars. Automatically updated. (5 days ago)
-- **[xataio/pgroll](https://github.com/xataio/pgroll)** - PostgreSQL zero-downtime migrations made easy (6 days ago)
-- **[ajvb/awesome-tor](https://github.com/ajvb/awesome-tor)** - A list of awesome Tor related projects, articles, papers, etc (1 week ago)
-- **[HeinrichG-V12/E65_ReverseEngineering](https://github.com/HeinrichG-V12/E65_ReverseEngineering)** (2 weeks ago)
+- **[dolthub/dolt](https://github.com/dolthub/dolt)** - Dolt – Git for Data (1 day ago)
+- **[anchore/quill](https://github.com/anchore/quill)** - Simple mac binary signing from any platform (1 day ago)
+- **[Diolum/BMW_gateway_emulator](https://github.com/Diolum/BMW_gateway_emulator)** - BMW E46 E39 Diagnostic gateway emulator without the need of Kombi. Emulator will become master on the KBUS. (5 days ago)
+- **[amanbolat/awesome-go-with-stars](https://github.com/amanbolat/awesome-go-with-stars)** - Awesome-go list with stars. Automatically updated. (6 days ago)
+- **[xataio/pgroll](https://github.com/xataio/pgroll)** - PostgreSQL zero-downtime migrations made easy (1 week ago)
