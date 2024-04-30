@@ -22,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[dolthub/dolt](https://github.com/dolthub/dolt)** - Dolt – Git for Data (5 days ago)
-- **[anchore/quill](https://github.com/anchore/quill)** - Simple mac binary signing from any platform (5 days ago)
-- **[Diolum/BMW_gateway_emulator](https://github.com/Diolum/BMW_gateway_emulator)** - BMW E46 E39 Diagnostic gateway emulator without the need of Kombi. Emulator will become master on the KBUS. (1 week ago)
-- **[amanbolat/awesome-go-with-stars](https://github.com/amanbolat/awesome-go-with-stars)** - Awesome-go list with stars. Automatically updated. (1 week ago)
-- **[xataio/pgroll](https://github.com/xataio/pgroll)** - PostgreSQL zero-downtime migrations made easy (1 week ago)
+- **[HeyPuter/puter](https://github.com/HeyPuter/puter)** - 🌐 The Internet OS! Free, Open-Source, and Self-Hostable. (1 day ago)
+- **[harryberlin/Arduino-BMW-IBus-SerialInterface-MCP2025](https://github.com/harryberlin/Arduino-BMW-IBus-SerialInterface-MCP2025)** (1 day ago)
+- **[muki01/I-K_Bus](https://github.com/muki01/I-K_Bus)** - BMW I/K Bus Control with Arduino (1 day ago)
+- **[piersholt/wilhelm-docs](https://github.com/piersholt/wilhelm-docs)** - BMW I/K-Bus Documentation (1 day ago)
+- **[just-oblivious/arduino-ibustrx](https://github.com/just-oblivious/arduino-ibustrx)** - Arduino library for sending and receiving messages over the BMW infotainment bus (IBUS). (1 day ago)
