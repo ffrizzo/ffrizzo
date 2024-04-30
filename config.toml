@@ -26,6 +26,12 @@ disableKinds = ["404", "RSS", "Sitemap"]
         [[params.contact.list]]
         class = "phone"
         icon = "fas fa-phone"
+        url = "tel:+13073945071"
+        text = "+1 307 3945071"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fas fa-phone"
         url = "tel:+5545999697850"
         text = "+55 45 999697850"
 
