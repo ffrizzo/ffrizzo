@@ -22,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[HeyPuter/puter](https://github.com/HeyPuter/puter)** - 🌐 The Internet OS! Free, Open-Source, and Self-Hostable. (1 day ago)
-- **[harryberlin/Arduino-BMW-IBus-SerialInterface-MCP2025](https://github.com/harryberlin/Arduino-BMW-IBus-SerialInterface-MCP2025)** (1 day ago)
-- **[muki01/I-K_Bus](https://github.com/muki01/I-K_Bus)** - BMW I/K Bus Control with Arduino (1 day ago)
-- **[piersholt/wilhelm-docs](https://github.com/piersholt/wilhelm-docs)** - BMW I/K-Bus Documentation (1 day ago)
-- **[just-oblivious/arduino-ibustrx](https://github.com/just-oblivious/arduino-ibustrx)** - Arduino library for sending and receiving messages over the BMW infotainment bus (IBUS). (1 day ago)
+- **[risor-io/risor](https://github.com/risor-io/risor)** - Fast and flexible scripting for Go developers and DevOps. (3 days ago)
+- **[HeyPuter/puter](https://github.com/HeyPuter/puter)** - 🌐 The Internet OS! Free, Open-Source, and Self-Hostable. (6 days ago)
+- **[harryberlin/Arduino-BMW-IBus-SerialInterface-MCP2025](https://github.com/harryberlin/Arduino-BMW-IBus-SerialInterface-MCP2025)** (6 days ago)
+- **[muki01/I-K_Bus](https://github.com/muki01/I-K_Bus)** - BMW I/K Bus Control with Arduino (6 days ago)
+- **[piersholt/wilhelm-docs](https://github.com/piersholt/wilhelm-docs)** - BMW I/K-Bus Documentation (6 days ago)
