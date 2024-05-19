@@ -22,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[commaai/opendbc](https://github.com/commaai/opendbc)** - democratize access to car decoder rings (2 days ago)
-- **[gerchanovsky/BMW_KBus_Pioneer_Helper](https://github.com/gerchanovsky/BMW_KBus_Pioneer_Helper)** - Control Pioneer AVH-2330NEX Head unit with BMW E46 Steering wheel buttons. Plus some extra. (TH3122.4, ESP32, etc.) (3 days ago)
-- **[risor-io/risor](https://github.com/risor-io/risor)** - Fast and flexible scripting for Go developers and DevOps. (1 week ago)
-- **[HeyPuter/puter](https://github.com/HeyPuter/puter)** - 🌐 The Internet OS! Free, Open-Source, and Self-Hostable. (1 week ago)
-- **[harryberlin/Arduino-BMW-IBus-SerialInterface-MCP2025](https://github.com/harryberlin/Arduino-BMW-IBus-SerialInterface-MCP2025)** (1 week ago)
+- **[commaai/opendbc](https://github.com/commaai/opendbc)** - democratize access to car decoder rings (1 week ago)
+- **[gerchanovsky/BMW_KBus_Pioneer_Helper](https://github.com/gerchanovsky/BMW_KBus_Pioneer_Helper)** - Control Pioneer AVH-2330NEX Head unit with BMW E46 Steering wheel buttons. Plus some extra. (TH3122.4, ESP32, etc.) (1 week ago)
+- **[risor-io/risor](https://github.com/risor-io/risor)** - Fast and flexible scripting for Go developers and DevOps. (2 weeks ago)
+- **[HeyPuter/puter](https://github.com/HeyPuter/puter)** - 🌐 The Internet OS! Free, Open-Source, and Self-Hostable. (2 weeks ago)
+- **[harryberlin/Arduino-BMW-IBus-SerialInterface-MCP2025](https://github.com/harryberlin/Arduino-BMW-IBus-SerialInterface-MCP2025)** (2 weeks ago)
