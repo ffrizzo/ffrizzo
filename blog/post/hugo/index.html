@@ -1,0 +1,114 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Hugo - Gerando um site com conteúdo estático.</title>
+<style>html body{font-family:raleway,sans-serif;background-color:#fff}:root{--accent:#4CAC9D;--border-width:5px}</style>
+<link rel=stylesheet href=https://ffrizzo.com/blog/css/main.css>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css integrity=sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js></script>
+<script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js integrity=sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa crossorigin=anonymous></script>
+<script>$(document).on('click',function(){$('.collapse').collapse('hide')})</script>
+<meta name=generator content="Hugo 0.92.1">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63537429-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-63537429-1')</script>
+<script type=text/javascript async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class=container>
+<div class=navbar-header>
+<a class="navbar-brand visible-xs" href=#>Hugo - Gerando um site com conteúdo estático.</a>
+<button class=navbar-toggle data-target=.navbar-collapse data-toggle=collapse>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+</button>
+</div>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+<li><a href=/blog/>Home</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class=navbar-icon><a href=mailto:ffrizzo@gmail.com><i class="fa fa-envelope-o"></i></a></li>
+<li class=navbar-icon><a href=https://github.com/ffrizzo/><i class="fa fa-github"></i></a></li>
+<li class=navbar-icon><a href=https://twitter.com/ffrizzo/><i class="fa fa-twitter"></i></a></li>
+<li class=navbar-icon><a href=https://www.linkedin.com/in/ffrizzo/><i class="fa fa-linkedin"></i></a></li>
+<li class=navbar-icon><a href=https://www.stackoverflow.com/users/1550221/fabiano-frizzo/><i class="fa fa-stack-overflow"></i></a></li>
+</ul>
+</div>
+</div>
+</nav>
+<main>
+<div class=item>
+<h4><a href=/blog/post/hugo/>Hugo - Gerando um site com conteúdo estático.</a></h4>
+<h5>June 2, 2015</h5>
+<a href=https://ffrizzo.com/blogtags/desenvolvimento><kbd class=item-tag>desenvolvimento</kbd></a>
+<a href=https://ffrizzo.com/blogtags/golang><kbd class=item-tag>golang</kbd></a>
+</div>
+<br> <div class=text-justify><p>Vamos falar um pouco sobre o <a href=http://hugo.spf13.com>HUGO</a> uma das ferramentas que utilizei para a criação do blog.</p>
+<p>O <a href=http://hugo.spf13.com>HUGO</a> é um gerador de conteudo estático assim como o <a href=http://jekyllrb.com>Jekyll</a> que é bem conhecido por quem utiliza o <a href=https://pages.github.com>GitHub Pages</a> em ambos é utilizado MarkDown para criação das paginas as quais são convertidas em arquivo html com o conteúdo final.</p>
+<p>Porque optiei pelo Hugo e não pelo Jekyll?
+Esta escolha não foi tão difícil quanto parece, tenho estudado sobre <a href=http://golang.org>GO</a> nos ultimos meses(8 para ser mais exato) e o HUGO é escrito em GO logo eu posso aprender mais sobre a linguage utilizando uma ferramenta que ja utiliza GO e ainda posso contribuir com correções de bugs que são abertos no <a href=http://github.com>GitHub</a>.</p>
+<p>Como ja comentei antes o HUGO gera o conteúdo HTML apartir de arquivos escritos com MarkDown e utiliza templates para a criação do HTML isso torna a apresentação do conteúdo muito mais rapida pois o html final ja esta gerado só esperando para ser consumido pelo usuário, com isso diminuimos o custo da geração do html que inclui na maioria das vezes consultas ao banco de dados o retorno destes dados e a criação do html com o conteúdo, podemos citar como exemplo o <a href=https://wordpress.com>Wordpress</a>.</p>
+<p>Mas vamos a parte mais interessante a instalação e utilização do HUGO.
+Se você estiver no Linux ou Windows baixe o release apartir do link <a href=https://github.com/spf13/hugo/releases>https://github.com/spf13/hugo/releases</a>, mas se você esta no OsX muito provavel que tenha o <a href=http://brew.sh>HomeBrew</a>(se ainda não tem esta é uma boa hora para começar a usar ele) você só precisa rodar o seguinte commando.</p>
+<pre tabindex=0><code>brew install hugo
+</code></pre><p>Pensando que você instalou o HUGO corretamente vamos ter ele rodando pelo terminal. Para confirmar execute o comando a seguir e veja a ajuda do HUGO</p>
+<pre tabindex=0><code>hugo help
+</code></pre><p>Vamos iniciar a criação de uma nova estrutura para o nosso site estático.</p>
+<pre tabindex=0><code>hugo new site ffrizzo
+</code></pre><p>Neste comando dizemos para o hugo o que queremos criar um novo site na pasta ffrizzo no diretório corrente. E então teremos a seguinte estrutura.</p>
+<pre tabindex=0><code>  ├──ffrizzo
+  |  ├── content
+  |  ├── data
+  |  ├── static
+  |  └── themes
+  └── config.toml
+</code></pre><p>A pasta <strong>content</strong> é uma das mais importantes da app é nesta pasta aonde serão criados nossos arquivos markdown que o HUGO ira utilizar para a criação do html final, cada arquivo markdown tera o seu arquivo html. A pasta <strong>data</strong> é aonde adicionamos arquivos no formato YAML/JSON/TOML para serem usados na geração do html essas informações ficaram disponíveis no template através de um MAP no atributo DATA.</p>
+<pre tabindex=0><code>{{ range $.Site.Data.state }}
+  {{ partial &quot;state.html&quot; . }}
+{{ end }}
+</code></pre><p>E no state.html tera algo semelhante ao que temos abaixo.</p>
+<pre tabindex=0><code>&lt;ul&gt;
+  {{ range .city }}
+  &lt;li&gt;{{ . }}&lt;/li&gt;
+  {{ end }}
+&lt;/ul&gt;
+</code></pre><p>A pasta <strong>static</strong> é para servir todos os arquivos estáticos(js/css/imgs/etc) que você deseja adicionar a aplicação, ela não tem um estrutura interna definida logo é possível criar a sua própria estrutura e o HUGO vai tratar de utilizar ela. A pasta <strong>temes</strong> é aonde você deve baixar os temas que o HUGO deve utilizar na geração do html. Você pode obter alguns temas para o hugo em <a href=https://github.com/spf13/hugoThemes>https://github.com/spf13/hugoThemes</a>. Ou também pode criar seu próprio tema que não é difícil.</p>
+<p>Agora você precisa criar seus posts. Use o hugo para criar os arquivos markdown.</p>
+<pre tabindex=0><code>hugo new posts/welcome.md
+</code></pre><p>Este comando vai gerar um arquivo welcome.md em content/posts/ com um metadao no inicio do arquivo com algumas definições a respeito do novo post. Você pode ver isso no repositório do GitHub(<a href=https://github.com/ffrizzo/ffrizzo>https://github.com/ffrizzo/ffrizzo</a>) que eu utilio para este blog.</p>
+<p>Agora vamos rodar o server do HUGO para visualizarmos como o nosso post esta ficando. O parametro &ndash;watch utilizado é para não precisarmos reiniciar o servidor a cada alteração que for feita em qualquer arquivo do projeto com exceção do <strong>config.toml</strong>.</p>
+<pre tabindex=0><code>hugo server --watch
+</code></pre><p>Para gerarmos os arquivos finais para deployment rodamos somento o comando abaixo. Ele irá criar uma pasta <strong>public/</strong> com todo o conteúdo que você precisa para fazer o deploy. Após isso é só fazer o deploy em algum servidor capaz de servir paginas html.</p>
+<pre tabindex=0><code>hugo
+</code></pre><p>No próximo post eu vou falar sobre sobre a ferramenta que utilizei para automatizar o deploy do blog.
+Eu só preciso criar novos posts e mandar um push para o GitHub.</p>
+</div>
+<h4 class=page-header>Related</h4>
+<div class=item>
+<h4><a href=/blog/post/wecker/>Wercker - Build e Deploy de maneira facil.</a></h4>
+<h5>June 10, 2015</h5>
+<a href=https://ffrizzo.com/blogtags/deployment><kbd class=item-tag>deployment</kbd></a>
+<a href=https://ffrizzo.com/blogtags/golang><kbd class=item-tag>golang</kbd></a>
+<a href=https://ffrizzo.com/blogtags/docker><kbd class=item-tag>docker</kbd></a>
+<a href=https://ffrizzo.com/blogtags/wercker><kbd class=item-tag>wercker</kbd></a>
+</div>
+<h4 class=page-header>Comments</h4>
+<div id=disqus_thread></div>
+<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//ffrizzo.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</main>
+<footer>
+<p class="copyright text-muted">© All rights reserved. Powered by <a href=https://gohugo.io>Hugo</a> and <a href=https://github.com/calintat/minimal>Minimal</a></p>
+</footer>
+</body>
+</html>

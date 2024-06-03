@@ -1,0 +1,136 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Rancher OS - Uma distribuição Linux para rodar containers Docker</title>
+<style>html body{font-family:raleway,sans-serif;background-color:#fff}:root{--accent:#4CAC9D;--border-width:5px}</style>
+<link rel=stylesheet href=https://ffrizzo.com/blog/css/main.css>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css integrity=sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js></script>
+<script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js integrity=sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa crossorigin=anonymous></script>
+<script>$(document).on('click',function(){$('.collapse').collapse('hide')})</script>
+<meta name=generator content="Hugo 0.92.1">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63537429-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-63537429-1')</script>
+<script type=text/javascript async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class=container>
+<div class=navbar-header>
+<a class="navbar-brand visible-xs" href=#>Rancher OS - Uma distribuição Linux para rodar containers Docker</a>
+<button class=navbar-toggle data-target=.navbar-collapse data-toggle=collapse>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+</button>
+</div>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+<li><a href=/blog/>Home</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class=navbar-icon><a href=mailto:ffrizzo@gmail.com><i class="fa fa-envelope-o"></i></a></li>
+<li class=navbar-icon><a href=https://github.com/ffrizzo/><i class="fa fa-github"></i></a></li>
+<li class=navbar-icon><a href=https://twitter.com/ffrizzo/><i class="fa fa-twitter"></i></a></li>
+<li class=navbar-icon><a href=https://www.linkedin.com/in/ffrizzo/><i class="fa fa-linkedin"></i></a></li>
+<li class=navbar-icon><a href=https://www.stackoverflow.com/users/1550221/fabiano-frizzo/><i class="fa fa-stack-overflow"></i></a></li>
+</ul>
+</div>
+</div>
+</nav>
+<main>
+<div class=item>
+<h4><a href=/blog/post/rancheros/>Rancher OS - Uma distribuição Linux para rodar containers Docker</a></h4>
+<h5>July 18, 2015</h5>
+<a href=https://ffrizzo.com/blogtags/so><kbd class=item-tag>so</kbd></a>
+<a href=https://ffrizzo.com/blogtags/docker><kbd class=item-tag>docker</kbd></a>
+</div>
+<br> <div class=text-justify><p><a href=http://rancher.com/rancher-os/>Rancher OS</a> é uma distribuição Linux com pouco mais de 20mb feita para rodar containers <a href=http://docker.com>Docker</a>. Ela ja vem com o docker configurado basta iniciar uma maquina com Rancher OS na amazon ou até mesmo instalar ela em um computador pessoal para ter todo o poder do Docker consumindo pouco recurso da maquina.</p>
+<p>Nesse meio não podemos esquecer do <a href=https://coreos.com>CoreOS</a> que tem o mesmo proprósito do RancherOS, porém a sua imagem é um pouco maior que a do RancherOS.</p>
+<p>Mas o propósito deste post é ensinar a instalar o RancherOS em uma maquina que você tenha em casa, aquela maquina que você não usa com frequência ou uma maquina antiga que você ja não usa mais pois o desempenho não é legal para rodar os pesados softwares que precisamos no mundo do desenvolvimento de software.</p>
+<p>Mas vamos ao que realmente interessa a instalação do RancherOS.</p>
+<p>Primeiramente vamos fazer o Download da versão mais recente em <a href=https://releases.rancher.com/os/latest/rancheros.iso>https://releases.rancher.com/os/latest/rancheros.iso</a> e agora vamos criar um pendrive ou um cd bootavel com a imagem do RancherOS. Lembrando que estou utilizando Mac OsX como estação de trabalho então os paços descritos para a criação do pendrive com RancherOS será baseado neste sistema operacional.</p>
+<p>Convertendo o <strong>iso</strong> para um <strong>img</strong></p>
+<pre tabindex=0><code>hdiutil convert -format UDRW -o ~/Downloads/rancheros.img ~/Downloads/rancheros.iso
+</code></pre><p>Insira o pendrive que será utilizado para a instalação do RancherOS.
+Na lista de comandos abaixo estamos.</p>
+<ul>
+<li>Pegando a lista de devices para saber qual o numero correspondente ao nosso pendrive</li>
+<li>Desmontando o pendrive.(Lembre de substituir o N pelo numero que identifica o pendrive)</li>
+<li>Criando o pendrive com a imagem do RancherOS</li>
+<li>E por fim ejetamos o pendrive.</li>
+</ul>
+<pre tabindex=0><code>diskutil list
+diskutil unmountDisk /dev/diskN
+sudo dd if=~/Downloads/rancheros.img of=/dev/rdiskN bs=1m
+diskutil eject /dev/diskN
+</code></pre><p>Agora vamos instalar o RancherOS em nosa maquina.</p>
+<p>Vamos precisar criar um arquivo chamado cloud_config.yml este arquivo é um descriptor para indicar algumas configurações para a instalação do RancherOS. Eu optei por criar o descriptor na minha estação de trabalho e adicionar ele ao pendrive bootavel.</p>
+<pre tabindex=0><code>#cloud-config
+ssh_authorized_keys:
+  - ssh-rsa (cole aqui a chave ssh)
+
+rancher:
+  network:
+    dns:
+      nameservers:
+        - 8.8.8.8
+        - 8.8.4.4
+    interfaces:
+      eth*: {}
+      eth0:
+        match: eth0
+        address: 192.168.0.110/24
+        gateway: 192.168.0.254
+        mtu: 1460
+      lo:
+        address: 127.0.0.1/8
+</code></pre><p>O descriptor que utilizei é muito simples.</p>
+<ul>
+<li><strong>ssh_authorized_keys</strong> contém as chaves ssh que tem autorização para acessar a maquina que estamos configurando. Você pode ter N chaves autorizadas basta incluir um novo <strong>ssh-rsa</strong></li>
+<li>no nó rancher definimos informações com o <strong>DNS</strong> que a maquina deve usar e as informações da interface de rede. Eu prefiro manter um ip fixo nesta maquina.</li>
+</ul>
+<p>É possível configurar varias outras coisas mas estas são as necessárias para termos uma maquina rodando 100%. Na <a href=http://docs.rancher.com/os/configuration/>documentação oficial</a> temos mais informações das outras opções que temos para configurar o RancherOS.</p>
+<p>E para finalmente instalarmos o RancherOS vamos executar o seguinte comando(lembre-se todos os dados neste hd será perdido então se você precisa de algum documento faço um backup antes de prosseguir.).</p>
+<pre tabindex=0><code>sudo rancheros-install -c cloud_config.yml -d /dev/sda
+</code></pre><p>Agora temos o RancherOS instalado em nossa maquina pronto para o uso.
+Para acessar a maquina com utilize o seguinte comando.</p>
+<pre tabindex=0><code>ssh -i /path/chave-privada rancher@&lt;ip-address&gt;
+</code></pre><p>A partir daqui você ja tem podemos executar os comandos do Docker. Rode o comando a baixo e você vera as informações sobre as versões do Docker</p>
+<pre tabindex=0><code>docker version
+</code></pre><p>Eu tenho utilizado muito esta maquina com o RancherOS tenho varios containers rodando nela principalmente pela grande facilidade e rapidez de subir e parar os containers.
+Em um próximo post vamos falar sobre o uso do <a href=http://docker.com>Docker</a> no ambiente de desenvolvimento e de produção.</p>
+</div>
+<h4 class=page-header>Related</h4>
+<div class=item>
+<h4><a href=/blog/post/start-docker/>Iniciando com Docker</a></h4>
+<h5>January 2, 2016</h5>
+<a href=https://ffrizzo.com/blogtags/docker><kbd class=item-tag>docker</kbd></a>
+<a href=https://ffrizzo.com/blogtags/devops><kbd class=item-tag>devops</kbd></a>
+</div>
+<div class=item>
+<h4><a href=/blog/post/wecker/>Wercker - Build e Deploy de maneira facil.</a></h4>
+<h5>June 10, 2015</h5>
+<a href=https://ffrizzo.com/blogtags/deployment><kbd class=item-tag>deployment</kbd></a>
+<a href=https://ffrizzo.com/blogtags/golang><kbd class=item-tag>golang</kbd></a>
+<a href=https://ffrizzo.com/blogtags/docker><kbd class=item-tag>docker</kbd></a>
+<a href=https://ffrizzo.com/blogtags/wercker><kbd class=item-tag>wercker</kbd></a>
+</div>
+<h4 class=page-header>Comments</h4>
+<div id=disqus_thread></div>
+<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//ffrizzo.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</main>
+<footer>
+<p class="copyright text-muted">© All rights reserved. Powered by <a href=https://gohugo.io>Hugo</a> and <a href=https://github.com/calintat/minimal>Minimal</a></p>
+</footer>
+</body>
+</html>
