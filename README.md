@@ -22,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[zed-industries/zed](https://github.com/zed-industries/zed)** - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. (1 week ago)
-- **[Juseus/3d-models](https://github.com/Juseus/3d-models)** (3 weeks ago)
-- **[ms4x-net/ms4x_flasher](https://github.com/ms4x-net/ms4x_flasher)** - MS4X Flasher (1 month ago)
-- **[commaai/opendbc](https://github.com/commaai/opendbc)** - democratize access to car decoder rings (1 month ago)
-- **[gerchanovsky/BMW_KBus_Pioneer_Helper](https://github.com/gerchanovsky/BMW_KBus_Pioneer_Helper)** - Control Pioneer AVH-2330NEX Head unit with BMW E46 Steering wheel buttons. Plus some extra. (TH3122.4, ESP32, etc.) (1 month ago)
+- **[super-linter/super-linter](https://github.com/super-linter/super-linter)** - Combination of multiple linters to run as a GitHub Action or standalone (5 days ago)
+- **[wireviz/WireViz](https://github.com/wireviz/WireViz)** - Easily document cables and wiring harnesses. (5 days ago)
+- **[GuillaumeGomez/sysinfo](https://github.com/GuillaumeGomez/sysinfo)** - Cross-platform library to fetch system information (6 days ago)
+- **[WerWolv/ImHex](https://github.com/WerWolv/ImHex)** - 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM. (6 days ago)
+- **[zed-industries/zed](https://github.com/zed-industries/zed)** - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. (2 weeks ago)
