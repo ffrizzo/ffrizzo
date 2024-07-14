@@ -22,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[super-linter/super-linter](https://github.com/super-linter/super-linter)** - Combination of multiple linters to run as a GitHub Action or standalone (5 days ago)
-- **[wireviz/WireViz](https://github.com/wireviz/WireViz)** - Easily document cables and wiring harnesses. (5 days ago)
-- **[GuillaumeGomez/sysinfo](https://github.com/GuillaumeGomez/sysinfo)** - Cross-platform library to fetch system information (6 days ago)
-- **[WerWolv/ImHex](https://github.com/WerWolv/ImHex)** - 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM. (6 days ago)
-- **[zed-industries/zed](https://github.com/zed-industries/zed)** - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. (2 weeks ago)
+- **[bufbuild/buf](https://github.com/bufbuild/buf)** - The best way of working with Protocol Buffers. (4 days ago)
+- **[paradedb/paradedb](https://github.com/paradedb/paradedb)** - Postgres for Search and Analytics (6 days ago)
+- **[super-linter/super-linter](https://github.com/super-linter/super-linter)** - Combination of multiple linters to run as a GitHub Action or standalone (1 week ago)
+- **[wireviz/WireViz](https://github.com/wireviz/WireViz)** - Easily document cables and wiring harnesses. (1 week ago)
+- **[GuillaumeGomez/sysinfo](https://github.com/GuillaumeGomez/sysinfo)** - Cross-platform library to fetch system information (1 week ago)
