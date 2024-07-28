@@ -6,7 +6,7 @@ I'm [Fabiano](https://ffrizzo.com)
 
 
 - [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (7 months ago)
-- [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (9 months ago)
+- [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (10 months ago)
 
 #### 👨‍💻 Repositories I created recently
 - **[ffrizzo/e36-can](https://github.com/ffrizzo/e36-can)** - AC Module for BMW E36 with swap to MS43 ECU
@@ -22,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[bufbuild/buf](https://github.com/bufbuild/buf)** - The best way of working with Protocol Buffers. (1 week ago)
-- **[paradedb/paradedb](https://github.com/paradedb/paradedb)** - Postgres for Search and Analytics (1 week ago)
-- **[super-linter/super-linter](https://github.com/super-linter/super-linter)** - Combination of multiple linters to run as a GitHub Action or standalone (2 weeks ago)
-- **[wireviz/WireViz](https://github.com/wireviz/WireViz)** - Easily document cables and wiring harnesses. (2 weeks ago)
-- **[GuillaumeGomez/sysinfo](https://github.com/GuillaumeGomez/sysinfo)** - Cross-platform library to fetch system information (2 weeks ago)
+- **[ba114/Siemens-MS41](https://github.com/ba114/Siemens-MS41)** - RomRaider ECU Definitions for Siemens MS41 (2 days ago)
+- **[ba114/Siemens-MS45.1](https://github.com/ba114/Siemens-MS45.1)** - RR Definitions for MS45.1 ZHP (2 days ago)
+- **[bufbuild/buf](https://github.com/bufbuild/buf)** - The best way of working with Protocol Buffers. (2 weeks ago)
+- **[paradedb/paradedb](https://github.com/paradedb/paradedb)** - Postgres for Search and Analytics (2 weeks ago)
+- **[super-linter/super-linter](https://github.com/super-linter/super-linter)** - Combination of multiple linters to run as a GitHub Action or standalone (3 weeks ago)
