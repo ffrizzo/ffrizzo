@@ -22,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[ba114/Siemens-MS41](https://github.com/ba114/Siemens-MS41)** - RomRaider ECU Definitions for Siemens MS41 (2 days ago)
-- **[ba114/Siemens-MS45.1](https://github.com/ba114/Siemens-MS45.1)** - RR Definitions for MS45.1 ZHP (2 days ago)
-- **[bufbuild/buf](https://github.com/bufbuild/buf)** - The best way of working with Protocol Buffers. (2 weeks ago)
-- **[paradedb/paradedb](https://github.com/paradedb/paradedb)** - Postgres for Search and Analytics (2 weeks ago)
-- **[super-linter/super-linter](https://github.com/super-linter/super-linter)** - Combination of multiple linters to run as a GitHub Action or standalone (3 weeks ago)
+- **[miwagner/ESP32-Arduino-CAN](https://github.com/miwagner/ESP32-Arduino-CAN)** - An Arduino CAN-Bus library for ESP32 (1 day ago)
+- **[AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome)** - Network-wide ads &amp; trackers blocking DNS server (1 day ago)
+- **[pazi88/Siemens_ms45_RR-definitions](https://github.com/pazi88/Siemens_ms45_RR-definitions)** - Repository for Siemens ms45 ecu definitions for RomRaider (3 days ago)
+- **[ba114/Siemens-MS41](https://github.com/ba114/Siemens-MS41)** - RomRaider ECU Definitions for Siemens MS41 (1 week ago)
+- **[ba114/Siemens-MS45.1](https://github.com/ba114/Siemens-MS45.1)** - RR Definitions for MS45.1 ZHP (1 week ago)
