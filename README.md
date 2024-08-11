@@ -22,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[miwagner/ESP32-Arduino-CAN](https://github.com/miwagner/ESP32-Arduino-CAN)** - An Arduino CAN-Bus library for ESP32 (1 day ago)
-- **[AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome)** - Network-wide ads &amp; trackers blocking DNS server (1 day ago)
-- **[pazi88/Siemens_ms45_RR-definitions](https://github.com/pazi88/Siemens_ms45_RR-definitions)** - Repository for Siemens ms45 ecu definitions for RomRaider (3 days ago)
-- **[ba114/Siemens-MS41](https://github.com/ba114/Siemens-MS41)** - RomRaider ECU Definitions for Siemens MS41 (1 week ago)
-- **[ba114/Siemens-MS45.1](https://github.com/ba114/Siemens-MS45.1)** - RR Definitions for MS45.1 ZHP (1 week ago)
+- **[JonasKruckenberg/k23](https://github.com/JonasKruckenberg/k23)** - Experimental WASM Microkernel Operating System (2 days ago)
+- **[ImplFerris/LearnRust](https://github.com/ImplFerris/LearnRust)** - Rust Learning Resources (2 days ago)
+- **[david-vanderson/dvui](https://github.com/david-vanderson/dvui)** (3 days ago)
+- **[ahmetb/kubectl-cond](https://github.com/ahmetb/kubectl-cond)** - kubectl plugin to print Kubernetes resource conditions (3 days ago)
+- **[meilisearch/heed](https://github.com/meilisearch/heed)** - A fully typed LMDB wrapper with minimum overhead 🐦 (3 days ago)
