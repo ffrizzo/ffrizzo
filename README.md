@@ -22,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[JonasKruckenberg/k23](https://github.com/JonasKruckenberg/k23)** - Experimental WASM Microkernel Operating System (2 days ago)
-- **[ImplFerris/LearnRust](https://github.com/ImplFerris/LearnRust)** - Rust Learning Resources (2 days ago)
-- **[david-vanderson/dvui](https://github.com/david-vanderson/dvui)** (3 days ago)
-- **[ahmetb/kubectl-cond](https://github.com/ahmetb/kubectl-cond)** - kubectl plugin to print Kubernetes resource conditions (3 days ago)
-- **[meilisearch/heed](https://github.com/meilisearch/heed)** - A fully typed LMDB wrapper with minimum overhead 🐦 (3 days ago)
+- **[hawkw/mycelium](https://github.com/hawkw/mycelium)** - 🍄  an alleged &#39;operating system&#39; (3 days ago)
+- **[tosc-rs/mnemos](https://github.com/tosc-rs/mnemos)** - An Operating System for Building Small Computers (3 days ago)
+- **[goat-hill/bitclock](https://github.com/goat-hill/bitclock)** - An e-ink desk companion (4 days ago)
+- **[versotile-org/verso](https://github.com/versotile-org/verso)** - A web browser that plays old world blues to build new world hope (5 days ago)
+- **[timelinize/timelinize](https://github.com/timelinize/timelinize)** - Store your data from all your accounts and devices in a single cohesive timeline on your own computer (6 days ago)
