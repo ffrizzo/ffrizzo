@@ -5,8 +5,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 👷 Check out what I'm currently working on
 
 
-- [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (7 months ago)
-- [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (10 months ago)
+- [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (8 months ago)
+- [ffrizzo/e36-can](https://github.com/ffrizzo/e36-can) - AC Module for BMW E36 with swap to MS43 ECU (11 months ago)
 
 #### 👨‍💻 Repositories I created recently
 - **[ffrizzo/e36-can](https://github.com/ffrizzo/e36-can)** - AC Module for BMW E36 with swap to MS43 ECU
@@ -22,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[hawkw/mycelium](https://github.com/hawkw/mycelium)** - 🍄  an alleged &#39;operating system&#39; (3 days ago)
-- **[tosc-rs/mnemos](https://github.com/tosc-rs/mnemos)** - An Operating System for Building Small Computers (3 days ago)
-- **[goat-hill/bitclock](https://github.com/goat-hill/bitclock)** - An e-ink desk companion (4 days ago)
-- **[versotile-org/verso](https://github.com/versotile-org/verso)** - A web browser that plays old world blues to build new world hope (5 days ago)
-- **[timelinize/timelinize](https://github.com/timelinize/timelinize)** - Store your data from all your accounts and devices in a single cohesive timeline on your own computer (6 days ago)
+- **[nostur-com/nostur-ios-public](https://github.com/nostur-com/nostur-ios-public)** - A nostr client for iOS (2 days ago)
+- **[capy-ui/capy](https://github.com/capy-ui/capy)** - 💻Build one codebase and get native UI on Windows, Linux and Web (3 days ago)
+- **[GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet)** - Comfortably monitor your Internet traffic 🕵️‍♂️ (3 days ago)
+- **[DiceDB/dice](https://github.com/DiceDB/dice)** - A drop-in replacement of Redis with SQL-based realtime reactivity. (3 days ago)
+- **[trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)** - Find, verify, and analyze leaked credentials (3 days ago)
