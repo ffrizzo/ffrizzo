@@ -22,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[nostur-com/nostur-ios-public](https://github.com/nostur-com/nostur-ios-public)** - A nostr client for iOS (2 days ago)
-- **[capy-ui/capy](https://github.com/capy-ui/capy)** - 💻Build one codebase and get native UI on Windows, Linux and Web (3 days ago)
-- **[GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet)** - Comfortably monitor your Internet traffic 🕵️‍♂️ (3 days ago)
-- **[DiceDB/dice](https://github.com/DiceDB/dice)** - A drop-in replacement of Redis with SQL-based realtime reactivity. (3 days ago)
-- **[trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)** - Find, verify, and analyze leaked credentials (3 days ago)
+- **[cesardeazevedo/nostr-editor](https://github.com/cesardeazevedo/nostr-editor)** - A full text editor &#43; note parser for Nostr based on Tiptap / ProseMirror (2 days ago)
+- **[neurocyte/flow](https://github.com/neurocyte/flow)** - Flow Control: a programmer&#39;s text editor (3 days ago)
+- **[Start9Labs/start-os](https://github.com/Start9Labs/start-os)** - Open source Linux distro optimized for self-hosting (4 days ago)
+- **[caprover/caprover](https://github.com/caprover/caprover)** - Scalable PaaS (automated Docker&#43;nginx) - aka Heroku on Steroids (4 days ago)
+- **[tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter)** - An incremental parsing system for programming tools (5 days ago)
