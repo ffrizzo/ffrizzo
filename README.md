@@ -22,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[cesardeazevedo/nostr-editor](https://github.com/cesardeazevedo/nostr-editor)** - A full text editor &#43; note parser for Nostr based on Tiptap / ProseMirror (2 days ago)
-- **[neurocyte/flow](https://github.com/neurocyte/flow)** - Flow Control: a programmer&#39;s text editor (3 days ago)
-- **[Start9Labs/start-os](https://github.com/Start9Labs/start-os)** - Open source Linux distro optimized for self-hosting (4 days ago)
-- **[caprover/caprover](https://github.com/caprover/caprover)** - Scalable PaaS (automated Docker&#43;nginx) - aka Heroku on Steroids (4 days ago)
-- **[tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter)** - An incremental parsing system for programming tools (5 days ago)
+- **[polarsource/polar](https://github.com/polarsource/polar)** - An Open Source Lemon Squeezy alternative with better pricing! Get paid coding on your passion. (3 days ago)
+- **[web-infra-dev/rspack](https://github.com/web-infra-dev/rspack)** - The fast Rust-based web bundler with webpack-compatible API 🦀️ (3 days ago)
+- **[cesardeazevedo/nostr-editor](https://github.com/cesardeazevedo/nostr-editor)** - A full text editor &#43; note parser for Nostr based on Tiptap / ProseMirror (1 week ago)
+- **[neurocyte/flow](https://github.com/neurocyte/flow)** - Flow Control: a programmer&#39;s text editor (1 week ago)
+- **[Start9Labs/start-os](https://github.com/Start9Labs/start-os)** - Open source Linux distro optimized for self-hosting (1 week ago)
