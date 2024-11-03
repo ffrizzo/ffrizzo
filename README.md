@@ -22,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[StuckAtPrototype/Racer](https://github.com/StuckAtPrototype/Racer)** (4 days ago)
-- **[pehringer/simd](https://github.com/pehringer/simd)** - Simd support via Go assembly for parallel element-wise computations.  (5 days ago)
-- **[Jeiwan/blockchain_go](https://github.com/Jeiwan/blockchain_go)** - A simplified blockchain implementation in Golang (5 days ago)
-- **[bitvora/algo-relay](https://github.com/bitvora/algo-relay)** - An algorithm relay for nostr (5 days ago)
-- **[hiteshchoudhary/apihub](https://github.com/hiteshchoudhary/apihub)** - Your own API Hub to learn and master API interaction. Ideal for frontend, mobile dev and backend developers.  (5 days ago)
+- **[odin-lang/Odin](https://github.com/odin-lang/Odin)** - Odin Programming Language (5 days ago)
+- **[StuckAtPrototype/Racer](https://github.com/StuckAtPrototype/Racer)** (1 week ago)
+- **[pehringer/simd](https://github.com/pehringer/simd)** - Simd support via Go assembly for parallel element-wise computations.  (1 week ago)
+- **[Jeiwan/blockchain_go](https://github.com/Jeiwan/blockchain_go)** - A simplified blockchain implementation in Golang (1 week ago)
+- **[bitvora/algo-relay](https://github.com/bitvora/algo-relay)** - An algorithm relay for nostr (1 week ago)
