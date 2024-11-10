@@ -22,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[odin-lang/Odin](https://github.com/odin-lang/Odin)** - Odin Programming Language (5 days ago)
-- **[StuckAtPrototype/Racer](https://github.com/StuckAtPrototype/Racer)** (1 week ago)
-- **[pehringer/simd](https://github.com/pehringer/simd)** - Simd support via Go assembly for parallel element-wise computations.  (1 week ago)
-- **[Jeiwan/blockchain_go](https://github.com/Jeiwan/blockchain_go)** - A simplified blockchain implementation in Golang (1 week ago)
-- **[bitvora/algo-relay](https://github.com/bitvora/algo-relay)** - An algorithm relay for nostr (1 week ago)
+- **[dockur/windows](https://github.com/dockur/windows)** - Windows inside a Docker container. (1 day ago)
+- **[coollabsio/coolify](https://github.com/coollabsio/coolify)** - An open-source &amp; self-hostable Heroku / Netlify / Vercel alternative. (3 days ago)
+- **[snapview/tokio-tungstenite](https://github.com/snapview/tokio-tungstenite)** - Future-based Tungstenite for Tokio. Lightweight stream-based WebSocket implementation (4 days ago)
+- **[odin-lang/Odin](https://github.com/odin-lang/Odin)** - Odin Programming Language (1 week ago)
+- **[StuckAtPrototype/Racer](https://github.com/StuckAtPrototype/Racer)** (2 weeks ago)
