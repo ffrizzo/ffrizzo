@@ -5,7 +5,7 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 👷 Check out what I'm currently working on
 
 
-- [ffrizzo/sample-app](https://github.com/ffrizzo/sample-app) -  (1 month ago)
+- [ffrizzo/sample-app](https://github.com/ffrizzo/sample-app) -  (2 months ago)
 - [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (10 months ago)
 
 #### 👨‍💻 Repositories I created recently
@@ -22,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[dockur/windows](https://github.com/dockur/windows)** - Windows inside a Docker container. (1 day ago)
-- **[coollabsio/coolify](https://github.com/coollabsio/coolify)** - An open-source &amp; self-hostable Heroku / Netlify / Vercel alternative. (3 days ago)
-- **[snapview/tokio-tungstenite](https://github.com/snapview/tokio-tungstenite)** - Future-based Tungstenite for Tokio. Lightweight stream-based WebSocket implementation (4 days ago)
-- **[odin-lang/Odin](https://github.com/odin-lang/Odin)** - Odin Programming Language (1 week ago)
-- **[StuckAtPrototype/Racer](https://github.com/StuckAtPrototype/Racer)** (2 weeks ago)
+- **[leaningtech/webvm](https://github.com/leaningtech/webvm)** - Virtual Machine for the Web (2 days ago)
+- **[aws-ia/terraform-aws-eks-blueprints](https://github.com/aws-ia/terraform-aws-eks-blueprints)** - Configure and deploy complete EKS clusters. (3 days ago)
+- **[corneliusweig/ketall](https://github.com/corneliusweig/ketall)** - Like `kubectl get all`, but get really all resources (3 days ago)
+- **[RealAlexandreAI/json-repair](https://github.com/RealAlexandreAI/json-repair)** - 🔧 Repair JSON！Solution for JSON Anomalies from LLMs. (3 days ago)
+- **[dockur/macos](https://github.com/dockur/macos)** - OSX (macOS) inside a Docker container. (3 days ago)
