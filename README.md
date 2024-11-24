@@ -6,7 +6,7 @@ I'm [Fabiano](https://ffrizzo.com)
 
 
 - [ffrizzo/sample-app](https://github.com/ffrizzo/sample-app) -  (2 months ago)
-- [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (10 months ago)
+- [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (11 months ago)
 
 #### 👨‍💻 Repositories I created recently
 - **[ffrizzo/sample-app](https://github.com/ffrizzo/sample-app)**
@@ -22,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[leaningtech/webvm](https://github.com/leaningtech/webvm)** - Virtual Machine for the Web (2 days ago)
-- **[aws-ia/terraform-aws-eks-blueprints](https://github.com/aws-ia/terraform-aws-eks-blueprints)** - Configure and deploy complete EKS clusters. (3 days ago)
-- **[corneliusweig/ketall](https://github.com/corneliusweig/ketall)** - Like `kubectl get all`, but get really all resources (3 days ago)
-- **[RealAlexandreAI/json-repair](https://github.com/RealAlexandreAI/json-repair)** - 🔧 Repair JSON！Solution for JSON Anomalies from LLMs. (3 days ago)
-- **[dockur/macos](https://github.com/dockur/macos)** - OSX (macOS) inside a Docker container. (3 days ago)
+- **[cococonscious/koji](https://github.com/cococonscious/koji)** - 🦊 An interactive CLI for creating conventional commits.  (4 days ago)
+- **[Longan-Labs/Arduino_CAN_BUS_MCP2515](https://github.com/Longan-Labs/Arduino_CAN_BUS_MCP2515)** - Arduino CAN Bus library, MCP2515/MCP2551 (4 days ago)
+- **[aws/aws-eks-best-practices](https://github.com/aws/aws-eks-best-practices)** - A best practices guide for day 2 operations, including operational excellence, security, reliability, performance efficiency, and cost optimization. (4 days ago)
+- **[leaningtech/webvm](https://github.com/leaningtech/webvm)** - Virtual Machine for the Web (1 week ago)
+- **[aws-ia/terraform-aws-eks-blueprints](https://github.com/aws-ia/terraform-aws-eks-blueprints)** - Configure and deploy complete EKS clusters. (1 week ago)
