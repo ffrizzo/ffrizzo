@@ -5,7 +5,7 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 👷 Check out what I'm currently working on
 
 
-- [ffrizzo/sample-app](https://github.com/ffrizzo/sample-app) -  (2 months ago)
+- [ffrizzo/sample-app](https://github.com/ffrizzo/sample-app) -  (3 months ago)
 - [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (11 months ago)
 
 #### 👨‍💻 Repositories I created recently
@@ -22,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[SylvanFranklin/launchctl](https://github.com/SylvanFranklin/launchctl)** - Wrapper for macOS system manager (6 days ago)
-- **[Corbanistan/BMW-N54-Tuning-Resources](https://github.com/Corbanistan/BMW-N54-Tuning-Resources)** - Work-in-progress XDF definitions files for the N54 platform, and possibly more resources for backyard tuners in the future. (1 week ago)
-- **[cococonscious/koji](https://github.com/cococonscious/koji)** - 🦊 An interactive CLI for creating conventional commits.  (2 weeks ago)
-- **[Longan-Labs/Arduino_CAN_BUS_MCP2515](https://github.com/Longan-Labs/Arduino_CAN_BUS_MCP2515)** - Arduino CAN Bus library, MCP2515/MCP2551 (2 weeks ago)
-- **[aws/aws-eks-best-practices](https://github.com/aws/aws-eks-best-practices)** - A best practices guide for day 2 operations, including operational excellence, security, reliability, performance efficiency, and cost optimization. (2 weeks ago)
+- **[aws/aws-application-networking-k8s](https://github.com/aws/aws-application-networking-k8s)** - A Kubernetes controller for Amazon VPC Lattice (4 days ago)
+- **[AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)** - FinGPT: Open-Source Financial Large Language Models!  Revolutionize 🔥    We release the trained model on HuggingFace. (4 days ago)
+- **[bluewave-labs/checkmate](https://github.com/bluewave-labs/checkmate)** - Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. (4 days ago)
+- **[rust-windowing/winit](https://github.com/rust-windowing/winit)** - Window handling library in pure Rust (5 days ago)
+- **[SylvanFranklin/launchctl](https://github.com/SylvanFranklin/launchctl)** - Wrapper for macOS system manager (1 week ago)
