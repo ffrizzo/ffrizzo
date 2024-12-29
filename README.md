@@ -22,8 +22,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[ba114/M1.3](https://github.com/ba114/M1.3)** - Motronic 1.3 tuning (3 days ago)
-- **[ringtailsoftware/commy](https://github.com/ringtailsoftware/commy)** - A serial monitor for Mac, Linux and Windows (5 days ago)
-- **[aws/aws-application-networking-k8s](https://github.com/aws/aws-application-networking-k8s)** - A Kubernetes controller for Amazon VPC Lattice (1 week ago)
-- **[AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)** - FinGPT: Open-Source Financial Large Language Models!  Revolutionize 🔥    We release the trained model on HuggingFace. (1 week ago)
-- **[bluewave-labs/checkmate](https://github.com/bluewave-labs/checkmate)** - Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. (1 week ago)
+- **[microsoft/markitdown](https://github.com/microsoft/markitdown)** - Python tool for converting files and office documents to Markdown. (2 days ago)
+- **[ghostty-org/ghostty](https://github.com/ghostty-org/ghostty)** - 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration. (3 days ago)
+- **[ba114/M1.3](https://github.com/ba114/M1.3)** - Motronic 1.3 tuning (1 week ago)
+- **[ringtailsoftware/commy](https://github.com/ringtailsoftware/commy)** - A serial monitor for Mac, Linux and Windows (1 week ago)
+- **[aws/aws-application-networking-k8s](https://github.com/aws/aws-application-networking-k8s)** - A Kubernetes controller for Amazon VPC Lattice (2 weeks ago)
