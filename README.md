@@ -21,8 +21,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[planktonlabs/frozenkrill](https://github.com/planktonlabs/frozenkrill)** - A minimalist Bitcoin wallet focused on cold storage (3 days ago)
-- **[microsoft/markitdown](https://github.com/microsoft/markitdown)** - Python tool for converting files and office documents to Markdown. (1 week ago)
-- **[ghostty-org/ghostty](https://github.com/ghostty-org/ghostty)** - 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration. (1 week ago)
-- **[ba114/M1.3](https://github.com/ba114/M1.3)** - Motronic 1.3 tuning (2 weeks ago)
-- **[ringtailsoftware/commy](https://github.com/ringtailsoftware/commy)** - A serial monitor for Mac, Linux and Windows (2 weeks ago)
+- **[planktonlabs/frozenkrill](https://github.com/planktonlabs/frozenkrill)** - A minimalist Bitcoin wallet focused on cold storage (1 week ago)
+- **[microsoft/markitdown](https://github.com/microsoft/markitdown)** - Python tool for converting files and office documents to Markdown. (2 weeks ago)
+- **[ghostty-org/ghostty](https://github.com/ghostty-org/ghostty)** - 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration. (2 weeks ago)
+- **[ba114/M1.3](https://github.com/ba114/M1.3)** - Motronic 1.3 tuning (3 weeks ago)
+- **[ringtailsoftware/commy](https://github.com/ringtailsoftware/commy)** - A serial monitor for Mac, Linux and Windows (3 weeks ago)
