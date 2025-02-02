@@ -21,8 +21,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[planktonlabs/frozenkrill](https://github.com/planktonlabs/frozenkrill)** - A minimalist Bitcoin wallet focused on cold storage (3 weeks ago)
+- **[GoogleCloudPlatform/khi](https://github.com/GoogleCloudPlatform/khi)** - A transformative log viewer for Kubernetes (4 days ago)
+- **[netbirdio/netbird](https://github.com/netbirdio/netbird)** - Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls. (4 days ago)
+- **[planktonlabs/frozenkrill](https://github.com/planktonlabs/frozenkrill)** - A minimalist Bitcoin wallet focused on cold storage (1 month ago)
 - **[microsoft/markitdown](https://github.com/microsoft/markitdown)** - Python tool for converting files and office documents to Markdown. (1 month ago)
 - **[ghostty-org/ghostty](https://github.com/ghostty-org/ghostty)** - 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration. (1 month ago)
-- **[ba114/M1.3](https://github.com/ba114/M1.3)** - Motronic 1.3 tuning (1 month ago)
-- **[ringtailsoftware/commy](https://github.com/ringtailsoftware/commy)** - A serial monitor for Mac, Linux and Windows (1 month ago)
