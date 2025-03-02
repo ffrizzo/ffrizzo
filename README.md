@@ -5,9 +5,9 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 👷 Check out what I'm currently working on
 
 
-- [ffrizzo/reusable-workflow-test](https://github.com/ffrizzo/reusable-workflow-test) -  (4 days ago)
-- [ffrizzo/testing-repo-b](https://github.com/ffrizzo/testing-repo-b) -  (4 days ago)
-- [ffrizzo/testing-repo-a](https://github.com/ffrizzo/testing-repo-a) -  (4 days ago)
+- [ffrizzo/reusable-workflow-test](https://github.com/ffrizzo/reusable-workflow-test) -  (1 week ago)
+- [ffrizzo/testing-repo-b](https://github.com/ffrizzo/testing-repo-b) -  (1 week ago)
+- [ffrizzo/testing-repo-a](https://github.com/ffrizzo/testing-repo-a) -  (1 week ago)
 - [ffrizzo/sample-app](https://github.com/ffrizzo/sample-app) -  (5 months ago)
 
 #### 👨‍💻 Repositories I created recently
@@ -24,8 +24,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[neuml/txtai](https://github.com/neuml/txtai)** - 💡 All-in-one open-source embeddings database for semantic search, LLM orchestration and language model workflows (2 weeks ago)
-- **[monasticacademy/httptap](https://github.com/monasticacademy/httptap)** - View HTTP/HTTPS requests made by any Linux program (2 weeks ago)
-- **[GoogleCloudPlatform/khi](https://github.com/GoogleCloudPlatform/khi)** - A transformative log viewer for Kubernetes (3 weeks ago)
-- **[netbirdio/netbird](https://github.com/netbirdio/netbird)** - Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls. (3 weeks ago)
-- **[planktonlabs/frozenkrill](https://github.com/planktonlabs/frozenkrill)** - A minimalist Bitcoin wallet focused on cold storage (1 month ago)
+- **[gringokiwi/nostrpix-api](https://github.com/gringokiwi/nostrpix-api)** - Pay anyone in Brazil 🇧🇷 using sats ⚡️ (6 days ago)
+- **[neuml/txtai](https://github.com/neuml/txtai)** - 💡 All-in-one open-source embeddings database for semantic search, LLM orchestration and language model workflows (3 weeks ago)
+- **[monasticacademy/httptap](https://github.com/monasticacademy/httptap)** - View HTTP/HTTPS requests made by any Linux program (3 weeks ago)
+- **[GoogleCloudPlatform/khi](https://github.com/GoogleCloudPlatform/khi)** - A transformative log viewer for Kubernetes (1 month ago)
+- **[netbirdio/netbird](https://github.com/netbirdio/netbird)** - Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls. (1 month ago)
