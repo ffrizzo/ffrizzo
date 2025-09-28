@@ -5,17 +5,13 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 👷 Check out what I'm currently working on
 
 
-- [ffrizzo/reusable-workflow-test](https://github.com/ffrizzo/reusable-workflow-test) -  (2 weeks ago)
-- [ffrizzo/testing-repo-b](https://github.com/ffrizzo/testing-repo-b) -  (2 weeks ago)
-- [ffrizzo/testing-repo-a](https://github.com/ffrizzo/testing-repo-a) -  (2 weeks ago)
-- [ffrizzo/sample-app](https://github.com/ffrizzo/sample-app) -  (5 months ago)
 
 #### 👨‍💻 Repositories I created recently
-- **[ffrizzo/testing-repo-b](https://github.com/ffrizzo/testing-repo-b)**
-- **[ffrizzo/testing-repo-a](https://github.com/ffrizzo/testing-repo-a)**
-- **[ffrizzo/reusable-workflow-test](https://github.com/ffrizzo/reusable-workflow-test)**
-- **[ffrizzo/sample-app](https://github.com/ffrizzo/sample-app)**
 - **[ffrizzo/e36-can](https://github.com/ffrizzo/e36-can)** - AC Module for BMW E36 with swap to MS43 ECU
+- **[ffrizzo/parity-sample](https://github.com/ffrizzo/parity-sample)**
+- **[ffrizzo/acme](https://github.com/ffrizzo/acme)**
+- **[ffrizzo/ansible-role-metricbeat](https://github.com/ffrizzo/ansible-role-metricbeat)**
+- **[ffrizzo/ansible-role-geoip](https://github.com/ffrizzo/ansible-role-geoip)**
 
 #### 🚀 Latest releases I've contributed to
 
@@ -24,8 +20,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[robusta-dev/krr](https://github.com/robusta-dev/krr)** - Prometheus-based Kubernetes Resource Recommendations (3 days ago)
-- **[bisq-network/bisq2](https://github.com/bisq-network/bisq2)** (5 days ago)
-- **[gringokiwi/nostrpix-api](https://github.com/gringokiwi/nostrpix-api)** - Pay anyone in Brazil 🇧🇷 using sats ⚡️ (1 week ago)
-- **[neuml/txtai](https://github.com/neuml/txtai)** - 💡 All-in-one open-source embeddings database for semantic search, LLM orchestration and language model workflows (1 month ago)
-- **[monasticacademy/httptap](https://github.com/monasticacademy/httptap)** - View HTTP/HTTPS requests made by any Linux program (1 month ago)
+- **[twitter/the-algorithm](https://github.com/twitter/the-algorithm)** - Source code for the X Recommendation Algorithm (2 weeks ago)
+- **[enetx/surf](https://github.com/enetx/surf)** - SURF - Advanced Go HTTP client with Chrome/Firefox browser impersonation, HTTP/3 with QUIC fingerprinting, JA3/JA4 TLS emulation, and anti-bot bypass for web automation and scraping. (3 weeks ago)
+- **[stanleyhuangyc/ArduinoOBD](https://github.com/stanleyhuangyc/ArduinoOBD)** - OBD-II library and sketches for Arduino (1 month ago)
+- **[firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker)** - Secure and fast microVMs for serverless computing. (1 month ago)
+- **[antinomyhq/forge](https://github.com/antinomyhq/forge)** - AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300&#43; models (1 month ago)
