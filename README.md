@@ -20,8 +20,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[CyphrRiot/garp](https://github.com/CyphrRiot/garp)** - A high-performance document search tool with a clean TUI! (2 days ago)
-- **[tecbot/gorocksdb](https://github.com/tecbot/gorocksdb)** - gorocksdb is a Go wrapper for RocksDB (2 days ago)
-- **[timescale/pg_textsearch](https://github.com/timescale/pg_textsearch)** - PostgreSQL extension for BM25 relevance-ranked full-text search. Postgres OSS licensed. (2 days ago)
-- **[zoicware/RemoveWindowsAI](https://github.com/zoicware/RemoveWindowsAI)** - Force Remove Copilot, Recall and More in Windows 11 (4 days ago)
-- **[kavishdevar/librepods](https://github.com/kavishdevar/librepods)** - AirPods liberated from Apple&#39;s ecosystem. (1 month ago)
+- **[tw93/Mole](https://github.com/tw93/Mole)** - 🐹 Deep clean and optimize your Mac. (2 days ago)
+- **[ruvnet/wifi-densepose](https://github.com/ruvnet/wifi-densepose)** - Production-ready implementation of InvisPose - a revolutionary WiFi-based dense human pose estimation system that enables real-time full-body tracking through walls using commodity mesh routers  (2 days ago)
+- **[fleetdm/fleet](https://github.com/fleetdm/fleet)** - Open device management (5 days ago)
+- **[CyphrRiot/garp](https://github.com/CyphrRiot/garp)** - A high-performance document search tool with a clean TUI! (1 week ago)
+- **[tecbot/gorocksdb](https://github.com/tecbot/gorocksdb)** - gorocksdb is a Go wrapper for RocksDB (1 week ago)
