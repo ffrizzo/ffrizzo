@@ -20,8 +20,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[tw93/Mole](https://github.com/tw93/Mole)** - 🐹 Deep clean and optimize your Mac. (2 days ago)
-- **[ruvnet/wifi-densepose](https://github.com/ruvnet/wifi-densepose)** - Production-ready implementation of InvisPose - a revolutionary WiFi-based dense human pose estimation system that enables real-time full-body tracking through walls using commodity mesh routers  (2 days ago)
-- **[fleetdm/fleet](https://github.com/fleetdm/fleet)** - Open device management (5 days ago)
-- **[CyphrRiot/garp](https://github.com/CyphrRiot/garp)** - A high-performance document search tool with a clean TUI! (1 week ago)
-- **[tecbot/gorocksdb](https://github.com/tecbot/gorocksdb)** - gorocksdb is a Go wrapper for RocksDB (1 week ago)
+- **[timescale/pg-aiguide](https://github.com/timescale/pg-aiguide)** - MCP server and Claude plugin for Postgres skills and documentation. Helps AI coding tools generate better PostgreSQL code. (2 days ago)
+- **[johannesboyne/gofakes3](https://github.com/johannesboyne/gofakes3)** - A simple fake AWS S3 object storage (used for local test-runs against AWS S3 APIs) (2 days ago)
+- **[HQarroum/docker-android](https://github.com/HQarroum/docker-android)** - 🤖 A minimal and customizable Docker image running the Android emulator as a service. (4 days ago)
+- **[ClassicMiniDIY/UltraLog](https://github.com/ClassicMiniDIY/UltraLog)** - Better Log viewer for all Aftermarket ECUs (6 days ago)
+- **[gommzystudio/device-activity-tracker](https://github.com/gommzystudio/device-activity-tracker)** - A phone number can reveal whether a device is active, in standby or offline (and more). This PoC demonstrates how delivery receipts &#43; RTT timing leak sensitive device-activity patterns. (WhatsApp / Signal) (1 week ago)
