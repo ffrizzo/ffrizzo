@@ -20,8 +20,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[timescale/pg-aiguide](https://github.com/timescale/pg-aiguide)** - MCP server and Claude plugin for Postgres skills and documentation. Helps AI coding tools generate better PostgreSQL code. (2 days ago)
-- **[johannesboyne/gofakes3](https://github.com/johannesboyne/gofakes3)** - A simple fake AWS S3 object storage (used for local test-runs against AWS S3 APIs) (2 days ago)
-- **[HQarroum/docker-android](https://github.com/HQarroum/docker-android)** - 🤖 A minimal and customizable Docker image running the Android emulator as a service. (4 days ago)
-- **[ClassicMiniDIY/UltraLog](https://github.com/ClassicMiniDIY/UltraLog)** - Better Log viewer for all Aftermarket ECUs (6 days ago)
-- **[gommzystudio/device-activity-tracker](https://github.com/gommzystudio/device-activity-tracker)** - A phone number can reveal whether a device is active, in standby or offline (and more). This PoC demonstrates how delivery receipts &#43; RTT timing leak sensitive device-activity patterns. (WhatsApp / Signal) (1 week ago)
+- **[amalshaji/portr](https://github.com/amalshaji/portr)** - Expose local http, tcp or websocket connections to the public internet (2 days ago)
+- **[bunkerity/bunkerweb](https://github.com/bunkerity/bunkerweb)** - 🛡️ Open-source and next-generation Web Application Firewall (WAF) (2 days ago)
+- **[m1k1o/neko](https://github.com/m1k1o/neko)** - A self hosted virtual browser that runs in docker and uses WebRTC. (5 days ago)
+- **[RallyPat/LibreTune](https://github.com/RallyPat/LibreTune)** - Open Source TS Compatible ECU Tuning Software (5 days ago)
+- **[marcelscruz/public-apis](https://github.com/marcelscruz/public-apis)** - A collaborative list of public APIs for developers (5 days ago)
