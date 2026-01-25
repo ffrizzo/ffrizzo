@@ -20,8 +20,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[MorDavid/FlareTunnel](https://github.com/MorDavid/FlareTunnel)** - Proxy system that routes traffic through Cloudflare Workers for IP rotation and anonymity (2 days ago)
-- **[sprytnyk/mscoder](https://github.com/sprytnyk/mscoder)** - VIN and ISN management tool for BMW MS4X engine control units. Convert VIN, replace VIN, and copy ISN in binary DME files. (3 days ago)
-- **[DriveLite/DriveLite](https://github.com/DriveLite/DriveLite)** - DriveLite: The Supabase for File Storage. A modular, self-hostable backend with end-to-end encryption. (6 days ago)
-- **[Thank-you-Linus/Linus-Dashboard](https://github.com/Thank-you-Linus/Linus-Dashboard)** - Elevate your smart home experience with a modern, responsive dashboard built on Home Assistant. Effortlessly manage your devices, areas and floors with an intuitive interface integrated with hass-magic_areas. 🚀 (6 days ago)
-- **[pixlcore/xyops](https://github.com/pixlcore/xyops)** - A complete workflow automation and server monitoring system. (6 days ago)
+- **[appleboy/go-httpretry](https://github.com/appleboy/go-httpretry)** - A flexible HTTP client with automatic retry logic using exponential backoff, built with the Functional Options Pattern. (2 days ago)
+- **[MorDavid/FlareTunnel](https://github.com/MorDavid/FlareTunnel)** - Proxy system that routes traffic through Cloudflare Workers for IP rotation and anonymity (1 week ago)
+- **[sprytnyk/mscoder](https://github.com/sprytnyk/mscoder)** - VIN and ISN management tool for BMW MS4X engine control units. Convert VIN, replace VIN, and copy ISN in binary DME files. (1 week ago)
+- **[DriveLite/DriveLite](https://github.com/DriveLite/DriveLite)** - DriveLite: The Supabase for File Storage. A modular, self-hostable backend with end-to-end encryption. (1 week ago)
+- **[Thank-you-Linus/Linus-Dashboard](https://github.com/Thank-you-Linus/Linus-Dashboard)** - Elevate your smart home experience with a modern, responsive dashboard built on Home Assistant. Effortlessly manage your devices, areas and floors with an intuitive interface integrated with hass-magic_areas. 🚀 (1 week ago)
