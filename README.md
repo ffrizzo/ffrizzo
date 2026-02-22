@@ -20,8 +20,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[go-playground/validator](https://github.com/go-playground/validator)** - :100:Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving (2 weeks ago)
-- **[fathulfahmy/aio-usb-drive](https://github.com/fathulfahmy/aio-usb-drive)** - Curated collection of useful to have programs on a multiboot USB drive (2 weeks ago)
-- **[palpo-im/palpo](https://github.com/palpo-im/palpo)** - A Matrix server written in Rust (2 weeks ago)
-- **[lxc/incus](https://github.com/lxc/incus)** - Powerful system container and virtual machine manager  (2 weeks ago)
-- **[harmalh/openclaw-umbrel](https://github.com/harmalh/openclaw-umbrel)** - Umbrel App Store integration for Clawdbot - A self-hosted AI assistant control plane. Based on https://github.com/clawdbot/clawdbot. (2 weeks ago)
+- **[x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)** - FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia &amp; v0. (And other Open Sourced) System Prompts, Internal Tools &amp; AI Models (today)
+- **[sipeed/picoclaw](https://github.com/sipeed/picoclaw)** - Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity (1 week ago)
+- **[julvikramsupandi/flutter-pos-app-ui](https://github.com/julvikramsupandi/flutter-pos-app-ui)** - Flutter Point Of Sale App UI (1 week ago)
+- **[go-playground/validator](https://github.com/go-playground/validator)** - :100:Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving (3 weeks ago)
+- **[fathulfahmy/aio-usb-drive](https://github.com/fathulfahmy/aio-usb-drive)** - Curated collection of useful to have programs on a multiboot USB drive (3 weeks ago)
