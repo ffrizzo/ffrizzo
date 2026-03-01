@@ -20,8 +20,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)** - FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia &amp; v0. (And other Open Sourced) System Prompts, Internal Tools &amp; AI Models (today)
-- **[sipeed/picoclaw](https://github.com/sipeed/picoclaw)** - Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity (1 week ago)
-- **[julvikramsupandi/flutter-pos-app-ui](https://github.com/julvikramsupandi/flutter-pos-app-ui)** - Flutter Point Of Sale App UI (1 week ago)
-- **[go-playground/validator](https://github.com/go-playground/validator)** - :100:Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving (3 weeks ago)
-- **[fathulfahmy/aio-usb-drive](https://github.com/fathulfahmy/aio-usb-drive)** - Curated collection of useful to have programs on a multiboot USB drive (3 weeks ago)
+- **[anthropics/financial-services-plugins](https://github.com/anthropics/financial-services-plugins)** (3 days ago)
+- **[AlexsJones/llmfit](https://github.com/AlexsJones/llmfit)** - 497 models. 133 providers. One command to find what runs on your hardware. (4 days ago)
+- **[nicobailon/visual-explainer](https://github.com/nicobailon/visual-explainer)** - Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps (5 days ago)
+- **[langchain-ai/langgraph](https://github.com/langchain-ai/langgraph)** - Build resilient language agents as graphs. (5 days ago)
+- **[zerebos/ghostty-config](https://github.com/zerebos/ghostty-config)** - A beautiful config generator for Ghostty terminal. (5 days ago)
