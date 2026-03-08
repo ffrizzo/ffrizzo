@@ -20,8 +20,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[anthropics/financial-services-plugins](https://github.com/anthropics/financial-services-plugins)** (3 days ago)
-- **[AlexsJones/llmfit](https://github.com/AlexsJones/llmfit)** - 497 models. 133 providers. One command to find what runs on your hardware. (4 days ago)
-- **[nicobailon/visual-explainer](https://github.com/nicobailon/visual-explainer)** - Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps (5 days ago)
-- **[langchain-ai/langgraph](https://github.com/langchain-ai/langgraph)** - Build resilient language agents as graphs. (5 days ago)
-- **[zerebos/ghostty-config](https://github.com/zerebos/ghostty-config)** - A beautiful config generator for Ghostty terminal. (5 days ago)
+- **[KyleAMathews/hegelian-dialectic-skill](https://github.com/KyleAMathews/hegelian-dialectic-skill)** - A skill for thinking (2 days ago)
+- **[ruvnet/ruflo](https://github.com/ruvnet/ruflo)** - 🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration (4 days ago)
+- **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** - A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables. (4 days ago)
+- **[anthropics/skills](https://github.com/anthropics/skills)** - Public repository for Agent Skills (4 days ago)
+- **[affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)** - The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. (4 days ago)
