@@ -20,8 +20,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[bnjbvr/cargo-machete](https://github.com/bnjbvr/cargo-machete)** - Remove unused Rust dependencies with this one weird trick! (today)
-- **[KyleAMathews/hegelian-dialectic-skill](https://github.com/KyleAMathews/hegelian-dialectic-skill)** - A skill for thinking (2 weeks ago)
-- **[ruvnet/ruflo](https://github.com/ruvnet/ruflo)** - 🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration (2 weeks ago)
-- **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** - A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables. (2 weeks ago)
-- **[anthropics/skills](https://github.com/anthropics/skills)** - Public repository for Agent Skills (2 weeks ago)
+- **[bnjbvr/cargo-machete](https://github.com/bnjbvr/cargo-machete)** - Remove unused Rust dependencies with this one weird trick! (1 week ago)
+- **[KyleAMathews/hegelian-dialectic-skill](https://github.com/KyleAMathews/hegelian-dialectic-skill)** - A skill for thinking (3 weeks ago)
+- **[ruvnet/ruflo](https://github.com/ruvnet/ruflo)** - 🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration (3 weeks ago)
+- **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** - A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables. (3 weeks ago)
+- **[anthropics/skills](https://github.com/anthropics/skills)** - Public repository for Agent Skills (3 weeks ago)
