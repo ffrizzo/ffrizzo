@@ -20,8 +20,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[bnjbvr/cargo-machete](https://github.com/bnjbvr/cargo-machete)** - Remove unused Rust dependencies with this one weird trick! (1 week ago)
-- **[KyleAMathews/hegelian-dialectic-skill](https://github.com/KyleAMathews/hegelian-dialectic-skill)** - A skill for thinking (3 weeks ago)
-- **[ruvnet/ruflo](https://github.com/ruvnet/ruflo)** - 🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration (3 weeks ago)
-- **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** - A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables. (3 weeks ago)
-- **[anthropics/skills](https://github.com/anthropics/skills)** - Public repository for Agent Skills (3 weeks ago)
+- **[ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)** - A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows (2 days ago)
+- **[alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)** - 220&#43; Claude Code skills &amp; agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory. (2 days ago)
+- **[ironsh/iron-proxy](https://github.com/ironsh/iron-proxy)** - An egress firewall for untrusted workloads. (3 days ago)
+- **[langfuse/langfuse](https://github.com/langfuse/langfuse)** - 🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23  (6 days ago)
+- **[bnjbvr/cargo-machete](https://github.com/bnjbvr/cargo-machete)** - Remove unused Rust dependencies with this one weird trick! (2 weeks ago)
