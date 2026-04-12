@@ -20,8 +20,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)** - A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows (2 days ago)
-- **[alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)** - 220&#43; Claude Code skills &amp; agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory. (2 days ago)
-- **[ironsh/iron-proxy](https://github.com/ironsh/iron-proxy)** - An egress firewall for untrusted workloads. (3 days ago)
-- **[langfuse/langfuse](https://github.com/langfuse/langfuse)** - 🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23  (6 days ago)
-- **[bnjbvr/cargo-machete](https://github.com/bnjbvr/cargo-machete)** - Remove unused Rust dependencies with this one weird trick! (2 weeks ago)
+- **[VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)** - A collection of DESIGN.md files inspired by popular brand design systems. Drop one into your project and let coding agents generate a matching UI. (4 days ago)
+- **[MemPalace/mempalace](https://github.com/MemPalace/mempalace)** - The highest-scoring AI memory system ever benchmarked. And it&#39;s free. (5 days ago)
+- **[ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)** - A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows (1 week ago)
+- **[alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)** - 232&#43; Claude Code skills &amp; agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory. (1 week ago)
+- **[ironsh/iron-proxy](https://github.com/ironsh/iron-proxy)** - An egress firewall for untrusted workloads. (1 week ago)
