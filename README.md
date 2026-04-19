@@ -20,8 +20,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)** - A collection of DESIGN.md files inspired by popular brand design systems. Drop one into your project and let coding agents generate a matching UI. (4 days ago)
-- **[MemPalace/mempalace](https://github.com/MemPalace/mempalace)** - The highest-scoring AI memory system ever benchmarked. And it&#39;s free. (5 days ago)
-- **[ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)** - A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows (1 week ago)
-- **[alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)** - 232&#43; Claude Code skills &amp; agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory. (1 week ago)
-- **[ironsh/iron-proxy](https://github.com/ironsh/iron-proxy)** - An egress firewall for untrusted workloads. (1 week ago)
+- **[davebcn87/pi-autoresearch](https://github.com/davebcn87/pi-autoresearch)** - Autonomous experiment loop extension for pi (4 days ago)
+- **[multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)** - A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy&#39;s observations on LLM coding pitfalls. (6 days ago)
+- **[VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)** - A collection of DESIGN.md files inspired by popular brand design systems. Drop one into your project and let coding agents generate a matching UI. (1 week ago)
+- **[MemPalace/mempalace](https://github.com/MemPalace/mempalace)** - The best-benchmarked open-source AI memory system. And it&#39;s free. (1 week ago)
+- **[ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)** - A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows (2 weeks ago)
