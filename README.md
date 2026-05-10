@@ -20,8 +20,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[warpdotdev/warp](https://github.com/warpdotdev/warp)** - Warp is an agentic development environment, born out of the terminal. (5 days ago)
-- **[gorhill/uBlock](https://github.com/gorhill/uBlock)** - uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean. (5 days ago)
-- **[altcha-org/altcha](https://github.com/altcha-org/altcha)** - GDPR, WCAG 2.2 AA, and EAA compliant, self-hosted CAPTCHA alternative with PoW mechanism. (6 days ago)
-- **[tiagozip/cap](https://github.com/tiagozip/cap)** - The privacy-first, self-hosted CAPTCHA for the modern web. (6 days ago)
-- **[davebcn87/pi-autoresearch](https://github.com/davebcn87/pi-autoresearch)** - Autonomous experiment loop extension for pi (2 weeks ago)
+- **[rtk-ai/rtk](https://github.com/rtk-ai/rtk)** - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies (4 days ago)
+- **[anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community)** - Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission. (5 days ago)
+- **[anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)** - Official, Anthropic-managed directory of high quality Claude Code Plugins. (5 days ago)
+- **[obra/superpowers](https://github.com/obra/superpowers)** - An agentic skills framework &amp; software development methodology that works. (5 days ago)
+- **[awslabs/mcp](https://github.com/awslabs/mcp)** - Open source MCP Servers for AWS (5 days ago)
