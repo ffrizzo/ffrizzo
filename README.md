@@ -20,8 +20,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[rtk-ai/rtk](https://github.com/rtk-ai/rtk)** - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies (1 week ago)
-- **[anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community)** - Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission. (1 week ago)
-- **[anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)** - Official, Anthropic-managed directory of high quality Claude Code Plugins. (1 week ago)
-- **[obra/superpowers](https://github.com/obra/superpowers)** - An agentic skills framework &amp; software development methodology that works. (1 week ago)
-- **[awslabs/mcp](https://github.com/awslabs/mcp)** - Open source MCP Servers for AWS (1 week ago)
+- **[rtk-ai/rtk](https://github.com/rtk-ai/rtk)** - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies (2 weeks ago)
+- **[anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community)** - Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission. (2 weeks ago)
+- **[anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)** - Official, Anthropic-managed directory of high quality Claude Code Plugins. (2 weeks ago)
+- **[obra/superpowers](https://github.com/obra/superpowers)** - An agentic skills framework &amp; software development methodology that works. (2 weeks ago)
+- **[awslabs/mcp](https://github.com/awslabs/mcp)** - Open source MCP Servers for AWS (2 weeks ago)
