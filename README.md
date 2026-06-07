@@ -20,8 +20,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[rtk-ai/rtk](https://github.com/rtk-ai/rtk)** - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies (3 weeks ago)
-- **[anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community)** - Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission. (3 weeks ago)
-- **[anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)** - Official, Anthropic-managed directory of high quality Claude Code Plugins. (3 weeks ago)
-- **[obra/superpowers](https://github.com/obra/superpowers)** - An agentic skills framework &amp; software development methodology that works. (3 weeks ago)
-- **[awslabs/mcp](https://github.com/awslabs/mcp)** - Open source MCP Servers for AWS (3 weeks ago)
+- **[CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit)** - The Frontend Stack for Agents &amp; Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol (3 days ago)
+- **[AprilNEA/OpenLogi](https://github.com/AprilNEA/OpenLogi)** - ⚡️A native, local-first alternative to Logitech Options&#43;, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID&#43;&#43;. No account, no telemetry. (6 days ago)
+- **[rtk-ai/rtk](https://github.com/rtk-ai/rtk)** - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies (1 month ago)
+- **[anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community)** - Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission. (1 month ago)
+- **[anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)** - Official, Anthropic-managed directory of high quality Claude Code Plugins. (1 month ago)
