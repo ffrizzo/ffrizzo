@@ -20,8 +20,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit)** - The Frontend Stack for Agents &amp; Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol (1 week ago)
-- **[AprilNEA/OpenLogi](https://github.com/AprilNEA/OpenLogi)** - ⚡️A native, local-first alternative to Logitech Options&#43;, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID&#43;&#43;. No account, no telemetry. (1 week ago)
-- **[rtk-ai/rtk](https://github.com/rtk-ai/rtk)** - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies (1 month ago)
-- **[anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community)** - Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission. (1 month ago)
-- **[anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)** - Official, Anthropic-managed directory of high quality Claude Code Plugins. (1 month ago)
+- **[tw93/Pake](https://github.com/tw93/Pake)** - 🤱🏻 Turn any webpage into a desktop app with one command. (today)
+- **[chopratejas/headroom](https://github.com/chopratejas/headroom)** - Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server. (1 day ago)
+- **[collin80/ESP32RET](https://github.com/collin80/ESP32RET)** - CAN Reverse engineering tool for ESP32 based boards (specifically EVTV ESP32Due) (5 days ago)
+- **[akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)** - Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors (5 days ago)
+- **[omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent)** - Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device. (5 days ago)
