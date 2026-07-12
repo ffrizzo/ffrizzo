@@ -20,8 +20,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[slashacom/slasha](https://github.com/slashacom/slasha)** - An open-source, self-hosted PaaS in a single binary that runs on any server. Just push your code and it deploys apps and services, all on infrastructure you own. (3 days ago)
-- **[ai-boost/awesome-harness-engineering](https://github.com/ai-boost/awesome-harness-engineering)** - Awesome list for AI agent harness engineering: tools, patterns, evals, memory, MCP, permissions, observability, and orchestration. (5 days ago)
-- **[tw93/Pake](https://github.com/tw93/Pake)** - 🤱🏻 Turn any webpage into a desktop app with one command. (2 weeks ago)
-- **[headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom)** - Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server. (2 weeks ago)
-- **[collin80/ESP32RET](https://github.com/collin80/ESP32RET)** - CAN Reverse engineering tool for ESP32 based boards (specifically EVTV ESP32Due) (2 weeks ago)
+- **[floci-io/floci](https://github.com/floci-io/floci)** - Light, fluffy, and always free - The AWS Local Emulator alternative (2 days ago)
+- **[TencentCloud/CubeSandbox](https://github.com/TencentCloud/CubeSandbox)** - Instant, Concurrent, Secure &amp; Lightweight Sandbox for AI Agents. (6 days ago)
+- **[slashacom/slasha](https://github.com/slashacom/slasha)** - An open-source, self-hosted PaaS in a single binary that runs on any server. Just push your code and it deploys apps and services, all on infrastructure you own. (1 week ago)
+- **[ai-boost/awesome-harness-engineering](https://github.com/ai-boost/awesome-harness-engineering)** - Awesome list for AI agent harness engineering: tools, patterns, evals, memory, MCP, permissions, observability, and orchestration. (1 week ago)
+- **[tw93/Pake](https://github.com/tw93/Pake)** - 🤱🏻 Turn any webpage into a desktop app with one command. (3 weeks ago)
