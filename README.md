@@ -20,8 +20,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[floci-io/floci](https://github.com/floci-io/floci)** - Light, fluffy, and always free - The AWS Local Emulator alternative (2 days ago)
-- **[TencentCloud/CubeSandbox](https://github.com/TencentCloud/CubeSandbox)** - Instant, Concurrent, Secure &amp; Lightweight Sandbox for AI Agents. (6 days ago)
-- **[slashacom/slasha](https://github.com/slashacom/slasha)** - An open-source, self-hosted PaaS in a single binary that runs on any server. Just push your code and it deploys apps and services, all on infrastructure you own. (1 week ago)
-- **[ai-boost/awesome-harness-engineering](https://github.com/ai-boost/awesome-harness-engineering)** - Awesome list for AI agent harness engineering: tools, patterns, evals, memory, MCP, permissions, observability, and orchestration. (1 week ago)
-- **[tw93/Pake](https://github.com/tw93/Pake)** - 🤱🏻 Turn any webpage into a desktop app with one command. (3 weeks ago)
+- **[TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)** - TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies. (6 days ago)
+- **[JustVugg/colibri](https://github.com/JustVugg/colibri)** - Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦 (6 days ago)
+- **[getpaseo/paseo](https://github.com/getpaseo/paseo)** - Orchestrate multiple coding agents from desktop and mobile (6 days ago)
+- **[floci-io/floci](https://github.com/floci-io/floci)** - Light, fluffy, and always free - The AWS Local Emulator alternative (1 week ago)
+- **[TencentCloud/CubeSandbox](https://github.com/TencentCloud/CubeSandbox)** - Instant, Concurrent, Secure &amp; Lightweight Sandbox for AI Agents. (1 week ago)
