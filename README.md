@@ -20,8 +20,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)** - Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store. (3 days ago)
-- **[TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)** - TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks. (1 week ago)
-- **[JustVugg/colibri](https://github.com/JustVugg/colibri)** - Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦 (1 week ago)
-- **[getpaseo/paseo](https://github.com/getpaseo/paseo)** - Orchestrate multiple coding agents from desktop and mobile (1 week ago)
-- **[floci-io/floci](https://github.com/floci-io/floci)** - Light, fluffy, and always free - The AWS Local Emulator alternative (2 weeks ago)
+- **[modelcontextprotocol/go-sdk](https://github.com/modelcontextprotocol/go-sdk)** - The official Go SDK for Model Context Protocol servers and clients. Maintained in collaboration with Google. (5 days ago)
+- **[Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)** - Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store. (1 week ago)
+- **[TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)** - TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks. (2 weeks ago)
+- **[JustVugg/colibri](https://github.com/JustVugg/colibri)** - Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦 (2 weeks ago)
+- **[getpaseo/paseo](https://github.com/getpaseo/paseo)** - Orchestrate multiple coding agents from desktop and mobile (2 weeks ago)
