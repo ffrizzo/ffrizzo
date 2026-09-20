@@ -5,7 +5,7 @@ I'm [Fabiano](https://ffrizzo.com)
 #### 👷 Check out what I'm currently working on
 
 
-- [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (2 weeks ago)
+- [ffrizzo/dotfiles](https://github.com/ffrizzo/dotfiles) - My dotfiles and OsX settings (3 weeks ago)
 
 #### 👨‍💻 Repositories I created recently
 - **[ffrizzo/test-demo-solice](https://github.com/ffrizzo/test-demo-solice)**
@@ -21,8 +21,8 @@ I'm [Fabiano](https://ffrizzo.com)
 #### ⭐ Recent Stars
 
 
-- **[mck1117/proteus](https://github.com/mck1117/proteus)** (2 days ago)
-- **[spotify/portal-ai-plugins](https://github.com/spotify/portal-ai-plugins)** (5 days ago)
-- **[mattpocock/skills](https://github.com/mattpocock/skills)** - Skills for Real Engineers. Straight from my .agents directory. (1 week ago)
-- **[supercorp-ai/supercov](https://github.com/supercorp-ai/supercov)** - Coverage for coding agents and software factories 🌙 (1 week ago)
-- **[tobi/walgit](https://github.com/tobi/walgit)** (2 weeks ago)
+- **[mck1117/proteus](https://github.com/mck1117/proteus)** (1 week ago)
+- **[spotify/portal-ai-plugins](https://github.com/spotify/portal-ai-plugins)** (1 week ago)
+- **[mattpocock/skills](https://github.com/mattpocock/skills)** - Skills for Real Engineers. Straight from my .agents directory. (2 weeks ago)
+- **[supercorp-ai/supercov](https://github.com/supercorp-ai/supercov)** - Code quality and coverage for coding agents (2 weeks ago)
+- **[tobi/walgit](https://github.com/tobi/walgit)** (3 weeks ago)
